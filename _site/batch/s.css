@@ -1,0 +1,620 @@
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Batch icons by @adamwhitcroft
+*	http://adamwhitcroft.com/batch/
+-------------------------------------------------- 
+////////////////////////////////////////////////*/
+
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	       box-sizing: border-box; 
+}
+
+html {
+	background:white;
+	color:#2e3846;
+	font-weight:400;
+	font-size:100%;
+	font-family:'Open Sans', sans-serif;
+	line-height:1.5em;
+}
+
+h1,h2,h3 {
+	font-weight:300;
+	line-height:1.5em;
+	margin-bottom:1.5em;
+}
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+p,ul {
+	margin-bottom:1.5em;
+}
+
+ul {
+	margin-left:1.5em;
+}
+
+a {
+	color:#f44a56;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.clicktrack {
+	cursor:pointer;
+}
+
+.seperator {
+	display:block;
+	color:#738195;
+	text-align:center;
+}
+
+mark {
+	background:#fff5cc;
+}
+
+.amp {
+    font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+    font-style: italic;
+    font-weight: normal;	
+}
+
+/* Header */
+.header {
+	background:#2e3846 url(img/batch-background.png);
+	color:#ecf2f9;
+	text-align:center;
+	-webkit-animation:bgscroll 20s infinite linear;
+	   -moz-animation:bgscroll 20s infinite linear;
+	    -ms-animation:bgscroll 20s infinite linear;
+	     -o-animation:bgscroll 20s infinite linear;
+	        animation:bgscroll 20s infinite linear;
+}
+
+	.header .container {
+		max-width:400px;
+	}
+
+	.logo {
+		display:inline-block;
+		overflow:hidden;
+		margin:2em 0;
+		width:64px;
+		height:64px;
+		background-image:url(img/batch-logo.png);
+		background-size:64px 64px;
+	}
+
+		.logo img {
+			position:absolute;
+			top:-200%;
+		}
+
+	.thanks {
+		display:inline-block;
+		overflow:hidden;
+		margin:2em 0;
+		width:64px;
+		height:64px;
+		background-image:url(img/batch-thanks.png);
+		background-size:64px 64px;
+	}
+
+		.thanks img {
+			position:absolute;
+			top:-400%;
+		}
+
+	.header h1 {
+		margin-bottom:.5em;
+	}
+
+	.header p > span {
+		margin-bottom:2em;
+		padding:.25em 1em;
+		-webkit-border-radius:10px;
+		   -moz-border-radius:10px;
+		    -ms-border-radius:10px;
+		     -o-border-radius:10px;
+		        border-radius:10px;
+		background:#121f2e;
+		color:#a1b3d1;
+		text-align:center;
+	}
+
+	.bttn {
+		overflow:hidden;
+		display:block;
+		-webkit-border-radius:3px;
+		   -moz-border-radius:3px;
+		    -ms-border-radius:3px;
+		     -o-border-radius:3px;
+		        border-radius:3px;
+		color:white;
+		text-align:center;
+		text-decoration:none;
+		-webkit-transition:200ms ease;
+		   -moz-transition:200ms ease;
+		    -ms-transition:200ms ease;
+		     -o-transition:200ms ease;
+		        transition:200ms ease;
+	}
+
+	.bttn.download,
+	.bttn.back,
+	.bttn.tweet {
+		padding:1em;
+		background-color:#f44a56;
+	}
+
+	.bttn.donate {
+		padding:.5em;
+		background-color:#795aac;
+	}
+
+	.bttn.license {
+		margin:1em 0;
+		padding:.5em;
+		background-color:#a1b3d1;
+	}
+
+	.bttn.workshop {
+		margin:0 0 2em 0;
+		padding:.5em;
+		background-color:#a1b3d1;
+	}
+
+	.bttn.tweet {
+		display:inline-block;
+	}
+
+	.bttn:hover,
+	.bttn:active,
+	.bttn.clicked {
+		background:#3e4b5d;
+		-webkit-transition:300ms ease;
+		   -moz-transition:300ms ease;
+		    -ms-transition:300ms ease;
+		     -o-transition:300ms ease;
+		        transition:300ms ease;
+	}
+
+	.options {
+		overflow:hidden;
+	}
+
+	.half {
+		width:50%;
+		float:left;
+	}
+
+.tweetThis {
+	text-align:center;
+	margin-bottom:2em;
+}
+
+	.tweetThis .tweet {
+		padding:0;
+		width:204px;
+	}
+
+	.tweetThis img {
+		display:block;
+		margin-left:77px;
+	}
+
+	/* Adapted from https://github.com/AdamWhitcroft/CSS.Tooltips/blob/master/css-tooltips.css */
+
+	[data-tip] {
+		position:relative;
+	}
+
+	[data-tip]:after {
+		position:absolute;
+		top:-35px;
+		left:50%;
+		z-index:9;
+		display:none;
+		margin-left:-102px;
+		padding:.5em 0; 
+		width:204px;
+		height:18px;
+		-webkit-border-radius:3px;
+		   -moz-border-radius:3px;
+		    -ms-border-radius:3px;
+		     -o-border-radius:3px;
+		        border-radius:3px;
+		background:#ECEEF1;
+		color:#61666c;
+		content:attr(data-tip);
+		font-size: 0.875em;
+		line-height:18px;
+	}
+
+	[data-tip]:hover:after {
+		display:block;
+	}
+
+	[data-tip]:active:after {
+		content:"Thanks!";
+	}
+
+/* Container */
+.container {
+	margin:0 auto;
+	position:relative;
+	padding:2em;
+}
+
+	.container .inner {
+		position:relative;
+		margin:0 auto;
+		max-width:760px;
+	}
+
+/* Preview */
+.preview img {
+	margin-bottom:2em;
+	max-width:100%;
+}
+
+/* Ads */
+.ads {
+	position:absolute;
+	top:-2em;
+	right:-130px;
+	overflow:hidden;
+	margin-bottom:2em;
+	width:130px;
+	background:#ECEEF1;
+}
+
+	#fusion_ad a {
+		display:block;
+		color:#969ba2;
+		text-decoration:none;
+		font-size:.75em;
+		line-height:1.5em;
+	}
+
+	#fusion_ad .fusiontext, 
+	#fusion_ad p {
+		margin:0;
+		padding:10px;
+	}
+
+	#fusion_ad img {
+		display:block;
+	}
+
+	.poweredby {
+		padding-top:0 !important;
+		font-weight:bold;
+		font-size:.875em;
+	}
+
+		.poweredby a {
+			color:#2e3846;
+		}
+
+/* Footer */
+.footer {
+	color:#969ba2;
+	font-size:.875em;
+}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Donate & TBA modal
+-------------------------------------------------- 
+////////////////////////////////////////////////*/
+
+.donate-mdl,
+.tba-mdl {
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:10;
+	visibility:hidden;
+}
+
+html.donation .donate-mdl,
+html.tba .tba-mdl  {
+	visibility:visible;
+	background:url(img/mdl-bg.png);
+	background:rgba(0,0,0,.8);
+	-webkit-transition:300ms ease;
+	   -moz-transition:300ms ease;
+	    -ms-transition:300ms ease;
+	     -o-transition:300ms ease;
+	        transition:300ms ease;
+}
+
+	.donate-mdl .mdl,
+	.tba-mdl .mdl {
+		position:fixed;
+		top:0;
+		left:50%;
+		margin-left:-150px;
+		width:300px;
+		background:#2e3846;
+		color:#ecf2f9;
+		-webkit-border-radius:10px;
+		   -moz-border-radius:10px;
+		    -ms-border-radius:10px;
+		     -o-border-radius:10px;
+		        border-radius:10px;
+	}
+
+	html.donation .mdl,
+	html.tba .mdl {
+		top:10%;
+		-webkit-transition:300ms ease;
+		   -moz-transition:300ms ease;
+		    -ms-transition:300ms ease;
+		     -o-transition:300ms ease;
+		        transition:300ms ease;
+	}
+
+	.close-mdl {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+
+	.mdl .inner {
+		padding:20px;
+		text-align:center;
+	}
+
+		.inner .close-x {
+			position:absolute;
+			top:10px;
+			right:10px;
+			display:block;
+			width:16px;
+			height:16px;
+			background-image:url(img/mdl-close.png);
+			background-size:16px 16px;
+			background-repeat:no-repeat;
+			text-align:center;
+			line-height:16px;
+		}
+
+	.heart {
+		display:inline-block;
+		overflow:hidden;
+		margin-bottom:20px;
+		width:32px;
+		height:32px;
+		background-image:url(img/heart.png);
+		background-size:32px 32px;
+	}
+
+		.heart img {
+			position:absolute;
+			top:-200%;
+		}
+
+	.spinner {
+		display:inline-block;
+		overflow:hidden;
+		margin-bottom:20px;
+		width:32px;
+		height:32px;
+		background-image:url(img/spinner.png);
+		background-size:32px 32px;
+	}
+
+		.spinner img {
+			position:absolute;
+			top:-200%;
+		}
+
+	.mdl h1 {
+		margin-bottom:20px;
+		font-size:1.5em;
+	}
+
+	.mdl p {
+		text-align:left;
+	}
+
+	.mdl ul {
+		margin:0 0 1.5em 1.5em;
+		font-size:.875em;
+		text-align:left;
+	}
+
+	.mdl .bttn {
+		margin-bottom:0;
+		padding:.5em;
+		width:100%;
+	}
+
+	.mdl .or {
+		background:url(img/or-bg.png) repeat-x center;
+		display:block;
+		padding:1em 0;
+		color:#516076;
+	}
+
+		.or em {
+			background:#2e3846;
+			padding:0 .25em;
+		}
+
+	.mdl small {
+		display:block;
+		margin-top:1em;
+		color:#a1b3d1;
+		text-align:left;
+	}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Thank you page
+-------------------------------------------------- 
+////////////////////////////////////////////////*/
+
+html.thank-you {
+	position:relative;
+	background-color:#2e3846;
+	background-image:url(img/batch-background.png);
+	background-position:center center;
+	background-repeat:repeat;
+	color:#ecf2f9;
+	text-align:center;
+	-webkit-animation:bgscroll 15s infinite linear;
+	   -moz-animation:bgscroll 15s infinite linear;
+	    -ms-animation:bgscroll 15s infinite linear;
+	     -o-animation:bgscroll 15s infinite linear;
+	        animation:bgscroll 15s infinite linear;
+}
+
+	.thank-you .container {
+		position:relative;
+		margin:20% auto 2em auto;
+		width:240px;
+		background:#A1B3D1;
+		padding:20px;
+		-webkit-border-radius:10px;
+		   -moz-border-radius:10px;
+		    -ms-border-radius:10px;
+		     -o-border-radius:10px;
+		        border-radius:10px;
+	}
+
+	.thank-you p {
+		text-align:left;
+	}
+
+	.thank-you p:last-of-type {
+		margin:0;
+	}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Media Queries
+-------------------------------------------------- 
+////////////////////////////////////////////////*/
+
+@media screen and (max-width:1140px) {
+
+	.ads {
+		position:static;
+		width:100%;
+		font-size:.75em;
+	}
+
+		.ads img {
+			float:left;
+			margin-right:10px;
+		}
+
+}
+
+@media screen and (max-width:600px) {
+
+	.bttn.download {
+		text-indent:100%;
+		background-image:url(img/download.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:16px 16px;
+	}
+
+	.bttn.license {
+		text-indent:100%;
+		background-image:url(img/license.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:16px 16px;
+	}
+
+	.bttn.workshop {
+		text-indent:100%;
+		background-image:url(img/spinner.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:16px 16px;
+	}
+
+	.bttn:hover,
+	.mdl .download,
+	.mdl .donate {
+		text-indent:0;
+		background-image:none;
+	}
+
+	.mdl .bttn {
+		font-size:.875em;
+	}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (-moz-min-device-pixel-ratio:1.5),
+only screen and (-o-min-device-pixel-ratio:3/2),
+only screen and (min-device-pixel-ratio:1.5){
+	.logo {
+		background-image:url(img/batch-logo@2x.png);
+	}
+
+	.thanks {
+		background-image:url(img/batch-thanks@2x.png);
+	}
+
+	.heart {
+		background-image:url(img/heart@2x.png);
+	}
+
+	.spinner {
+		background-image:url(img/spinner@2x.png);
+	}
+}
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Animations
+-------------------------------------------------- 
+////////////////////////////////////////////////*/
+
+@-webkit-keyframes bgscroll {
+	from {background-position:0 0;}
+	to {background-position:0 -520px;}
+}
+
+@-moz-keyframes bgscroll {
+	from {background-position:0 0;}
+	to {background-position:0 -520px;}
+}
+
+@-ms-keyframes bgscroll {
+	from {background-position:0 0;}
+	to {background-position:0 -520px;}
+}
+
+@-o-keyframes bgscroll {
+	from {background-position:0 0;}
+	to {background-position:0 -520px;}
+}
+
+@keyframes bgscroll {
+	from {background-position:0 0;}
+	to {background-position:0 -520px;}
+}

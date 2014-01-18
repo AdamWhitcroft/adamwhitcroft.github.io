@@ -1,0 +1,357 @@
+/*==================================================*/
+/*  iPhone Wireframes (.psd)
+/*  http://adamwhitcroft.com/iphone5
+/*
+/*  @adamwhitcroft
+/*==================================================*/
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.ಠ_ಠ {
+	display:none!important
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*==================================================*/
+/*  §HTML
+/*==================================================*/
+
+html {
+	background: white;
+	color: #9099a3;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0 2em;
+	max-width: 540px;
+}
+
+.bttn {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: .5em 0;
+	width: 60%;
+	border: 2px solid transparent;
+	-webkit-border-radius: 30px;
+	   -moz-border-radius: 30px;
+	    -ms-border-radius: 30px;
+	     -o-border-radius: 30px;
+	        border-radius: 30px;
+	background-color: #5dd2b8;
+	color: white !important;
+	text-align: center;
+	cursor: pointer;
+}
+
+	.bttn:hover {
+		background-color: #23b594;
+	}
+
+	.bttn:active {
+		top: 1px;
+	}
+
+	.bttn.share {
+		margin-bottom: 2em;
+		background-color: #6abbff;
+	}
+
+		.share:hover {
+			background-color: #4699df;
+		}
+
+/*==================================================*/
+/*  §TYPE
+/*==================================================*/
+
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 2em;
+	color: #27313d;
+	font-weight: 300;
+}
+
+h1,h2 {
+	line-height: 1.5em;
+}
+
+p,ul {
+	margin-bottom: 2em;
+}
+
+a,a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+
+}
+
+/*==================================================*/
+/*  §HEADER
+/*==================================================*/
+
+.header {
+	position: relative;
+	overflow: hidden;
+	padding: 20em 0 2em 0;
+	background-color: white;
+}
+
+	.header img {
+		position: absolute;
+		top: 2em;
+		left: 50%;
+		margin-left: -62px;
+	}
+
+	img.hide {
+		display: none;
+	}
+
+	.header h1 {
+		margin: 0 0 1em 0;
+		text-align: center;
+	}
+
+	.header h2 {
+		margin: 0;
+		color: #9099a3;
+		font-weight: 300;
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+
+/*==================================================*/
+/*  §PREVIEW
+/*==================================================*/
+
+.preview {
+	padding-top:2em;
+}
+
+.options {
+	overflow: hidden;
+	margin: 4em auto;
+	width: 7em;
+}
+
+	.options span {
+		display: block;
+		width: 3em;
+		height: 3em;
+		border: 2px solid transparent;
+		-webkit-border-radius: 100%;
+		   -moz-border-radius: 100%;
+		    -ms-border-radius: 100%;
+		     -o-border-radius: 100%;
+		        border-radius: 100%;
+		cursor: pointer;
+		-webkit-transition:border 300ms cubic-bezier(.50, 0, 1, .50);
+		   -moz-transition:border 300ms cubic-bezier(.50, 0, 1, .50);
+		    -ms-transition:border 300ms cubic-bezier(.50, 0, 1, .50);
+		     -o-transition:border 300ms cubic-bezier(.50, 0, 1, .50);
+		        transition:border 300ms cubic-bezier(.50, 0, 1, .50);
+	}
+
+		.options span:hover {
+			border-color: white;
+		}
+
+	.styleOne {
+		float:left;
+		background-image: url(img/icon-stroke.png);
+		background-position: center;
+		background-size: 30px;
+		background-repeat: no-repeat;
+	}
+
+	.styleTwo {
+		float: right;
+		background-image: url(img/icon-solid.png);
+		background-position: center;
+		background-size: 30px;
+		background-repeat: no-repeat;
+	}
+
+	.selected {
+		background-color: white;
+	}
+
+.preview {
+	background: #eceef1;
+}
+
+.preview.demo-stroke {
+	background: #eceef1;
+	-webkit-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	   -moz-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	    -ms-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	     -o-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	        transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+}
+
+.preview.demo-solid {
+	background: #111926;
+	-webkit-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	   -moz-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	    -ms-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	     -o-transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+	        transition: background-color 300ms cubic-bezier(.50, 0, 1, .50);
+}
+
+.peek {
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	    -ms-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-repeat: no-repeat;
+}
+
+	.peek img {
+		visibility: hidden;
+	}
+
+	.peek.stroke {
+		background-image: url(img/demo-stroke.png);
+		background-position: center;
+		-webkit-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		   -moz-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		    -ms-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		     -o-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		        transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+	}
+
+	.peek.solid {
+		background-image: url(img/demo-solid.png);
+		background-position: center;
+		-webkit-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		   -moz-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		    -ms-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		     -o-transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+		        transition: background-image 300ms cubic-bezier(.50, 0, 1, .50);
+	}
+
+
+/*==================================================*/
+/*  §DOWNLOAD
+/*==================================================*/
+
+.download {
+	padding: 2em 0;
+}
+
+.or {
+	display: block;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.ads {
+	overflow: hidden;
+	margin-top: 2em;
+	background: #eceef1;
+}
+
+	#fusion_ad a {
+		display: block;
+		color: #969ba2;
+		text-decoration: none;
+		font-size: .75em;
+		line-height: 1.5em;
+	}
+
+	#fusion_ad .fusiontext,
+	#fusion_ad p {
+		margin: 0;
+		padding: 10px 10px 0 10px;
+	}
+
+	#fusion_ad img {
+		float:left;
+		margin-right: 10px;
+	}
+
+	#fusion_ad .poweredby {
+		padding-bottom: 10px;
+		font-size: .875em;
+	}
+
+/*==================================================*/
+/*  §FOOTER
+/*==================================================*/
+
+.footer {
+	padding: 2em 0;
+	background: #222;
+	color: #888;
+}
+
+.footer h1 {
+	color: #eceef1;
+	font-size: 1em;
+}
+
+.footer p {
+	font-size: .875em;
+}
+
+.footer p:last-of-type {
+	margin: 0;
+}
+
+.footer a {
+	color: white;
+}
+
+/*==================================================*/
+/*  §MEDIA
+/*==================================================*/
+
+@media screen and (max-width:500px) {
+
+	.header {
+		padding: 4em 0;
+		font-size: .75em;
+	}
+
+	.header img {
+		display: none;
+	}
+
+	.header h1 {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.download {
+		padding-bottom: 0;
+	}
+
+	.ads {
+		margin-right: -2em;
+		margin-left: -2em;
+	}
+
+	.bttn {
+		width: 100%;
+	}
+
+}

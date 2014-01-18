@@ -1,0 +1,398 @@
+/*==================================================*/
+/*  Climacons V2 by Adam Whitcroft
+/*  http://adamwhitcroft.com
+/*  @adamwhitcroft
+/*==================================================*/
+/*==================================================*/
+/*  $Reset                                          */
+/*==================================================*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, small, strong, b, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+	padding:0;
+	margin:0;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content: none;
+}	
+img {
+	max-width:100%;
+	height:auto;
+	font-style:italic;
+}
+embed,object,video {
+	max-width:100%;
+	height:auto;
+}
+
+
+
+
+
+/*==================================================*/
+/*  $Base                                           */
+/*==================================================*/
+@font-face {
+    font-family:'ClimaconsRegular';
+    src: url('fonts/climacons-webfont.eot');
+    src: url('fonts/climacons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/climacons-webfont.woff') format('woff'),
+         url('fonts/climacons-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+	background:#ffffff;
+	color:#454545;
+	font-size:100%;
+	line-height:1.5em;
+	font-family: "proxima-nova",sans-serif;
+	font-weight:400;
+}
+body {
+	min-height:100%;
+}
+.wrapper {
+	margin:0 auto;
+	max-width:640px;
+	padding:0 24px;	
+	position:relative;
+}
+.island {
+	margin-bottom:24px;
+	display:block;
+}
+/*  $Typography  ===================================*/
+h1,h2 {
+	font-weight:700;
+	margin-bottom:1.5em;
+	line-height:1.5em;
+	-webkit-transition:200ms ease;
+	   -moz-transition:200ms ease;
+	    -ms-transition:200ms ease;
+	     -o-transition:200ms ease;
+	        transition:200ms ease;
+}
+h1 {
+	font-size:1.5em;
+}
+h1 span {
+	font-weight:400;
+}
+h2 {
+	font-size:0.75em;
+	text-transform:uppercase;
+	color:#999;
+	margin:0;
+	font-weight:400;
+}
+p {
+	margin-bottom:1.5em;
+}
+em {
+	font-style:italic;
+}
+strong {
+	font-weight:bold;
+}
+small {
+	font-size:0.75em;
+}
+a {
+	color:#FA4B00;
+	text-decoration:none;
+}
+mark {
+	background:#FFF1B0;
+}
+pre,code {
+	font-family:consolas,monospace;
+	font-size:1em;
+	color:green;
+	background:#FEFEEC;
+}
+pre {
+	overflow:auto;
+	padding:1em;
+}
+
+
+
+
+
+/*==================================================*/
+/*  $theHeader                                      */
+/*==================================================*/
+.theHeader {
+	background:#efefef url(img/header.png) no-repeat center center;
+	text-align:center;
+	padding-top:24px;
+	position:relative;
+}
+.theHeader h1 {
+	margin-bottom:24px;
+	text-align:left;
+}
+.theHeader img.logo {
+	margin-bottom:24px;
+	height:96px;
+}
+.download {
+	position:relative;
+	background:#FA4B00 url(img/download.png) no-repeat 10px 50%;
+	padding:12px 24px 12px 42px;
+	color:#fff;
+	display:inline-block;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px; 	
+	-webkit-transition:200ms ease;
+	   -moz-transition:200ms ease;
+	    -ms-transition:200ms ease;
+	     -o-transition:200ms ease;
+	        transition:200ms ease;
+}
+.download:hover {
+	background:#454545 url(img/download.png) no-repeat 10px 50%;
+}
+.download span {
+	font-size:0.75em;
+	margin-left:6px;
+}
+.download img {
+	position:absolute;
+	top:16px;
+	left:10px;
+	-webkit-transition:200ms ease;
+	   -moz-transition:200ms ease;
+	    -ms-transition:200ms ease;
+	     -o-transition:200ms ease;
+	        transition:200ms ease;	
+}
+.download:hover img {
+	top:20px;		
+}
+.icons {
+	position:absolute;
+	top:-24px;
+	right:0;
+	background:#FA4B00;
+	padding:10px;
+	color:#fff;
+	-webkit-transition:200ms ease;
+	   -moz-transition:200ms ease;
+	    -ms-transition:200ms ease;
+	     -o-transition:200ms ease;
+	        transition:200ms ease;	
+}
+.icons:hover {
+	background:#454545;
+}
+
+
+
+/*==================================================*/
+/*  $theMap                                         */
+/*==================================================*/
+.theMap {
+		overflow:hidden;
+}
+.theMap ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.theMap li {
+	display:block;
+	float:left;
+	width:64px;
+	height:64px;
+	text-align:center;
+	margin-bottom:48px;
+}
+.theMap li span {
+	font-family:'ClimaconsRegular';
+	font-size:4em;
+	display:block;
+	line-height:1em;
+}
+
+
+
+
+
+/*==================================================*/
+/*  $theFooter                                      */
+/*==================================================*/
+.theFooter {
+	overflow:hidden;
+	background:#fff;
+}
+
+
+
+
+/*==================================================*/
+/*  $theLicense                                     */
+/*==================================================*/
+.theLicense {
+	padding:10px;
+	background:#efefef;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px;
+}
+.theLicense p {
+	margin:0;
+}
+
+
+
+
+
+/*==================================================*/
+/*  $theAds                                         */
+/*==================================================*/
+.ads {
+	padding:10px;
+	overflow:hidden;
+	border:2px dotted #efefef;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px;	
+}
+	#fusion_ad a {
+		display:block;
+		color:#969ba2;
+		text-decoration:none;
+		font-size:.75em;
+		line-height:1.5em;
+	}
+
+	#fusion_ad img {
+		display:block;
+		float:left;
+		margin-right:10px;
+	}
+
+	.poweredby {
+		font-weight:bold;
+		font-size:.875em;
+	}
+
+
+
+
+/*==================================================*/
+/*  $theMotions                                     */
+/*==================================================*/
+.fadeIn {
+ 	-webkit-animation-name: fadeIn;
+ 	   -moz-animation-name: fadeIn;
+ 	    -ms-animation-name: fadeIn;
+ 	     -o-animation-name: fadeIn;
+ 	        animation-name: fadeIn;
+ 	-webkit-animation-duration: 400ms;
+ 	   -moz-animation-duration: 400ms;
+ 	    -ms-animation-duration: 400ms;
+ 	     -o-animation-duration: 400ms;
+ 	        animation-duration: 400ms;
+ 	-webkit-animation-fill-mode: backwards;
+ 	   -moz-animation-fill-mode: backwards;
+ 	    -ms-animation-fill-mode: backwards;
+ 	     -o-animation-fill-mode: backwards;
+ 	        animation-fill-mode: backwards;
+ 	-webkit-animation-delay: 400ms;
+ 	   -moz-animation-delay: 400ms;
+ 	    -ms-animation-delay: 400ms;
+ 	     -o-animation-delay: 400ms;
+ 	        animation-delay: 400ms;
+}
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+@-moz-keyframes fadeIn {
+	from {
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+@-ms-keyframes fadeIn {
+	from {
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+@-o-keyframes fadeIn {
+	from {
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+
+
+
+
+
+/*==================================================*/
+/*  $theMediaQs                                     */
+/*==================================================*/
+@media screen and (max-width:640px) {
+	h1 {
+		font-size:1.25em;
+	}
+}

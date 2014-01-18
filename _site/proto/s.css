@@ -1,0 +1,412 @@
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Proto by @adamwhitcroft
+*	http://adamwhitcroft.com/proto/
+--------------------------------------------------
+////////////////////////////////////////////////*/
+
+body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+dl,dd,ol,ul,form,fieldset,legend,table,th,td,
+caption,figure,hr{
+    margin:0;
+    padding:0;
+}
+
+strong,b,mark{
+    font-weight:bold;
+    font-style:inherit;
+}
+
+section {
+	display:block;
+}
+
+em,i,cite,q,address,dfn,var{
+    font-weight:inherit;
+    font-style:italic;
+}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Base
+--------------------------------------------------
+////////////////////////////////////////////////*/
+
+html {
+	background:#f6f6f6;
+	color:#9099A3;
+	font-weight:400;
+	font-size:120%;
+	font-family: "proxima-nova",sans-serif;
+	line-height:2em;
+}
+
+body {
+	padding:0 10px;
+	border-top:5px solid #e3e3e3;
+}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Type
+--------------------------------------------------
+////////////////////////////////////////////////*/
+
+h1,h2,h3 {
+	color:#575d63;
+	font-weight:300;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size:1.5em;
+	line-height:1.5em;
+}
+
+h1 strong {
+	font-weight:800;
+}
+
+h2 {
+	font-size:1.25em;
+}
+
+h3 {
+	font-size:1.125em;
+}
+
+h1,h2,p {
+	margin-bottom:1.5em;
+}
+
+a {
+	color:#ffae00;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+code,
+mark {
+	background:#fff1b7;
+	font-weight:inherit;
+}
+
+/*
+Solarized Dark Prettyprint theme - http://demo.stanleyhlng.com/prettify-js/?id=solarized-dark
+*/
+
+pre {
+	overflow:auto;
+	margin:0 -2em 2em -2em;
+	padding:1em 2em;
+	background-color:#042029;
+	color:#586175;
+	font-size:inherit;
+	font-family:consolas,monospace;
+}
+
+pre > code {
+	background:none;
+}
+
+pre.last {
+	margin-bottom:0;
+}
+
+.pln {color: #bd3613;}
+.str {color: #269186;}
+.kwd {color: #859900;}
+.com {color: #586175;font-style: italic;}
+.typ {color: #b58900;}
+.lit {color: #2aa198;}
+.pun {color: #839496;}
+.opn {color: #839496;}
+.clo {color: #839496;}
+.tag {color: #268bd2;}
+.atn {color: #81899a;}
+.atv {color: #2aa198;}
+.dec {color: #268bd2;}
+.var {color: #268bd2;}
+.fun {color: #FF0000;}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Structure
+--------------------------------------------------
+////////////////////////////////////////////////*/
+
+.island {
+	margin:0 auto;
+	max-width:800px;
+}
+
+/*
+Header
+*/
+
+.header {
+	position:relative;
+	margin-top:-5px;
+	padding:2em 0 0 0;
+	border-top:5px solid #268BD2;
+	text-align:center;
+}
+
+.logo {
+	display:inline-block;
+	overflow:hidden;
+	width:240px;
+	height:160px;
+	background-image:url(img/logo.png);
+	background-size:240px 160px;
+}
+
+/* .png's shrunk by http://tinypng.org/ */
+
+.logo img {
+	position:absolute;
+	top:-200%;
+}
+.github {
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	padding:0 .5em;
+	background:#268BD2;
+	color:white;
+	font-size:.75em;
+	-webkit-transition:background 300ms ease;
+	   -moz-transition:background 300ms ease;
+	    -ms-transition:background 300ms ease;
+	     -o-transition:background 300ms ease;
+	        transition:background 300ms ease;
+}
+.sandbox {
+	position:absolute;
+	top:0;
+	right:0;
+	display:block;
+	padding:0 .5em;
+	background:#268BD2;
+	color:white;
+	font-size:.75em;
+	-webkit-transition:background 300ms ease;
+	   -moz-transition:background 300ms ease;
+	    -ms-transition:background 300ms ease;
+	     -o-transition:background 300ms ease;
+	        transition:background 300ms ease;
+}
+.github:hover,
+.sandbox:hover {
+	background:#9099A3;
+	text-decoration:none;
+}
+
+/*
+Introduction
+*/
+
+.introduction .inner {
+	padding:2em;
+	text-align:center;
+}
+
+.introduction h1,
+.introduction p {
+	text-align:left;
+}
+
+.bttn {
+	display:inline-block;
+	padding:.5em 4em;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px;
+	border-radius:3px;
+	background:#268BD2;
+	color:white;
+	text-align:center;
+	-webkit-transition:background 300ms ease;
+	   -moz-transition:background 300ms ease;
+	    -ms-transition:background 300ms ease;
+	     -o-transition:background 300ms ease;
+	        transition:background 300ms ease;
+}
+
+.bttn:hover {
+	background:#9099A3;
+	text-decoration:none;
+}
+
+.bttn:active {
+	background:#2AA198;
+}
+
+/*
+Content
+*/
+
+.content section {
+	overflow:hidden;
+	margin-bottom:2em;
+	padding:2em 2em 0 2em;
+	background:white;
+}
+
+.demo {
+	border:1px solid #9099A3;
+	overflow:hidden;
+	margin-bottom:2em;
+}
+
+.content .inner {
+	padding:2em;
+	background:white;
+}
+
+.inner .note {
+	margin-bottom:2em;
+}
+
+.inner p:last-child {
+	margin:0;
+}
+
+.note {
+	margin-bottom:2em;
+	font-size:80%;
+	line-height:1.75em;
+}
+
+/*
+Footer
+*/
+
+.headHome {
+	padding:1em;
+	background:#f6f6f6;
+	text-align:center;
+}
+
+.tweetThis {
+	text-align:center;
+}
+
+	.tweetThis .tweet {
+		padding:0;
+		width:204px;
+	}
+
+	.tweetThis img {
+		display:block;
+		margin-left:77px;
+	}
+
+	/* Adapted from https://github.com/AdamWhitcroft/CSS.Tooltips/blob/master/css-tooltips.css */
+
+	[data-tip] {
+		position:relative;
+	}
+
+	[data-tip]:after {
+		position:absolute;
+		top:-35px;
+		left:50%;
+		z-index:9;
+		display:none;
+		margin-left:-102px;
+		padding:.5em 0;
+		width:204px;
+		height:18px;
+		-webkit-border-radius:3px;
+		   -moz-border-radius:3px;
+		    -ms-border-radius:3px;
+		     -o-border-radius:3px;
+		        border-radius:3px;
+		background:rgba(0,0,0,.9);
+		color:#fff;
+		content:attr(data-tip);
+		font-size: 0.75em;
+		line-height:18px;
+	}
+
+	[data-tip]:hover:after {
+		display:block;
+	}
+
+	[data-tip]:active:after {
+		background:#2AA198;
+		content:"Thanks!";
+	}
+
+.disclaimer {
+	padding:0 2em;
+}
+
+	.disclaimer p {
+	}
+
+.footer {
+	padding:2em;
+	font-size:80%;
+	text-align:center;
+}
+
+	.footer p {
+		margin:0;
+	}
+
+/*////////////////////////////////////////////////
+--------------------------------------------------
+*	Media Queries
+--------------------------------------------------
+////////////////////////////////////////////////*/
+
+/* If retina viewport, switch out the Proto logo */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (-moz-min-device-pixel-ratio:1.5),
+only screen and (-o-min-device-pixel-ratio:3/2),
+only screen and (min-device-pixel-ratio:1.5){
+	.logo {
+		background-image:url(img/logo@2x.png);
+	}
+}
+
+@media screen and (max-width:480px){
+
+	html {
+		font-size:100%;
+	}
+
+	.content section {
+		margin-bottom:1em;
+		padding:1em 1em 0 1em;
+	}
+
+	.demo {
+		margin-bottom:1em;
+	}
+
+	.note {
+		margin-bottom:1em;
+	}
+
+	.content .inner {
+		padding:1em;
+		background:white;
+	}
+
+	pre {
+		margin-right:-1em;
+		margin-bottom:1em;
+		margin-left:-1em;
+		padding:1em;
+	}
+
+}

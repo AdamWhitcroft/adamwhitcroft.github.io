@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Proto - Rapid Prototyping for Responsive Web Design</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Simple HTML &amp; SCSS rapid prototyping toolkit for responsive web design.">
+        <link rel="stylesheet" href="s.css">
+        <link rel="stylesheet" href="scss/proto-compiled.css" />
+    </head>
+    <body onload="prettyPrint()">
+
+    <div class="island header">
+        <a href="/" class="logo">
+            <img src="/img/logo.png" alt="Proto Logo"/>
+        </a>
+        <a class="github" href="https://github.com/AdamWhitcroft/Proto">GitHub</a>
+        <a class="sandbox" href="sandbox/">Sandbox</a>
+    </div><!--/.header-->
+
+    <div class="island introduction">
+        <div class="inner">
+            <h1><strong>Proto</strong> is a simple HTML &amp; SCSS rapid prototyping toolkit for responsive web design.</h1>
+            <p>Proto helps you knock up quick responsive layout concepts by providing a set of predefined CSS classes. All that's needed to get going is the <code>proto.scss</code> file and some basic HTML.</p>
+            <a href="https://github.com/AdamWhitcroft/Proto/zipball/master" class="bttn getProto" onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'Proto']);">Get Proto</a>
+        </div><!--/.inner-->
+    </div><!--/.introduction-->
+
+<div class="island content">
+
+        <section id="gettingstarted">
+            <h2>Getting started</h2>
+            <p>Proto uses a combination of HTML and compiled SCSS to create your prototypes. If you're new to SCSS there's a quick guide for you to follow below. If you've worked with it before keep going.</p>
+            <p><a href="scss-101/">SCSS 101: The quick guide.</a></p>
+            <p>At the top of the <code>proto.scss</code> file, you'll find the Proto variables.</p>
+<pre class="prettyprint"><code>//  Proto vars
+//  Be sure to inlclude appropriate units i.e. 'px', '%', 'em' etc
+//  (These comments will be stripped out during compile)
+
+//  Base
+$blockBackground: #eee;
+$centerWidth: 70%;
+
+//  Demo
+$DemoPass: #dff0d8;
+$DemoFail: #f0d8d8;
+
+//  Media Query
+$desktopWidth: 1024px;
+$tabletWidth: 768px;
+$phoneWidth: 480px;</code></pre>
+            <p class="note">Proto comes with these variables predefined, but feel free to change any of the values to match your own requirements.</p>
+        </section><!--/.gettingstarted-->
+
+        <section id="protoClass">
+
+            <h2>The <code>'block'</code> class</h2>
+            <p>The single most important part of Proto is the <code>.block</code> class. It's the structural foundation of the toolkit, so using it correctly is important. Thankfully, this is pretty straightforward:</p>
+<pre class="prettyprint"><code>&lt;!--
+It all starts with the '.block' class...
+--&gt;
+&lt;div class="block"&gt;
+  foo
+&lt;/div&gt;&lt;!--/.block--&gt;</code></pre>
+            <p class="note">Any 'containing' element you create - <code>header,section,article,footer,div</code> etc - should have the <code>.block</code> class applied it.</p>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block">
+                    header
+                </div>
+            </div><!--/.demo-->
+
+        </section><!--/.protoClass-->
+
+        <section id="centerClass">
+
+            <h2>The <code>'center'</code> class</h2>
+            <p>Apply this class to a block to center it within its parent. The value of the <code>$centerWidth</code> variable is the width applied to the <code>.center</code> class (70% by default).</p>
+<pre class="prettyprint"><code>&lt;!--
+An example of the 'center' class...
+--&gt;
+&lt;div class="block center"&gt;
+  introduction
+&lt;/div&gt;&lt;!--/.block center--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block center">
+                    introduction
+                </div><!--/.center-->
+            </div><!--/.demo-->
+
+        </section><!--/.centerClass-->
+
+        <section id="gridClass">
+
+            <h2>The <code>'grid'</code> class</h2>
+            <p>Grids are a cinch. Add the <code>.grid</code> class to any element you'd like to act as a grid wrapper.</p>
+<pre class="prettyprint"><code>&lt;!--
+An example of the 'grid' class...
+--&gt;
+&lt;div class="block grid"&gt;
+  &lt;div class="block sixty"&gt;
+    main content
+  &lt;/div&gt;&lt;!--/.block sixty--&gt;
+  &lt;div class="block forty"&gt;
+    sidebar
+  &lt;/div&gt;&lt;!--/.block forty--&gt;
+&lt;/div&gt;&lt;!--/.block grid--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block grid">
+                    <div class="block sixty">
+                        main content
+                    </div><!--/.block sixty-->
+                    <div class="block forty">
+                        sidebar
+                    </div><!--/.block forty-->
+                </div><!--/.block grid-->
+            </div><!--/.demo-->
+
+        </section><!--/.gridClass-->
+
+        <section id="nestedgrids">
+
+            <h2>Nesting grids</h2>
+            <p>Grids can be nested as far down as you'd like allowing the creation of intricate layouts. Only the outermost wrapping element need have the <code>.grid</code> class applied.</p>
+<pre class="prettyprint"><code>&lt;!--
+An example of nested grids...
+--&gt;
+&lt;div class="block grid"&gt;
+  &lt;div class="block sixty"&gt;
+    main content
+  &lt;/div&gt;&lt;!--/.block sixty--&gt;
+  &lt;div class="block forty"&gt;
+    &lt;div class="block fifty"&gt;
+      col 1
+    &lt;/div&gt;&lt;!--/.block fifty--&gt;
+    &lt;div class="block fifty"&gt;
+      col 2
+    &lt;/div&gt;&lt;!--/.block fifty--&gt;
+  &lt;/div&gt;&lt;!--/.block forty--&gt;
+&lt;/div&gt;&lt;!--/.block grid--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block grid">
+                    <div class="block sixty">
+                        main content
+                    </div><!--/.block sixty-->
+                    <div class="block forty">
+                        <div class="block fifty">
+                            col 1
+                        </div><!--/.block fifty-->
+                        <div class="block fifty">
+                            col 2
+                        </div><!--/.block fifty-->
+                    </div><!--/.block forty-->
+                </div><!--/.block grid-->
+            </div><!--/.demo-->
+
+        </section><!--/.nestedgrids-->
+
+        <section id="showhide">
+
+            <h2>Hide or show?</h2>
+            <p>You can opt to either show an element within a given viewport range, or display it within all <em>but</em> a given viewport range.</p>
+<pre class="prettyprint"><code>&lt;!--
+Element(s) will be shown within their respective
+viewport range only
+--&gt;
+.desktop
+.tablet
+.phone
+&lt;!--
+Element(s) will be shown within all BUT their respective
+viewport range
+--&gt;
+.not-desktop
+.not-tablet
+.not-phone
+&lt;!--
+Let's say you wanted an element to only show within
+the 'desktop' viewport range...
+--&gt;
+&lt;div class="block desktop"&gt;
+  foo
+&lt;/div&gt;&lt;!--/.block desktop--&gt;
+&lt;!--
+What about displaying an element on all BUT the
+'desktop' viewport range...
+--&gt;
+&lt;div class="block not-desktop"&gt;
+  bar
+&lt;/div&gt;&lt;!--/.block not-desktop--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block desktop">
+                    foo
+                </div><!--/.block desktop-->
+                <div class="block not-desktop">
+                    bar
+                </div><!--/.block not-desktop-->
+            </div><!--/.demo-->
+
+        </section><!--/.showhide-->
+
+        <section id="demoClass">
+
+            <h2>The <code>'demo'</code> class</h2>
+            <p>If you'd like to demonstrate the effect of the classes set out above without actually hiding any elements, append the class name with <code>-demo</code>. This changes the visual style of the element, rather than applying <code>display:none;</code> to it.</p>
+<pre class="prettyprint"><code>&lt;!--
+The following will render a light green box if the
+viewport width is within the 'desktop' range. As
+soon as the width drops below this range, it will
+render as a light red box...
+--&gt;
+&lt;div class="block desktop-demo"&gt;
+  .desktop-demo
+&lt;/div&gt;&lt;!--/.block desktop-demo--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block desktop-demo">
+                    .desktop-demo
+                </div><!--/.block desktop-demo-->
+            </div><!--/.demo-->
+
+<pre class="prettyprint"><code>&lt;!--
+The following will render a light green box if the
+viewport width is within all BUT the 'tablet' range.
+As soon as the viewport width is outside of (either
+above or below) this range, it will render as a
+light red box...
+--&gt;
+&lt;div class="block not-tablet-demo"&gt;
+  .not-tablet-demo
+&lt;/div&gt;&lt;!--/.block not-tablet-demo--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block not-tablet-demo">
+                    .not-tablet-demo
+                </div><!--/.block not-tablet-demo-->
+            </div><!--/.demo-->
+
+        </section><!--/.demoClass-->
+
+        <section id="toClass">
+
+            <h2>The <code>'-to-'</code> class</h2>
+            <p>Imagine you have a 1x4 grid of elements within the desktop viewport range that but you'd like to become a 2x2 grid in the tablet range and a 4x1 in the phone range. Enter the <code>-to-</code> class.</p>
+<pre class="prettyprint"><code>&lt;!--
+Using the above as an example, the following will change
+the width of each 'twentyfive' block to that of a
+'fifty' block at the 'tablet' viewport width and
+to a 'hundred' width at the 'phone' viewport range.
+--&gt;
+&lt;div class="block grid"&gt;
+  &lt;div class="block twentyfive tablet-to-fifty phone-to-hundred"&gt;
+    1
+  &lt;/div&gt;&lt;!--/.block twentyfive tablet-to-fifty phone-to-hundred--&gt;
+  &lt;div class="block twentyfive tablet-to-fifty phone-to-hundred"&gt;
+    2
+  &lt;/div&gt;&lt;!--/.block twentyfive tablet-to-fifty phone-to-hundred--&gt;
+  &lt;div class="block twentyfive tablet-to-fifty phone-to-hundred"&gt;
+    3
+  &lt;/div&gt;&lt;!--/.block twentyfive tablet-to-fifty phone-to-hundred--&gt;
+  &lt;div class="block twentyfive tablet-to-fifty phone-to-hundred"&gt;
+    4
+  &lt;/div&gt;&lt;!--/.block twentyfive tablet-to-fifty phone-to-hundred--&gt;
+&lt;/div&gt;&lt;!--/.block grid--&gt;
+&lt;!--
+The '-to-' class has a simple naming convention:
+.{viewport}-to-{new width}
+--&gt;</code></pre>
+
+            <!-- Example output -->
+
+            <div class="demo">
+                <div class="block grid">
+                    <div class="block twentyfive tablet-to-fifty phone-to-hundred">
+                        1
+                    </div><!--/.block twentyfive tablet-to-fifty phone-to-hundred-->
+                    <div class="block twentyfive tablet-to-fifty phone-to-hundred">
+                        2
+                    </div><!--/.block twentyfive tablet-to-fifty phone-to-hundred-->
+                    <div class="block twentyfive tablet-to-fifty phone-to-hundred">
+                        3
+                    </div><!--/.block twentyfive tablet-to-fifty phone-to-hundred-->
+                    <div class="block twentyfive tablet-to-fifty phone-to-hundred">
+                        4
+                    </div><!--/.block twentyfive tablet-to-fifty phone-to-hundred-->
+                </div><!--/.grid-->
+            </div><!--/.demo-->
+
+        </section><!--/.toClass-->
+
+    </div><!--/.content-->
+
+    <div class="island disclaimer">
+        <p><em>Proto is not a framework</em>, it's a small toolkit built to speed up responsive layout conceptualisation. Using it as a framework - while possible - isn't advisable. Classes and their usage have been kept as simple as possible to give you greater freedom when exploring layout options.</p>
+    </div>
+
+    <div class="island tweetThis">
+        <a data-tip="&hearts;" class="bttn tweet" href="http://twitter.com/share?url=http://adamwhitcroft.com/proto/&text=Proto: RWD Rapid Prototyping by @adamwhitcroft:"><img src="img/birdy.png" width="50" height="50" /></a>
+    </div>
+
+    <div class="island footer">
+        <p>Authored by <a href="https://twitter.com/adamwhitcroft">Adam Whitcroft</a>.</p>
+    </div><!--/.footer-->
+
+        <script type="text/javascript" src="js/prettify.js"></script>
+        <script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-18418896-7']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+    </body>
+</html>

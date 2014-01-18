@@ -44,6 +44,11 @@ body {
     margin: 0 auto;
     padding: 2em;
     max-width: $max-width;
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+
 }
 
 /*==================================================*/

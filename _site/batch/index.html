@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Batch &bull; 300+ Icons for Web &amp; User Interface Design</title>
+	<link rel="shortcut icon" href="img/icon.png">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="s.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+	<!-- JQuery -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- Google -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-18418896-7']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</head>
+<body>
+
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<img src="img/batch-logo.png" alt="Batch logo" />
+			</div>
+			<h1>Batch.</h1>
+			<p><span>Release 1.3</span></p>
+			<a class="bttn download trigger clicktrack">Download</a><a href="license/" class="bttn license">License</a><!--<a class="bttn workshop">Workshop</a>-->
+		</div><!--/.container-->
+	</div><!--/.header-->
+
+	<div class="container">
+		<div class="inner">
+
+			<h2>A lovingly designed and crafted suite of 300+ icons for web and user interface design.</h2>
+
+			<p>Each icon in the Batch PSD is a single shape layer, meaning they can be scaled up&mdash;or down&mdash;without loss of quality.</p>
+
+			<p>The download includes:</p>
+
+			<ul>
+				<li>PSD file (shape layers).</li>
+				<li>SVGs (128x128).</li>
+				<li>PNGs (16x16, 32x32, 64x64).</li>
+				<li>Webfont (.eot, .ttf, .woff).</li>
+			</ul>
+
+			<p><mark>Batch is now free, <a href="http://adamwhitcroft.com/post/on-batch/">read why</a>.</mark></p>
+
+			<div class="preview">
+				<img src="img/batch-preview.png" alt="Batch Preview" />
+			</div><!--/.preview-->
+
+			<h3>New in Release 1.2</h3>
+
+			<div class="preview">
+				<img src="img/release-1.2.png" alt="Batch Release 1.2 Preview" />
+			</div><!--/.preview-->
+
+			<h3>New in Release 1.3</h3>
+
+			<p>The Batch Webfont was added in R1.3. Big thanks to <a href="https://twitter.com/sdmix/">Matt Allen</a> for his help creating the webfont.</p>
+
+			<div class="tweetThis">
+				<a data-tip="Tweet this?" class="bttn tweet" href="http://twitter.com/share?url=http://adamwhitcroft.com/batch/&text=Batch: 343 Icons for Web and User Interface Design by @adamwhitcroft:"><img src="img/birdy.png" width="50" height="50" /></a>
+			</div>
+
+			<div class="ads">
+	        	<div id="fusion_ad">
+	        		<p class="poweredby"><a href="http://fusionads.net">Powered by Fusion</a></p>
+	        	</div>
+			</div><!--/.ads-->
+
+			<div class="footer">
+				<p>Please respect my creative rights. I have put a great deal of time and love into the creation of Batch and I hope that is evident in the quality of the icons.</p><p>If you use Batch in a Dribbble shot, the inclusion of a &ldquo;Batch&rdquo; tag would be appreciated so that I can keep a curated bucket.</p><p>Batch by <a href="https://twitter.com/adamwhitcroft">@adamwhitcroft</a>.</p>
+			</div><!--/.footer-->
+
+		</div><!--/.inner-->
+	</div><!--/.container-->
+
+	<div class="donate-mdl">
+		<a class="close-mdl" title="Close"></a>
+		<div class="mdl">
+			<div class="inner">
+				<a class="close-x"></a>
+				<div class="heart">
+					<img src="img/heart.png" />
+				</div><!--/.heart-->
+				<h1>Nice.</h1>
+				<p>Thanks for getting this far! Choose your download option below.</p>
+				<a href="https://github.com/AdamWhitcroft/Batch/archive/master.zip" class="bttn download clicktrack">Download</a>
+				<span class="or"><em>or</em></span>
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NKHGNVHXKEECU" class="bttn donate clicktrack">Donate <span class="amp">&amp;</span> Download</a>
+			</div><!--/.inner-->
+		</div><!--/.dlg-->
+	</div><!--/.donate-->
+
+	<div class="tba-mdl">
+		<a class="close-mdl" title="Close"></a>
+		<div class="mdl">
+			<div class="inner">
+				<a class="close-x"></a>
+				<div class="spinner">
+					<img src="img/spinner.png" />
+				</div><!--/.heart-->
+				<h1>Coming soon&hellip;</h1>
+				<p>I'm working on adding some more to Batch:</p>
+				<ul>
+					<li>Custom icon font.</li>
+				</ul>
+				<small>Updates will be announced on <a href="https://twitter.com/adamwhitcroft">Twitter</a>.</small>
+			</div><!--/.inner-->
+		</div><!--/.dlg-->
+	</div><!--/.tba-->
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	// Track dem clicks
+	$('.clicktrack').click(function(){
+		_gaq.push(['_trackEvent', 'Downloads', 'Batch', $(this).attr('href')]);
+	});
+
+	// Start the download when donate button is clicked
+	$('.mdl .donate').click(function(){
+		window.open('https://github.com/AdamWhitcroft/Batch/archive/master.zip');
+	});
+
+	// Modal jizz
+	$('.trigger').click(function(e){
+		e.preventDefault();
+		$('html').addClass('donation');
+	});
+
+	$('.workshop').click(function(e){
+		e.preventDefault();
+		$('html').addClass('tba');
+	});
+
+	$('.close-mdl, .close-x').click(function(e){
+		e.preventDefault();
+		$('html').removeClass();
+	});
+
+	$('.mdl .download').click(function(){
+		$(this).text('Enjoy!');
+	});
+
+	$('.mdl .donate').click(function(){
+		$(this).text('Working...');
+	});
+
+});
+</script>
+<!-- Fusion -->
+<script type="text/javascript">
+(function(){
+  var fusion = document.createElement('script');
+  fusion.src = window.location.protocol + '//adn.fusionads.net/api/1.0/ad.js?zoneid=210&rand=' + Math.floor(Math.random()*9999999);
+  fusion.async = true;
+  (document.head || document.getElementsByTagName('head')[0]).appendChild(fusion);
+})();
+</script>
+</body>
+</html>

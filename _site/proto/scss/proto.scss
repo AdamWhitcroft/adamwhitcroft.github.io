@@ -1,0 +1,438 @@
+/*------------------------------------*\
+ *  Proto by @adamwhitcroft
+ *
+ *  Proto is a simple HTML & SCSS rapid 
+ *  prototyping toolkit for responsive web design.
+ *
+ *  http://adamwhitcroft.com/proto/
+\*------------------------------------*/
+
+//  Proto vars
+//  Be sure to inlclude appropriate units i.e. 'px', '%', 'em' etc
+//  (These comments will be stripped out during compile)
+
+//  Base
+$blockBackground: #eee;
+$centerWidth: 70%;
+
+//  Demo
+$DemoPass: #dff0d8;
+$DemoFail: #f0d8d8;
+
+//  Media Query
+$desktopWidth: 1024px;	
+$tabletWidth: 768px;
+$phoneWidth: 480px;
+
+	.block {
+		box-sizing:border-box;
+		width:100%;
+		background:$blockBackground;
+		color:#9099A3;
+		text-align:center;
+	}
+
+	.center {
+		margin:0 auto;
+		width:$centerWidth;
+	}
+
+	.grid .block {
+		float:left;
+	}
+
+	.grid {
+
+		.hundred {
+			width:100%;
+		}
+
+		.ninety {
+			width:90%;
+		}
+
+		.eighty {
+			width:80%;
+		}
+
+		.seventyfive {
+			width:75%;
+		}
+
+		.seventy {
+			width:70%;
+		}
+
+		.sixtysix {
+			width:66.666%;
+		}
+
+		.sixty {
+			width:60%;
+		}
+
+		.fifty {
+			width:50%;
+		}
+
+		.forty {
+			width:40%;
+		}
+		.thirtythree {
+			width:33.333%;
+		}
+
+		.thirty {
+			width:30%;
+		}
+
+		.twentyfive {
+			width:25%;
+		}
+
+		.twenty {
+			width:20%;
+		}
+
+		.ten {
+			width:10%;
+		}
+
+	}
+
+	.not-desktop {
+		display:none;
+	}
+
+	.tablet {
+		display:none;
+	}
+
+	.phone {
+		display:none;
+	}
+
+/* Desktop */
+
+@media (min-width:$desktopWidth) {
+
+	.desktop-demo,
+	.not-tablet-demo,
+	.not-phone-demo {
+		background:$DemoPass;
+		color:darken($DemoPass,50%);
+	}
+
+	.not-desktop-demo,
+	.tablet-demo,
+	.phone-demo {
+		background:$DemoFail;
+		color:darken($DemoFail,50%);
+	}
+
+	.grid {
+
+		.desktop-to-hundred {
+			width:100%;
+		}
+
+		.desktop-to-ninety {
+			width:90%;
+		}
+
+		.desktop-to-eighty {
+			width:80%;
+		}
+
+		.desktop-to-seventyfive {
+			width:75%;
+		}
+
+		.desktop-to-seventy {
+			width:70%;
+		}
+
+		.desktop-to-sixtysix {
+			width:66.666%;
+		}
+
+		.desktop-to-sixty {
+			width:60%;
+		}
+
+		.desktop-to-fifty {
+			width:50%;
+		}
+
+		.desktop-to-forty {
+			width:40%;
+		}
+		.desktop-to-thirtythree {
+			width:33.333%;
+		}
+
+		.desktop-to-thirty {
+			width:30%;
+		}
+
+		.desktop-to-twentyfive {
+			width:25%;
+		}
+
+		.desktop-to-twenty {
+			width:20%;
+		}
+
+		.desktop-to-ten {
+			width:10%;
+		}
+
+	}
+
+}
+
+/* Tablet Up To Desktop */
+
+@media (min-width:$tabletWidth) and (max-width:$desktopWidth - 1px) {
+
+	.tablet {
+		display:block;
+	}
+
+	.not-desktop {
+		display:none;
+	}
+
+	.not-tablet {
+		display:none;
+	}
+
+	.desktop-demo,
+	.tablet-demo,
+	.not-phone-demo {
+		background:$DemoPass;
+		color:darken($DemoPass,50%);
+	}
+
+	.not-desktop-demo,
+	.not-tablet-demo,
+	.phone-demo {
+		background:$DemoFail;
+		color:darken($DemoFail,50%);
+	}
+
+	.grid {
+
+		.tablet-to-hundred {
+			width:100%;
+		}
+
+		.tablet-to-ninety {
+			width:90%;
+		}
+
+		.tablet-to-eighty {
+			width:80%;
+		}
+
+		.tablet-to-seventyfive {
+			width:75%;
+		}
+
+		.tablet-to-seventy {
+			width:70%;
+		}
+
+		.tablet-to-sixtysix {
+			width:66.666%;
+		}
+
+		.tablet-to-sixty {
+			width:60%;
+		}
+
+		.tablet-to-fifty {
+			width:50%;
+		}
+
+		.tablet-to-forty {
+			width:40%;
+		}
+
+		.tablet-to-thirtythree {
+			width:33.333%;
+		}
+
+		.tablet-to-thirty {
+			width:30%;
+		}
+
+		.tablet-to-twentyfive {
+			width:25%;
+		}
+
+		.tablet-to-twenty {
+			width:20%;
+		}
+
+		.tablet-to-ten {
+			width:10%;
+		}
+
+	}
+
+}
+
+/* Tablet Down To Phone */
+
+@media (max-width:$tabletWidth - 1px) {
+
+	.desktop {
+		display:none;
+	}
+
+	.not-desktop {
+		display:block;
+	}
+
+	.tablet {
+		display:block;
+	}
+
+	.not-tablet {
+		display:none;
+	}
+
+	.phone {
+		display:block;
+	}
+
+	.not-phone {
+		display:none;
+	}
+
+	.not-desktop-demo,
+	.tablet-demo,
+	.phone-demo {
+		background:$DemoPass;
+		color:darken($DemoPass,50%);
+	}
+
+	.desktop-demo,
+	.not-tablet-demo,
+	.not-phone-demo {
+		background:$DemoFail;
+		color:darken($DemoFail,50%);
+	}
+
+	.grid {
+
+		.phone-to-hundred {
+			width:100%;
+		}
+
+		.phone-to-ninety {
+			width:90%;
+		}
+
+		.phone-to-eighty {
+			width:80%;
+		}
+
+		.phone-to-seventyfive {
+			width:75%;
+		}
+
+		.phone-to-seventy {
+			width:70%;
+		}
+
+		.phone-to-sixtysix {
+			width:66.666%;
+		}
+
+		.phone-to-sixty {
+			width:60%;
+		}
+
+		.phone-to-fifty {
+			width:50%;
+		}
+
+		.phone-to-forty {
+			width:40%;
+		}
+		.phone-to-thirtythree {
+			width:33.333%;
+		}
+
+		.phone-to-thirty {
+			width:30%;
+		}
+
+		.phone-to-twentyfive {
+			width:25%;
+		}
+
+		.phone-to-twenty {
+			width:20%;
+		}
+
+		.phone-to-ten {
+			width:10%;
+		}
+
+	}
+
+}
+ 
+/* Phones */
+
+@media (max-width:$phoneWidth) {
+
+	.block,
+	.grid .block {
+		clear:left; /* better results than float:none; after tests */
+		width:100%;
+		display:block;
+	}
+
+	.center {
+		margin:0;
+		width:100%;
+	}
+
+	.desktop {
+		display:none;
+	}
+
+	.tablet {
+		display:none;
+	}
+
+	.phone {
+		display:block;
+	}
+
+	.not-phone {
+		display:none;
+	}
+
+	.not-desktop-demo,
+	.not-tablet-demo,
+	.phone-demo {
+		background:$DemoPass;
+		color:darken($DemoPass,50%);
+	}
+
+	.desktop-demo,
+	.tablet-demo,
+	.not-phone-demo {
+		background:$DemoFail;
+		color:darken($DemoFail,50%);
+	}
+
+}
+/*------------------------------------*\
+*  Enjoy!
+\*------------------------------------*/
