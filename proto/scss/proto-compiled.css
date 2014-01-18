@@ -1,0 +1,252 @@
+/*------------------------------------*\
+ *  Proto by @adamwhitcroft
+ *
+ *  Proto is a simple HTML & SCSS rapid 
+ *  prototyping toolkit for responsive web design.
+ *
+ *  http://adamwhitcroft.com/proto/
+\*------------------------------------*/
+.block {
+  box-sizing: border-box;
+  width: 100%;
+  background: #eeeeee;
+  color: #9099A3;
+  text-align: center; }
+
+.center {
+  margin: 0 auto;
+  width: 70%; }
+
+.grid .block {
+  float: left; }
+
+.grid .hundred {
+  width: 100%; }
+.grid .ninety {
+  width: 90%; }
+.grid .eighty {
+  width: 80%; }
+.grid .seventyfive {
+  width: 75%; }
+.grid .seventy {
+  width: 70%; }
+.grid .sixtysix {
+  width: 66.666%; }
+.grid .sixty {
+  width: 60%; }
+.grid .fifty {
+  width: 50%; }
+.grid .forty {
+  width: 40%; }
+.grid .thirtythree {
+  width: 33.333%; }
+.grid .thirty {
+  width: 30%; }
+.grid .twentyfive {
+  width: 25%; }
+.grid .twenty {
+  width: 20%; }
+.grid .ten {
+  width: 10%; }
+
+.not-desktop {
+  display: none; }
+
+.tablet {
+  display: none; }
+
+.phone {
+  display: none; }
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .desktop-demo,
+  .not-tablet-demo,
+  .not-phone-demo {
+    background: #dff0d8;
+    color: #529138; }
+
+  .not-desktop-demo,
+  .tablet-demo,
+  .phone-demo {
+    background: #f0d8d8;
+    color: #913838; }
+
+  .grid .desktop-to-hundred {
+    width: 100%; }
+  .grid .desktop-to-ninety {
+    width: 90%; }
+  .grid .desktop-to-eighty {
+    width: 80%; }
+  .grid .desktop-to-seventyfive {
+    width: 75%; }
+  .grid .desktop-to-seventy {
+    width: 70%; }
+  .grid .desktop-to-sixtysix {
+    width: 66.666%; }
+  .grid .desktop-to-sixty {
+    width: 60%; }
+  .grid .desktop-to-fifty {
+    width: 50%; }
+  .grid .desktop-to-forty {
+    width: 40%; }
+  .grid .desktop-to-thirtythree {
+    width: 33.333%; }
+  .grid .desktop-to-thirty {
+    width: 30%; }
+  .grid .desktop-to-twentyfive {
+    width: 25%; }
+  .grid .desktop-to-twenty {
+    width: 20%; }
+  .grid .desktop-to-ten {
+    width: 10%; } }
+/* Tablet Up To Desktop */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tablet {
+    display: block; }
+
+  .not-desktop {
+    display: none; }
+
+  .not-tablet {
+    display: none; }
+
+  .desktop-demo,
+  .tablet-demo,
+  .not-phone-demo {
+    background: #dff0d8;
+    color: #529138; }
+
+  .not-desktop-demo,
+  .not-tablet-demo,
+  .phone-demo {
+    background: #f0d8d8;
+    color: #913838; }
+
+  .grid .tablet-to-hundred {
+    width: 100%; }
+  .grid .tablet-to-ninety {
+    width: 90%; }
+  .grid .tablet-to-eighty {
+    width: 80%; }
+  .grid .tablet-to-seventyfive {
+    width: 75%; }
+  .grid .tablet-to-seventy {
+    width: 70%; }
+  .grid .tablet-to-sixtysix {
+    width: 66.666%; }
+  .grid .tablet-to-sixty {
+    width: 60%; }
+  .grid .tablet-to-fifty {
+    width: 50%; }
+  .grid .tablet-to-forty {
+    width: 40%; }
+  .grid .tablet-to-thirtythree {
+    width: 33.333%; }
+  .grid .tablet-to-thirty {
+    width: 30%; }
+  .grid .tablet-to-twentyfive {
+    width: 25%; }
+  .grid .tablet-to-twenty {
+    width: 20%; }
+  .grid .tablet-to-ten {
+    width: 10%; } }
+/* Tablet Down To Phone */
+@media (max-width: 767px) {
+  .desktop {
+    display: none; }
+
+  .not-desktop {
+    display: block; }
+
+  .tablet {
+    display: block; }
+
+  .not-tablet {
+    display: none; }
+
+  .phone {
+    display: block; }
+
+  .not-phone {
+    display: none; }
+
+  .not-desktop-demo,
+  .tablet-demo,
+  .phone-demo {
+    background: #dff0d8;
+    color: #529138; }
+
+  .desktop-demo,
+  .not-tablet-demo,
+  .not-phone-demo {
+    background: #f0d8d8;
+    color: #913838; }
+
+  .grid .phone-to-hundred {
+    width: 100%; }
+  .grid .phone-to-ninety {
+    width: 90%; }
+  .grid .phone-to-eighty {
+    width: 80%; }
+  .grid .phone-to-seventyfive {
+    width: 75%; }
+  .grid .phone-to-seventy {
+    width: 70%; }
+  .grid .phone-to-sixtysix {
+    width: 66.666%; }
+  .grid .phone-to-sixty {
+    width: 60%; }
+  .grid .phone-to-fifty {
+    width: 50%; }
+  .grid .phone-to-forty {
+    width: 40%; }
+  .grid .phone-to-thirtythree {
+    width: 33.333%; }
+  .grid .phone-to-thirty {
+    width: 30%; }
+  .grid .phone-to-twentyfive {
+    width: 25%; }
+  .grid .phone-to-twenty {
+    width: 20%; }
+  .grid .phone-to-ten {
+    width: 10%; } }
+/* Phones */
+@media (max-width: 480px) {
+  .block,
+  .grid .block {
+    clear: left;
+    /* better results than float:none; after tests */
+    width: 100%;
+    display: block; }
+
+  .center {
+    margin: 0;
+    width: 100%; }
+
+  .desktop {
+    display: none; }
+
+  .tablet {
+    display: none; }
+
+  .phone {
+    display: block; }
+
+  .not-phone {
+    display: none; }
+
+  .not-desktop-demo,
+  .not-tablet-demo,
+  .phone-demo {
+    background: #dff0d8;
+    color: #529138; }
+
+  .desktop-demo,
+  .tablet-demo,
+  .not-phone-demo {
+    background: #f0d8d8;
+    color: #913838; } }
+/*------------------------------------*\
+*  Enjoy!
+\*------------------------------------*/
