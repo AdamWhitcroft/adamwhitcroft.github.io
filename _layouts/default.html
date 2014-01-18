@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.meta-title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="//use.typekit.net/qxu1oje.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body{% if page.class %} class="{{ page.class }}"{% endif %}>
+
+        {% if page.class != 'post' %}
+            {% include header.html %}
+        {% endif %}
+
+        {% if page.class != 'fourOhfour' %}
+            {% include content.html %}
+            {% include footer.html %}
+        {% endif %}
+
+        {% include scripts.html %}
+        {% include analytics.html %}
+    </body>
+</html>

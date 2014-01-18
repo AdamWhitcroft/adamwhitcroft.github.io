@@ -1,0 +1,168 @@
+/*  Masthead - fadeInUp
+/*==================================================*/
+
+@-webkit-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -webkit-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -moz-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -moz-transform: translateY(0);
+    }
+}
+
+@-ms-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -ms-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -ms-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -o-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        transform: translateY(0);
+    }
+}
+
+/*  Masthead X spn - dubz
+/*==================================================*/
+
+@-webkit-keyframes dubz {
+    from {
+        -webkit-transform: rotate(-270deg);
+    }
+
+    to {
+        -webkit-transform: rotate(0);
+    }
+}
+
+@-moz-keyframes dubz {
+    from {
+        -moz-transform: rotate(-270deg);
+    }
+
+    to {
+        -moz-transform: rotate(0);
+    }
+}
+
+@-ms-keyframes dubz {
+    from {
+        -ms-transform: rotate(-270deg);
+    }
+
+    to {
+        -ms-transform: rotate(0);
+    }
+}
+
+@-o-keyframes dubz {
+    from {
+        -o-transform: rotate(-270deg);
+    }
+
+    to {
+        -o-transform: rotate(0);
+    }
+}
+
+@keyframes dubz {
+    from {
+        transform: rotate(-270deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+/*  Scroll Indicator - fadeInDown
+/*==================================================*/
+
+@-webkit-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -webkit-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -moz-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -moz-transform: translateY(0);
+    }
+}
+
+@-ms-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -ms-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -ms-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -o-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        transform: translateY(0);
+    }
+}

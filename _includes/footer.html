@@ -1,0 +1,11 @@
+<footer class="footer-wrap" role="complementary">
+{% if page.class == 'home' %}
+	<p>As much as I love product design I think it's important to actively explore different design disciplines, to learn something new and to put that to use. There is, of course, nothing wrong with specialising in a particular area of design, but not wanting to go out there and try everything just doesn't make sense to me. There is so much to explore in design, and I've only just touched the surface. I don't have a plan or a schedule, just a simple aim: to spend a little time whenever I can nurturing a new interest. I'll be sharing my progress on <a href="http://dribbble.com/AdamWhitcroft">Dribbble</a>, <a href="https://www.behance.net/adamwhitcroft">Behance</a> or <a href="http://instagram.com/adamwhitcroft">Instagram</a>.</p>
+
+	<p>I'm generally not one for quotes, but I'll make an exception this once and end with: <em>&ldquo;Adventure is out there!&rdquo;</em>.</p>
+{% endif %}
+
+{% if page.class == 'post' %}
+	<p>Thanks for taking the time to read this. You can <a href="http://twitter.com/share?text=&ldquo;{{ page.title }}&rdquo; by @adamwhitcroft">Tweet it</a> or <a href="/" rel="home">return to the home page</a>.</p>
+{% endif %}
+</footer>

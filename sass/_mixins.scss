@@ -1,0 +1,42 @@
+/*==================================================*/
+/*  §MIXINS AND VARIABLES
+/*==================================================*/
+
+$max-width: 30em;
+$color: #38373d;
+$anchor: #ff4629;
+$anchorHover: #ff6600;
+
+/*  Vendor Prefixing
+/*  @include vendor(background-size, cover);
+/*==================================================*/
+
+@mixin vendor($property, $value...){
+    -webkit-#{$property}: $value;
+       -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+         -o-#{$property}: $value;
+            #{$property}: $value;
+}
+
+/*  Animation
+/*  @include animation(fadeInUp, 500ms, 200ms, ease, forward);
+/*==================================================*/
+
+@mixin animation($name, $duration, $delay, $timing, $direction){
+    @include vendor(animation-name, $name);
+    @include vendor(animation-duration, $duration);
+    @include vendor(animation-delay, $delay);
+    @include vendor(animation-iteration-count, $timing);
+    @include vendor(animation-fill-mode, $direction);
+}
+
+/*  Opacity
+/*  @include opacity(100);
+/*==================================================*/
+
+@mixin opacity($property){
+    zoom: 1;
+    filter: alpha(opacity=$property);
+    opacity: $property / 100;
+}
