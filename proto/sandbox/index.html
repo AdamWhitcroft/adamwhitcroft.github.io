@@ -64,7 +64,7 @@ CSS example:
 <script>
 (function() {
 	var	contents = $('iframe').contents(),
-		head = contents.find('head').html("<link rel='stylesheet' href='http://adamwhitcroft.com/proto/scss/proto-compiled.css'>"),
+		head = contents.find('head').html("<link rel='stylesheet' href='/proto/scss/proto-compiled.css'>"),
 		body = contents.find('body'),
 		styleTag = $('<style></style>').appendTo(head);
 
