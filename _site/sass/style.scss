@@ -219,6 +219,17 @@ body.post {
         @include vendor(columns, 1);
     }
 
+    .post-time {
+        text-align: center;
+        color: #999;
+        margin-bottom: 4em;
+        font-style: italic;
+
+        time {
+            font-size: .875em;
+        }
+    }
+
 }
 
 /*  Animations
