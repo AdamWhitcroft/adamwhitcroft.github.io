@@ -67,7 +67,7 @@ hr {
     display: block;
     height: 0;
     border: 0;
-    @include vendor(mask-image, url(/img/knockout.png));
+    /*@include vendor(mask-image, url(/img/knockout.png));*/
 
     &.rule {
         width: 80px;
@@ -91,7 +91,7 @@ hr {
         text-align: center;
         font-size: 1em;
         @include animation(fadeInUp, 600ms, 500ms, ease, backwards);
-        @include vendor(mask-image, url(/img/knockout.png));
+        /*@include vendor(mask-image, url(/img/knockout.png));*/
 
         h1 {
             margin: 0;
@@ -149,7 +149,7 @@ hr {
         background-repeat: no-repeat;
         cursor: pointer;
         @include animation(fadeInDown, 900ms, 1000ms, ease, backwards);
-        @include vendor(mask-image, url(/img/knockout.png));
+        /*@include vendor(mask-image, url(/img/knockout.png));*/
 
         &:hover {
             background-color: #2d2c31;
