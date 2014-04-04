@@ -6,7 +6,8 @@ $( document ).ready(function() {
 		hero = $('.hero'),
 		documentHeight = $(document).height(),
 		lastFrameOffset = $('.frame.last').offset().top,
-		finishFrame = $('.finish').offset().top;
+		finishFrame = $('.finish').offset().top,
+		frame = $('.frame');
 
 // Go Go Gadget Scroller
 	go.click(function(){
@@ -16,6 +17,15 @@ $( document ).ready(function() {
 		return false;
 		return false;
 	});
+
+// Set frame height too 100% - hacky because iPhone derping
+
+	function setFrameHeight(){
+		var windowHeight = $(window).height();
+		frame.css({
+			"height" : windowHeight + "px"
+		})
+	};
 
 // When last frame is reached, and scroll clicked, scroll down to finish frame
 	lastStep.click(function(){
@@ -34,10 +44,12 @@ $( document ).ready(function() {
 
 //	Run on page ready
 	centerHero();
+	setFrameHeight();
 
 //	Run on page resize
 	$(window).resize(function(){
 		centerHero();
+		setFrameHeight();
 	})
 
 });
