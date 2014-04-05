@@ -34,10 +34,12 @@ $( document ).ready(function() {
 
 //	Run on page ready
 	centerHero();
+	setFrameHeight();
 
 //	Run on page resize
 	$(window).resize(function(){
 		centerHero();
+		setFrameHeight();
 	})
 
 });
