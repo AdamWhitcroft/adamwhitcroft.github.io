@@ -12,7 +12,7 @@ $( document ).ready(function() {
 	go.click(function(){
 		$("html, body").animate({
 			scrollTop: lastFrameOffset + 'px'
-		}, 1200, "swing");
+		}, 800, "swing");
 		return false;
 		return false;
 	});
