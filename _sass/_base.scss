@@ -1,0 +1,193 @@
+/* --------------------------------------------------------
+    DOCUMENT
+-------------------------------------------------------- */
+
+html {
+    background-color: white;
+    color: $color;
+    font-weight: 300;
+    font-size: 1em;
+    font-size: 120%;
+    font-family: $font-secondary;
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        font-size: 100%;
+    }
+
+}
+
+body {
+    @include animation(fadeInDown, 400ms, 500ms, ease, backwards);
+}
+
+/* --------------------------------------------------------
+    EXTENDS, BASE STRUCUTRE
+-------------------------------------------------------- */
+
+hr {
+    position: relative;
+    margin: 4em 0 4em -2em;
+    display: block;
+    height: 0;
+    border: 0;
+    width: 4em;
+    border-bottom: 2px solid $color;
+}
+
+.plain-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------------------------
+    LAYOUT
+-------------------------------------------------------- */
+
+main {
+    max-width: $width;
+    margin: 0 auto 4em auto;
+    padding: 0 2em;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 4em 0 0 0;
+
+    h1 {
+        margin: 0;
+        font-size: 10vw;
+
+        @media screen and (max-width: $breakpoint-small) {
+            /*font-size: 2em;*/
+        }
+
+        a {
+            border: none;
+
+            &:hover {
+                color: $color;
+                background: $highlight;
+            }
+
+        }
+
+    }
+
+    .mega {
+        padding: 0 2em;
+        margin: 2em auto 0 auto;
+        max-width: $width;
+
+        p {
+            text-align: left;
+            font-size: 1.5em;
+            line-height: 1.5em;
+            font-weight: 400;
+            font-style: italic;
+            margin: 0;
+
+            @media screen and (max-width: $breakpoint-small) {
+                font-size: 1.125em;
+            }
+
+        }
+
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+}
+
+.footnotes {
+    font-size: .875em;
+    @extend .plain-ul;
+}
+
+/* --------------------------------------------------------
+    AVAILABILITY
+-------------------------------------------------------- */
+
+.current-availability {
+
+    p {
+        text-align: left;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        font-weight: 400;
+        margin: 0;
+
+        @media screen and (max-width: $breakpoint-small) {
+            font-size: 1.125em;
+        }
+
+    }
+
+}
+
+/* --------------------------------------------------------
+    SUGGESTED CAUSE
+-------------------------------------------------------- */
+
+.suggested-cause {
+    margin-bottom: 4em;
+}
+
+/* --------------------------------------------------------
+    FOOTER
+-------------------------------------------------------- */
+
+footer {
+    max-width: $width;
+    padding: 0 2em;
+    margin: 0 auto 4em auto;
+
+    p {
+        font-size: .875em;
+    }
+
+    .copy-notice {
+        font-size: .75em;
+        text-align: right;
+        color: lighten($color, 40%);
+    }
+
+}
+
+/* --------------------------------------------------------
+    BLOG POST BODY
+-------------------------------------------------------- */
+
+body.post {
+
+    .post-time {
+        font-style: italic;
+        color: lighten($color, 40%);
+    }
+
+}
+
+/* --------------------------------------------------------
+    404 SCREEN
+-------------------------------------------------------- */
+
+body.fourOhfour {
+
+    .fourOhfour-message {
+        margin-top: 4em;
+        text-align: center;
+
+        h1 {
+            font-size: 8vw;
+            margin: 0 0 1em 0;
+        }
+
+    }
+
+}

@@ -1,0 +1,65 @@
+/* --------------------------------------------------------
+    TYPOGRAPHY
+-------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font-primary;
+    line-height: 1em;
+    margin: 0 0 2em 0;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1,.h1 {
+    font-size: 4em;
+}
+
+h2,.h2 {
+
+}
+
+a {
+    border-bottom: 1px dashed $color;
+    color: $color;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+        color: $color;
+    }
+
+    &:hover {
+        color: $color;
+        background: $highlight;
+    }
+
+}
+
+::selection {
+    color: #ccc;
+}
+::-moz-selection {
+    color: #ccc;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+.highlight {
+    background-color: $highlight;
+}
+
+em {
+    @extend .highlight;
+}
+
+sup {
+    font-family: $font-secondary;
+    margin-left: .25em;
+
+    &.non-italics {
+        font-style: normal;
+    }
+
+}

@@ -1,28 +1,23 @@
 ---
 layout: default
-
-meta-title: Adam Whitcroft
-
-title: Adam Whitcroft
-subtitle: Designer and Iconographer
-
-contrast:
-
 class: home
+meta-title: Adam Whitcroft, Designer
+availability: unavailable
+footnotes:
+  - key: 1
+    value: "<a href='/batch'>Batch</a>, <a href='/climacons'>Climacons</a>, <a href='/offscreen'>City Icons for Offscreen Magazine</a>, <a href='/wirekit'>Wirekit</a>, <a href='/apaxy'>Apaxy</a> and <a href='/proto'>Proto</a>"
+  - key: 2
+    value: "&ldquo;<a href='http://skl.sh/1rdXEdS'>Icon Design: Create a Cohesive Icon Set</a>&rdquo; on Skillshare. If you're curious about my approach to icon design, this short course might interest you. I cover the full process from conceptualisation to realisation using Adobe Illustrator and Adobe Photoshop."
+  - key: 3
+    value: "&ldquo;<a href='http://theindustry.cc/2013/06/24/an-interview-with-adam-whitcroft/'>An Interview with Adam Whitcroft</a>&rdquo; on The Industry."
 ---
 
-I've spent the past 6-and-a-bit years designing websites, icons and web apps. This year, however, I'd like to spend my downtime exploring new design disciplines like lettering and illustration. This is not to say I've lost interest in what I currently do &mdash; far from it &mdash; I'm just looking to grow as a designer.
+<hr>
 
-You can [follow me on Twitter](https://twitter.com/adamwhitcroft), [drop me an email](mailto:hello@adamwhitcroft.com) or read about how I got into design in an interview I did with [The Industry](http://theindustry.cc/2013/06/24/an-interview-with-adam-whitcroft/) not too long ago.
+{% if page.availability == 'available' %}
+  {% include availability.html %}
+{% endif %}
 
-###Availability
+{% include suggested-cause.html title="Charity Water" body="Charity Water are doing amazing work to help families in rural communities get access to clean drinking water. Please consider taking a few minutes to visit their website to learn how you could help." link="http://www.charitywater.org/" %}
 
-I take on select freelance work &mdash; current availability of up to 10 hours a week &mdash; so if you want to work together [let's get talking](mailto:hello@adamwhitcroft.com)!
-
-###Networks
-
-[Twitter](https://twitter.com/adamwhitcroft), [Dribbble](http://dribbble.com/AdamWhitcroft), [Instagram](http://instagram.com/adamwhitcroft) and most recently [Behance](https://www.behance.net/adamwhitcroft).
-
-###Side Projects
-
-[Batch](/batch/), [Climacons](/climacons/), [City Icons for Offscreen Magazine](/offscreen/), [Wirekit](/wirekit/), [Apaxy](/apaxy/) and [Proto](/proto/).
+{% include footnotes.html %}
