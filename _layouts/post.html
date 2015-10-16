@@ -4,4 +4,11 @@ layout: default
 class: post
 ---
 
+<hr>
+
+<h2>&ldquo;{{ page.title }}&rdquo;</h2>
+<p class="post-time"><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+
 {{ content }}
+
+<hr>

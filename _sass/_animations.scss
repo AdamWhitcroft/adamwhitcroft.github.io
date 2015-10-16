@@ -1,0 +1,30 @@
+/* --------------------------------------------------------
+    fadeindown
+-------------------------------------------------------- */
+
+@-webkit-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+    }
+    to {
+        @include opacity(100);
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+    }
+    to {
+        @include opacity(100);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        @include opacity(0);
+    }
+    to {
+        @include opacity(100);
+    }
+}

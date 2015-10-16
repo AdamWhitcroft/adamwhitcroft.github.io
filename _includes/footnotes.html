@@ -1,0 +1,5 @@
+<ul class="footnotes">
+	{% for note in page.footnotes %}
+	<li id="fn-{{ note.key }}"><span>{{ note.key }}</span> &ndash; {{ note.value }}</li>
+	{% endfor %}
+</ul>
