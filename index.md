@@ -2,7 +2,7 @@
 layout: default
 class: home
 meta-title: Adam Whitcroft, Designer
-availability: unavailable
+availability: available
 footnotes:
   - key: 1
     value: "<a href='/batch'>Batch</a>, <a href='/climacons'>Climacons</a>, <a href='/offscreen'>City Icons for Offscreen Magazine</a>, <a href='/wirekit'>Wirekit</a>, <a href='/apaxy'>Apaxy</a> and <a href='/proto'>Proto</a>"
