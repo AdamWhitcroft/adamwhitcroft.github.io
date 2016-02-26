@@ -115,6 +115,8 @@ header {
 -------------------------------------------------------- */
 
 .current-availability {
+    border: 10px solid $color;
+    padding: 4em;
 
     p {
         text-align: left;
