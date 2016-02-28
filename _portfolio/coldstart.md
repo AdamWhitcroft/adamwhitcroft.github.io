@@ -6,9 +6,9 @@ column-count: 4
 date: 2016-01-07
 background: '#1b0c24'
 background-type: icon
-thumb: "/img/portfolio/Coldstart/coldStart-thumb.png"
+thumb: "/img/portfolio/ColdStart/coldstart-thumb.png"
 ---
 
 I was commissioned by [ColdStart](http://coldstart.io/) to create a suite of icons to be used in their Android mobile application.
 
-<img class="fluid" src="/img/portfolio/Coldstart/coldstart-icon-grid.png">
+<img class="fluid" src="/img/portfolio/ColdStart/coldstart-icon-grid.png">
