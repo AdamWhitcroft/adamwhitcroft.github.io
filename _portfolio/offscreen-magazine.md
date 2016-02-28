@@ -7,7 +7,6 @@ date: 2016-01-08
 background: '#eceef0'
 background-type: icon
 thumb: "/img/portfolio/Offscreen/offscreen-thumb.png"
-url: "http://adamwhitcroft.com/offscreen/"
 ---
 
 I was commissioned by [Offscreen Magazine](http://www.offscreenmag.com/issue5/) to create a collection of icons depicting well known buildings from 14 cities around the world for their fifth issue feature "A Web Workers Field Guide". I worked closely with Kai and after many rounds of revisions and tweaking, we arrived at the complete set you see below.

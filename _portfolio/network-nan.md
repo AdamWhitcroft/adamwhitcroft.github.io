@@ -6,7 +6,7 @@ column-count: 4
 date: 2016-01-12
 background: '#9f54e1'
 background-type: icon
-thumb: "/img/portfolio/Network-nan/network-nan-logo-thumb.png"
+thumb: "/img/portfolio/Network-Nan/network-nan-logo-thumb.png"
 credits:
   - author: Nexus 5 by Creative Dash
     source: "https://dribbble.com/shots/1645310-Nexus-5-PSD"
