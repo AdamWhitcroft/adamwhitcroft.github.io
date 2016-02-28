@@ -21,19 +21,36 @@ Full site source - https://github.com/AdamWhitcroft/adamwhitcroft.github.io
     </head>
     <body class="fourOhfour">
 
-        <header role="banner">
-	
+        <header role="banner" class="">
+
+
+
+
 	<h1>Everything's OK</h1>
-	
-	
+
+
+
+
+
+
 </header>
 
-        <main class="content" role="main">
+        
+<main class="content" role="main">
 	<div class="fourOhfour-message">
 	<p>It seems you've gotten lost friend, here's the <a href="/">way home</a>.</p>
 	<p><em>If you think this error is something I should be aware of, please do let me know <a href="https://twitter.com/adamwhitcroft">@adamwhitcroft</a>.</em></p>
 </div>
 </main>
+
+
+
+        
+    
+
+
+
+
 
 
         
@@ -48,6 +65,12 @@ Full site source - https://github.com/AdamWhitcroft/adamwhitcroft.github.io
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
+</script>
+<script>
+	document.body.onkeyup = function(e){
+	if (e.keyCode == '37') { window.location = ''; }
+	if (e.keyCode == '39') { window.location = ''; }
+	};
 </script>
 
     </body>

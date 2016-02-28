@@ -1,3 +1,7 @@
+{% if page.class != 'portfolio-index' %}
 <main class="content" role="main">
 	{{ content }}
 </main>
+{% else %}
+{{ content }}
+{% endif %}

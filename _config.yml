@@ -1,3 +1,6 @@
 permalink: /:categories/:title/
 sass:
   style: compressed
+collections:
+  portfolio:
+    output: true

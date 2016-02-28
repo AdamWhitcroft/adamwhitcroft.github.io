@@ -9,3 +9,9 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
 </script>
+<script>
+	document.body.onkeyup = function(e){
+	if (e.keyCode == '37') { window.location = '{{nexturl}}'; }
+	if (e.keyCode == '39') { window.location = '{{prevurl}}'; }
+	};
+</script>

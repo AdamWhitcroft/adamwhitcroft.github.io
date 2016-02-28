@@ -1,0 +1,44 @@
+/* --------------------------------------------------------
+	CONTENTS - GRID
+	---
+	GRID
+-------------------------------------------------------- */
+
+/* --------------------------------------------------------
+	GRID
+	Grid will use 100% of the width of parent container.
+	It does not have it's own explicit width setting.
+-------------------------------------------------------- */
+
+.grid-row {
+	@extend %clearfix;
+
+	[class*='column-'] {
+		float: left;
+	    padding: .5em;
+	    @include vendor(box-sizing, border-box);
+	}
+
+	&.grid-pull {
+		margin: 0 -1em;
+	}
+
+}
+
+@for $i from 1 through $grid-columns {
+
+    .column-#{$i} {
+    	position: relative;
+        width: 100% / $grid-columns * $i;
+
+        .inner {
+        	padding: 1em;
+        }
+
+	    @media screen and (max-width: $breakpoint-small) {
+	        width: 100%;
+	    }
+
+    }
+
+}

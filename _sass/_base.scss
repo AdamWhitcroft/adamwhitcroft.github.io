@@ -78,27 +78,6 @@ header {
 
     }
 
-    .mega {
-        padding: 0 2em;
-        margin: 2em auto 0 auto;
-        max-width: $width;
-
-        p {
-            text-align: left;
-            font-size: 1.5em;
-            line-height: 1.5em;
-            font-weight: 400;
-            font-style: italic;
-            margin: 0;
-
-            @media screen and (max-width: $breakpoint-small) {
-                font-size: 1.125em;
-            }
-
-        }
-
-    }
-
     h2 {
         margin: 0;
     }
@@ -108,6 +87,44 @@ header {
 .footnotes {
     font-size: .875em;
     @extend .plain-ul;
+}
+
+header.portfolio {
+    max-width: $width;
+    padding: 4em 2em 0 2em;
+    margin: 0 auto;
+    position: relative;
+
+    h1 {
+        text-align: left;
+        font-size: 1em;
+        float: left;
+    }
+
+}
+
+.mega {
+    padding: 0 2em;
+    margin: 2em auto 0 auto;
+    max-width: $width;
+
+    p {
+        text-align: left;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        font-weight: 400;
+        font-style: italic;
+
+        @media screen and (max-width: $breakpoint-small) {
+            font-size: 1.125em;
+        }
+
+        &:last-of-type {
+            margin: 0;
+        }
+
+    }
+
 }
 
 /* --------------------------------------------------------
@@ -142,6 +159,183 @@ header {
 }
 
 /* --------------------------------------------------------
+    BLOG POST BODY
+-------------------------------------------------------- */
+
+body.post {
+
+    .post-time {
+        font-style: italic;
+        color: lighten($color, 40%);
+    }
+
+}
+
+/* --------------------------------------------------------
+    PORTFOLIO
+-------------------------------------------------------- */
+
+.portfolio-wrapper {
+    margin-top: 3.5em;
+    padding: 0 .5em;
+}
+
+.portfolio-entry {
+
+    .inner {
+        position: relative;
+    }
+
+    &.background-icon {
+
+        .inner {
+            background-position: center;
+            background-size: auto 160px;
+            background-repeat: no-repeat;
+        }
+
+    }
+
+    &.background-image {
+
+        .inner {
+            background-position: center;
+            background-size: cover;
+        }
+
+    }
+
+    .hover-cover {
+        @include opacity(0);
+        @include vendor(transition, opacity .4s ease);
+        background: rgba(0,0,0,.9);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        .p-grid-title {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            @include vendor(transform, translateY(-50%));
+            font-family: $font-primary;
+            font-size: 1.25em;
+            font-weight: 400;
+            font-style: italic;
+            text-align: center;
+
+            span {
+                display: block;
+                font-family: $font-secondary;
+                font-size: .75em;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+        }
+
+    }
+
+    &:hover {
+
+        .hover-cover {
+            @include opacity(100);
+        }
+
+    }
+
+    .inner {
+        height: 200px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+.portfolio-page-header {
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+}
+
+.portfolio-nav {
+    display: block;
+    width: 4em;
+    height: 4em;
+    position: fixed;
+    text-decoration: none;
+    border: 0;
+    top: 50%;
+    margin-top: -2em;
+    @include opacity(50);
+    @include vendor(transition, opacity 300ms ease);
+
+    &.prev {
+        background-image: url('/img/nav-arrow-left.png');
+        background-size: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    &.next {
+        right: 0;
+        background-image: url('/img/nav-arrow-right.png');
+        background-size: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    &:hover {
+        @include opacity(100);
+    }
+
+    @media screen and (max-width: $breakpoint-small) {
+        display: none;
+    }
+
+}
+
+img.fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-new {
+    display: block;
+    background: red;
+    position: absolute;
+}
+
+/* --------------------------------------------------------
+    404 SCREEN
+-------------------------------------------------------- */
+
+body.fourOhfour {
+
+    .fourOhfour-message {
+        margin-top: 4em;
+        text-align: center;
+
+        h1 {
+            font-size: 8vw;
+            margin: 0 0 1em 0;
+        }
+
+    }
+
+}
+
+/* --------------------------------------------------------
     FOOTER
 -------------------------------------------------------- */
 
@@ -162,34 +356,10 @@ footer {
 
 }
 
-/* --------------------------------------------------------
-    BLOG POST BODY
--------------------------------------------------------- */
+body.portfolio-index {
 
-body.post {
-
-    .post-time {
-        font-style: italic;
-        color: lighten($color, 40%);
-    }
-
-}
-
-/* --------------------------------------------------------
-    404 SCREEN
--------------------------------------------------------- */
-
-body.fourOhfour {
-
-    .fourOhfour-message {
-        margin-top: 4em;
-        text-align: center;
-
-        h1 {
-            font-size: 8vw;
-            margin: 0 0 1em 0;
-        }
-
+    footer {
+        padding-top: 2em;
     }
 
 }
