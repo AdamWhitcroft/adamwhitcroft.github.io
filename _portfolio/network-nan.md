@@ -3,7 +3,7 @@ layout: portfolio-page
 class: portfolio
 title: Network Nan
 column-count: 4
-date: 2016-01-12
+date: 2016-01-13
 background: '#9f54e1'
 background-type: icon
 thumb: "/img/portfolio/Network-Nan/network-nan-logo-thumb.png"

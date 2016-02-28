@@ -3,7 +3,7 @@ layout: portfolio-page
 class: portfolio
 title: Offscreen Magazine
 column-count: 8
-date: 2016-01-08
+date: 2016-01-09
 background: '#eceef0'
 background-type: icon
 thumb: "/img/portfolio/Offscreen/offscreen-thumb.png"

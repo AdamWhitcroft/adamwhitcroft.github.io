@@ -3,7 +3,7 @@ layout: portfolio-page
 class: portfolio
 title: Skillshare
 column-count: 6
-date: 2016-01-09
+date: 2016-01-10
 background: '#ffcc33'
 background-type: icon
 thumb: "/img/portfolio/Skillshare/skillshare-thumb.png"

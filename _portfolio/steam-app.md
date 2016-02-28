@@ -3,7 +3,7 @@ layout: portfolio-page
 class: portfolio
 title: Steam App
 column-count: 4
-date: 2016-01-11
+date: 2016-01-12
 background: '#eceef0'
 background-type: image
 thumb: "/img/portfolio/Steam-App/steam-app-thumb.png"
