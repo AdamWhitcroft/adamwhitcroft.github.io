@@ -7,6 +7,9 @@ date: 2016-01-10
 background: '#1c7bf1'
 background-type: icon
 thumb: "/img/portfolio/Pricehare/pricehare-thumb.png"
+credits:
+  - author: Browser window by Jacob Säwensten
+    source: "https://dribbble.com/shots/1460141-Free-minimal-browser-window"
 ---
 
 I was commissioned to create the visual style for [Pricehare](https://www.pricehare.com/), a web application which tracks the price of online goods, helping you buy them at the best price.

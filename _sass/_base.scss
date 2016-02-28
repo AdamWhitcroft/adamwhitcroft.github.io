@@ -57,6 +57,7 @@ main {
 header {
     text-align: center;
     padding: 4em 0 0 0;
+    overflow: hidden;
 
     h1 {
         margin: 0;
@@ -262,7 +263,6 @@ body.post {
 .portfolio-page-header {
 
     h1 {
-        font-size: 1.5em;
         margin: 0;
     }
 
