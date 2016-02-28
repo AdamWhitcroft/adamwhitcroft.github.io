@@ -99,7 +99,6 @@ header.portfolio {
     h1 {
         text-align: left;
         font-size: 1em;
-        float: left;
     }
 
 }
@@ -314,6 +313,28 @@ img.fluid {
     display: block;
     background: red;
     position: absolute;
+}
+
+.hire-me {
+
+    .inner {
+        border: 10px solid $color;
+        padding: 4em;
+
+        p {
+            text-align: left;
+            font-size: 1.25em;
+            line-height: 1.5em;
+            font-weight: 400;
+            margin: 0;
+
+            @media screen and (max-width: $breakpoint-small) {
+                font-size: 1.125em;
+            }
+
+        }
+    }
+
 }
 
 /* --------------------------------------------------------
