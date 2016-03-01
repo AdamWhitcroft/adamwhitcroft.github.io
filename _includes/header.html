@@ -2,6 +2,7 @@
 
 {% if page.class == 'home' %}
 	<h1><a href="/">Adam Whitcroft</a></h1>
+	<h2>Designer and game nut</h2>
 {% endif %}
 
 {% if page.class == 'fourOhfour' %}
@@ -10,10 +11,17 @@
 
 {% if page.category == 'post' %}
 	<h1><a href="/">Adam Whitcroft</a></h1>
+	<h2>Designer and game nut</h2>
 {% endif %}
 
 {% if page.class == 'portfolio' or page.class == 'portfolio-index' %}
-	<h1><a href="/">Adam Whitcroft</a>{% if page.class == 'portfolio' %} / <a href="/portfolio">Portfolio</a>{% else %} / Portfolio{% endif %}</h1>
+	{% if page.class == 'portfolio-index' %}
+	<h1><a href="/">Adam Whitcroft</a></h1>
+	<h2>Designer and game nut</h2>
+	{% else %}
+		<h1><a href="/">Adam Whitcroft</a> &bull; <a href="/portfolio/">Portfolio Index</a></h1>
+		<h2>Designer and game nut</h2>
+	{% endif %}
 {% endif %}
 
 </header>

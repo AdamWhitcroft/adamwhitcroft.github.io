@@ -14,19 +14,28 @@ footnotes:
     value: "&ldquo;<a href='http://theindustry.cc/2013/06/24/an-interview-with-adam-whitcroft/'>An Interview with Adam Whitcroft</a>&rdquo; on The Industry."
 ---
 
-<div class="mega">
-	<p>I'm a South African born designer living in the United Kingdom. I've released several well known <a href="#fn-1" class="fn-link">icon projects<sup>1</sup></a> alongside other <a href="#fn-2" class="fn-link">open source design helpers<sup>2</sup></a>. I've taught a successful <a href="#fn-3" class="fn-link">Skillshare<sup>3</sup></a> course and I've been interviewed by <a href="#fn-4" class="fn-link">The Industry<sup>4</sup></a>.I'm currently {{ page.availability }}<sup class="non-italics">{% if page.availability == 'available' %}😀{% else %}😭{% endif %}</sup> for freelance work. Find me on <a href="https://twitter.com/adamwhitcroft">Twitter</a>, <a href="https://instagram.com/adamwhitcroft/">Instagram</a>, <a href="https://dribbble.com/adamwhitcroft">Dribbble</a> and <a href="https://github.com/AdamWhitcroft">Github</a></p>
+<div class="intro">
+    <p>I'm a South African born designer living in the United Kingdom with my beautiful wife. I've released several well known <a href="#fn-1" class="fn-link">icon projects<sup>1</sup></a> alongside other <a href="#fn-2" class="fn-link">open source design helpers<sup>2</sup></a>, taught a successful <a href="#fn-3" class="fn-link">Skillshare<sup>3</sup></a> course and was interviewed by <a href="#fn-4" class="fn-link">The Industry<sup>4</sup></a> a little while back.</p>
 	<p>View my <a href="/portfolio/">selected works</a>.</p>
+    <ul>
+        <li><a href="https://twitter.com/adamwhitcroft">Twitter</a></li>
+        <li>&bull;</li>
+        <li><a href="https://instagram.com/adamwhitcroft/">Instagram</a></li>
+        <li>&bull;</li>
+        <li><a href="https://dribbble.com/adamwhitcroft">Dribbble</a></li>
+        <li>&bull;</li>
+        <li><a href="https://github.com/AdamWhitcroft">Github</a></li>
+    </ul>
 </div>
 
 <hr>
 
 {% if page.availability == 'available' %}
-  {% include availability.html %}
+{% include availability.html %}
 {% endif %}
 
 {% include yo.html %}
 
-{% include suggested-cause.html title="Charity Water" body="Charity Water are doing amazing work to help families in rural communities get access to clean drinking water. Please consider taking a few minutes to visit their website to learn how you could help." link="http://www.charitywater.org/" %}
+{% include suggested-cause.html body="<a href='http://www.charitywater.org/'>Charity Water</a> are doing amazing work to help families in rural communities get access to clean drinking water. Please consider taking a few minutes to visit their website to learn how you could help." %}
 
 {% include footnotes.html %}

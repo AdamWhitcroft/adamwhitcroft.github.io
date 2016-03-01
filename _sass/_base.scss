@@ -5,7 +5,7 @@
 html {
     background-color: white;
     color: $color;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1em;
     font-size: 120%;
     font-family: $font-secondary;
@@ -47,25 +47,17 @@ hr {
     LAYOUT
 -------------------------------------------------------- */
 
-main {
-    max-width: $width;
-    margin: 0 auto 4em auto;
-    padding: 0 2em;
-}
-
 /* Header */
+
 header {
-    text-align: center;
-    padding: 4em 0 0 0;
-    overflow: hidden;
+    max-width: $width;
+    margin: 4em auto;
+    padding: 0 2em;
 
     h1 {
+        font-family: $font-secondary;
         margin: 0;
-        font-size: 10vw;
-
-        @media screen and (max-width: $breakpoint-small) {
-            /*font-size: 2em;*/
-        }
+        font-size: 1.5em;
 
         a {
             border: none;
@@ -80,14 +72,12 @@ header {
     }
 
     h2 {
-        margin: 0;
+        font-size: .875em;
+        margin-top: .5em;
+        color: lighten($color, 40%);
+        font-weight: 400;
     }
 
-}
-
-.footnotes {
-    font-size: .875em;
-    @extend .plain-ul;
 }
 
 header.portfolio {
@@ -103,26 +93,34 @@ header.portfolio {
 
 }
 
-.mega {
-    padding: 0 2em;
-    margin: 2em auto 0 auto;
+/* Main */
+
+main {
     max-width: $width;
+    margin: 0 auto 4em auto;
+    padding: 0 2em;
+}
 
-    p {
-        text-align: left;
-        font-size: 1.5em;
-        line-height: 1.5em;
-        font-weight: 400;
-        font-style: italic;
+/* Section */
 
-        @media screen and (max-width: $breakpoint-small) {
-            font-size: 1.125em;
-        }
+section {
 
-        &:last-of-type {
-            margin: 0;
-        }
+    h2 {
+        font-size: 1em;
+    }
 
+}
+
+.intro {
+    overflow: hidden;
+
+    ul {
+        @extend .plain-ul;
+    }
+
+    li {
+        float: left;
+        margin-right: .5em;
     }
 
 }
@@ -131,24 +129,7 @@ header.portfolio {
     AVAILABILITY
 -------------------------------------------------------- */
 
-.current-availability {
-    border: 10px solid $color;
-    padding: 4em;
 
-    p {
-        text-align: left;
-        font-size: 1.25em;
-        line-height: 1.5em;
-        font-weight: 400;
-        margin: 0;
-
-        @media screen and (max-width: $breakpoint-small) {
-            font-size: 1.125em;
-        }
-
-    }
-
-}
 
 /* --------------------------------------------------------
     SUGGESTED CAUSE
@@ -156,6 +137,20 @@ header.portfolio {
 
 .suggested-cause {
     margin-bottom: 4em;
+}
+
+/* --------------------------------------------------------
+    FOOTNOTES
+-------------------------------------------------------- */
+
+
+.footnotes {
+
+    ul {
+        font-size: .875em;
+        @extend .plain-ul;
+    }
+
 }
 
 /* --------------------------------------------------------
@@ -222,10 +217,8 @@ body.post {
             left: 0;
             right: 0;
             @include vendor(transform, translateY(-50%));
-            font-family: $font-primary;
             font-size: 1.25em;
             font-weight: 400;
-            font-style: italic;
             text-align: center;
 
             span {
@@ -315,28 +308,6 @@ img.fluid {
     position: absolute;
 }
 
-.hire-me {
-
-    .inner {
-        border: 10px solid $color;
-        padding: 4em;
-
-        p {
-            text-align: left;
-            font-size: 1.25em;
-            line-height: 1.5em;
-            font-weight: 400;
-            margin: 0;
-
-            @media screen and (max-width: $breakpoint-small) {
-                font-size: 1.125em;
-            }
-
-        }
-    }
-
-}
-
 /* --------------------------------------------------------
     404 SCREEN
 -------------------------------------------------------- */
@@ -345,7 +316,6 @@ body.fourOhfour {
 
     .fourOhfour-message {
         margin-top: 4em;
-        text-align: center;
 
         h1 {
             font-size: 8vw;
@@ -371,7 +341,6 @@ footer {
 
     .copy-notice {
         font-size: .75em;
-        // text-align: right;
         color: lighten($color, 40%);
     }
 
