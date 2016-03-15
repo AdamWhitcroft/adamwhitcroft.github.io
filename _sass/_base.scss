@@ -331,17 +331,27 @@ body.fourOhfour {
 -------------------------------------------------------- */
 
 footer {
+    border-top: 2px solid $color;
     max-width: $width;
-    padding: 0 2em;
-    margin: 0 auto 4em auto;
+    padding: 2em;
+    margin: 0 auto;
+    @extend %clearfix;
 
     p {
-        font-size: .875em;
+        font-size: .75em;
+        margin: 0;
+        color: lighten($color, 40%);
     }
 
-    .copy-notice {
+    ul {
+        display: block;
+        @extend .plain-ul;
         font-size: .75em;
-        color: lighten($color, 40%);
+    }
+
+    li {
+        float: left;
+        margin-right: .5em;
     }
 
 }
@@ -349,7 +359,7 @@ footer {
 body.portfolio-index {
 
     footer {
-        padding-top: 2em;
+        border: 0;
     }
 
 }
