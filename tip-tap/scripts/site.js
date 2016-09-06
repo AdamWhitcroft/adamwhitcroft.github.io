@@ -8,16 +8,20 @@ $( document ).ready(function() {
             'prince',
             'sunrise'
         ],
-        randomNumber = Math.floor(Math.random() * gradients.length);
+        randomNumber = Math.floor(Math.random() * gradients.length),
+        videoContainer = $('.video-container');
 
     $('.show-modal').on('click', function(e){
         e.preventDefault();
-        var modal = $(this).attr('id');
-        $('#' + modal + '-modal.overlay').addClass('is-visible');
+        var modal = $(this).attr('id'),
+            videoToLoad = $(this).attr('data-iframe');
+
+        $('#' + modal + '-modal.overlay').addClass('is-visible').find(videoContainer).html(videoToLoad);
     });
 
     function closeModal(){
         overlay.removeClass('is-visible');
+        videoContainer.html('');
     };
 
     modalClose.on('click', function(e){
