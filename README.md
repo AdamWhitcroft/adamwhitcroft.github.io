@@ -4,4 +4,4 @@ Source for [adamwhitcroft.com](http://adamwhitcroft.com), my website. The site i
 
 ## Usage
 
-I've made this available as a learning tool, please treat is as such. If you have any questions, get in touch via Twitter [@adamwhitcroft](https://twitter.com/AdamWhitcroft).
+I've made this available as a learning tool, please treat is as such. This is not a Jekyll theme for private or commercial use. If you have any questions, get in touch via Twitter [@adamwhitcroft](https://twitter.com/AdamWhitcroft).
