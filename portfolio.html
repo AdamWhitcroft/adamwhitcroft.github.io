@@ -6,7 +6,8 @@ permalink: /portfolio/
 ---
 
 <section class="portfolio-wrapper grid-row">
-{% for item in site.portfolio reversed | sort: 'date'  %}
+{% assign portfolioItems = site.portfolio | sort: 'date' %}
+{% for item in portfolioItems reversed %}
 	<a href="{{ item.url }}">
 		<article class="portfolio-entry column-{{ item.column-count }} background-{{ item.background-type }}">
 			<div class="inner" style="background-image: url('{{ item.thumb }}'); {% if item.background %}background-color:{{ item.background}}"{% endif %}>

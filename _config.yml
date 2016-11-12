@@ -4,3 +4,4 @@ sass:
 collections:
   portfolio:
     output: true
+markdown: kramdown

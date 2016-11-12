@@ -145,12 +145,17 @@ section {
 
 
 .footnotes {
+    font-size: .875em;
+    line-height: 1.5em;
+    color: lighten($color, 40%);
 
-    ul {
-        font-size: .875em;
-        @extend .plain-ul;
+    ol {
+        padding-left: 0;
     }
 
+    p {
+        margin: 0 0 1em 0;
+    }
 }
 
 /* --------------------------------------------------------
