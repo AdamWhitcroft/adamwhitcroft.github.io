@@ -12,6 +12,16 @@ Find me on [Twitter](https://twitter.com/adamwhitcroft), [Instagram](https://ins
 
 <hr>
 
+### Open mentorship
+
+Following [this tweet](https://twitter.com/AdamWhitcroft/status/797441359200272384) I've set aside an hour every Wednesday open to anyone looking for guidance or mentorship. Select a 30 minute slot and let's talk about anything you want, no strings attached.
+
+[Book a 30 minute slot](https://calendly.com/adamwhitcroft) with me.
+
+ *No freelance pitches please.*
+
+<hr>
+
 [^1]: [Batch](/batch), [Climacons](/climacons) and [City Icons for Offscreen Magazine](/offscreen).
 [^2]: [WireKit](/wirekit) and [Apaxy](/apaxy).
 [^3]: ["Icon Design: Create a Cohesive Icon Set"](http://skl.sh/adamw) on Skillshare. If you're curious about my approach to icon design, this short course might interest you. I cover the full process from conceptualisation to realisation using Adobe Illustrator and Adobe Photoshop.
