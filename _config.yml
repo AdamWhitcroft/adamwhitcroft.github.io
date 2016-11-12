@@ -1,3 +1,5 @@
+header: Adam Whitcroft
+subheader: Designer, game nut and wannabe illustrator
 permalink: /:categories/:title/
 sass:
   style: compressed

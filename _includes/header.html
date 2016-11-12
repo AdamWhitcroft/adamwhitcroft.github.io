@@ -1,8 +1,8 @@
 <header role="banner" class="{% if page.class == 'portfolio' or page.class == 'portfolio-index' %}portfolio{% endif %}">
 
 {% if page.class == 'home' %}
-	<h1><a href="/">Adam Whitcroft</a></h1>
-	<h2>Designer and game nut</h2>
+	<h1><a href="/">{{ site.header }}</a></h1>
+	<h2>{{ site.subheader }}</h2>
 {% endif %}
 
 {% if page.class == 'fourOhfour' %}
@@ -10,17 +10,17 @@
 {% endif %}
 
 {% if page.category == 'post' %}
-	<h1><a href="/">Adam Whitcroft</a></h1>
-	<h2>Designer and game nut</h2>
+	<h1><a href="/">{{ site.header }}</a></h1>
+	<h2>{{ site.subheader }}</h2>
 {% endif %}
 
 {% if page.class == 'portfolio' or page.class == 'portfolio-index' %}
 	{% if page.class == 'portfolio-index' %}
-	<h1><a href="/">Adam Whitcroft</a></h1>
-	<h2>Designer and game nut</h2>
+	<h1><a href="/">{{ site.header }}</a></h1>
+	<h2>{{ site.subheader }}</h2>
 	{% else %}
-		<h1><a href="/">Adam Whitcroft</a> &bull; <a href="/portfolio/">Portfolio Index</a></h1>
-		<h2>Designer and game nut</h2>
+		<h1><a href="/">{{ site.header }}</a> &bull; <a href="/portfolio/">Portfolio Index</a></h1>
+		<h2>{{ site.subheader }}</h2>
 	{% endif %}
 {% endif %}
 

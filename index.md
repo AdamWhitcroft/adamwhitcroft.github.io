@@ -1,7 +1,7 @@
 ---
 layout: default
 class: home
-meta-title: Adam Whitcroft, Designer
+meta-title: Adam Whitcroft is a Designer
 ---
 
 I'm a South African born designer living in the United Kingdom with my beautiful wife. I've released several well known icon projects[^1] alongside other open source design helpers[^2], taught a successful Skillshare[^3] course and was interviewed by The Industry[^4] a little while back.
