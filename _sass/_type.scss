@@ -20,10 +20,6 @@ a {
     text-decoration: none;
     cursor: pointer;
 
-    &:visited {
-        color: $color;
-    }
-
     &:hover {
         color: $color;
         background: $highlight;
@@ -51,11 +47,11 @@ em {
 }
 
 sup {
-    font-family: $font-secondary;
-    margin-left: .25em;
 
-    &.non-italics {
-        font-style: normal;
+    a {
+        color: lighten($color, 40%);
+        padding: 0 .25em;
+        border: 0;
     }
 
 }
