@@ -7,11 +7,9 @@ html {
     color: $color;
     font-weight: 400;
     font-size: 1em;
-    font-size: 120%;
+    font-size: 1.25em;
     font-family: $font-secondary;
     line-height: 1.5em;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
 
     @media screen and (max-width: $breakpoint-medium) {
         font-size: 100%;
@@ -55,7 +53,6 @@ header {
     padding: 0 2em;
 
     h1 {
-        font-family: $font-secondary;
         margin: 0;
         font-size: 1.5em;
 
