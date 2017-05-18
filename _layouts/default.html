@@ -21,18 +21,8 @@ Full site source - https://github.com/AdamWhitcroft/adamwhitcroft.github.io
         <script async src='//www.google-analytics.com/analytics.js'></script>
     </head>
     <body{% if page.class %} class="{{ page.class }}"{% endif %}>
-
         {% include header.html %}
-
         {% include content.html %}
-
-        {% include portfolio-nav.html %}
-
-        {% if page.class != 'fourOhfour' %}
-            {% include footer.html %}
-        {% endif %}
-
-        {% include scripts.html %}
-
+        {% include footer.html %}
     </body>
 </html>

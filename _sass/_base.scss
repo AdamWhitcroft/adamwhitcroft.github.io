@@ -5,40 +5,15 @@
 html {
     background-color: white;
     color: $color;
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 300;
     font-size: 1.25em;
-    font-family: $font-secondary;
+    font-family: $typeface-primary;
     line-height: 1.5em;
 
     @media screen and (max-width: $breakpoint-medium) {
         font-size: 100%;
     }
 
-}
-
-body {
-    @include animation(fadeInDown, 400ms, 500ms, ease, backwards);
-}
-
-/* --------------------------------------------------------
-    EXTENDS, BASE STRUCUTRE
--------------------------------------------------------- */
-
-hr {
-    position: relative;
-    margin: 4em 0 4em -2em;
-    display: block;
-    height: 0;
-    border: 0;
-    width: 4em;
-    border-bottom: 2px solid $color;
-}
-
-.plain-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 /* --------------------------------------------------------
@@ -48,44 +23,12 @@ hr {
 /* Header */
 
 header {
-    max-width: $width;
-    margin: 4em auto;
-    padding: 0 2em;
+    margin: $unit * 2 auto;
+    padding: 0 $unit;
 
-    h1 {
-        margin: 0;
-        font-size: 1.5em;
-
-        a {
-            border: none;
-
-            &:hover {
-                color: $color;
-                background: $highlight;
-            }
-
-        }
-
-    }
-
-    h2 {
-        font-size: .875em;
-        margin-top: .5em;
-        color: lighten($color, 40%);
-        font-weight: 400;
-    }
-
-}
-
-header.portfolio {
-    max-width: $width;
-    padding: 4em 2em 0 2em;
-    margin: 0 auto;
-    position: relative;
-
-    h1 {
-        text-align: left;
-        font-size: 1em;
+    svg {
+        display: block;
+        margin-bottom: $unit * 2;
     }
 
 }
@@ -94,65 +37,24 @@ header.portfolio {
 
 main {
     max-width: $width;
-    margin: 0 auto 4em auto;
-    padding: 0 2em;
+    padding: 0 $unit;
 }
 
-/* Section */
-
-section {
+/* Things & Places */
+.things-places {
 
     h2 {
-        font-size: 1em;
-    }
-
-}
-
-.intro {
-    overflow: hidden;
-
-    ul {
-        @extend .plain-ul;
-    }
-
-    li {
-        float: left;
-        margin-right: .5em;
-    }
-
-}
-
-/* --------------------------------------------------------
-    AVAILABILITY
--------------------------------------------------------- */
-
-
-
-/* --------------------------------------------------------
-    SUGGESTED CAUSE
--------------------------------------------------------- */
-
-.suggested-cause {
-    margin-bottom: 4em;
-}
-
-/* --------------------------------------------------------
-    FOOTNOTES
--------------------------------------------------------- */
-
-
-.footnotes {
-    font-size: .875em;
-    line-height: 1.5em;
-    // color: lighten($color, 40%);
-
-    ol {
-        padding-left: 0;
+        font-size: .75em;
     }
 
     p {
-        margin: 0 0 1em 0;
+        margin: 0;
     }
+
+    .preface {
+        margin-bottom: $unit;
+    }
+
 }
 
 /* --------------------------------------------------------
@@ -162,168 +64,8 @@ section {
 body.post {
 
     .post-time {
-        font-style: italic;
+        font-size: .75em;
         color: lighten($color, 40%);
-    }
-
-}
-
-/* --------------------------------------------------------
-    PORTFOLIO
--------------------------------------------------------- */
-
-.portfolio-wrapper {
-    margin-top: 3.5em;
-    padding: 0 .5em;
-}
-
-.portfolio-entry {
-
-    .inner {
-        position: relative;
-    }
-
-    &.background-icon {
-
-        .inner {
-            background-position: center;
-            background-size: auto 160px;
-            background-repeat: no-repeat;
-        }
-
-    }
-
-    &.background-image {
-
-        .inner {
-            background-position: center;
-            background-size: cover;
-        }
-
-    }
-
-    .hover-cover {
-        @include opacity(0);
-        @include vendor(transition, opacity .4s ease);
-        background: rgba(0,0,0,.9);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-
-        .p-grid-title {
-            color: white;
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            @include vendor(transform, translateY(-50%));
-            font-size: 1.25em;
-            font-weight: 400;
-            text-align: center;
-
-            span {
-                display: block;
-                font-family: $font-secondary;
-                font-size: .75em;
-                font-weight: 300;
-                font-style: normal;
-            }
-
-        }
-
-    }
-
-    &:hover {
-
-        .hover-cover {
-            @include opacity(100);
-        }
-
-    }
-
-    .inner {
-        height: 200px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-}
-
-.portfolio-page-header {
-
-    h1 {
-        margin: 0;
-    }
-
-}
-
-.portfolio-nav {
-    display: block;
-    width: 4em;
-    height: 4em;
-    position: fixed;
-    text-decoration: none;
-    border: 0;
-    top: 50%;
-    margin-top: -2em;
-    @include opacity(50);
-    @include vendor(transition, opacity 300ms ease);
-
-    &.prev {
-        background-image: url('/img/nav-arrow-left.png');
-        background-size: 32px;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    &.next {
-        right: 0;
-        background-image: url('/img/nav-arrow-right.png');
-        background-size: 32px;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    &:hover {
-        @include opacity(100);
-    }
-
-    @media screen and (max-width: $breakpoint-small) {
-        display: none;
-    }
-
-}
-
-img.fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.item-new {
-    display: block;
-    background: red;
-    position: absolute;
-}
-
-/* --------------------------------------------------------
-    404 SCREEN
--------------------------------------------------------- */
-
-body.fourOhfour {
-
-    .fourOhfour-message {
-        margin-top: 4em;
-
-        h1 {
-            font-size: 8vw;
-            margin: 0 0 1em 0;
-        }
-
     }
 
 }
@@ -333,10 +75,8 @@ body.fourOhfour {
 -------------------------------------------------------- */
 
 footer {
-    border-top: 2px solid $color;
-    max-width: $width;
-    padding: 2em;
-    margin: 0 auto;
+    padding: 0 $unit $unit $unit;
+    margin: $unit * 2 auto 0 auto;
     @extend %clearfix;
 
     p {
@@ -354,14 +94,6 @@ footer {
     li {
         float: left;
         margin-right: .5em;
-    }
-
-}
-
-body.portfolio-index {
-
-    footer {
-        border: 0;
     }
 
 }

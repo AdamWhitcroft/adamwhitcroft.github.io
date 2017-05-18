@@ -3,59 +3,49 @@
 -------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: $font-secondary;
     line-height: 1em;
-    margin: 0 0 2em 0;
-    font-weight: 700;
+    margin: 0 0 $unit 0;
+    font-size: 1em;
     color: #111;
+    font-weight: bold;
 }
 
-h1,.h1 {
-    font-size: 4em;
+h2,.h2 {
+    text-transform: uppercase;
 }
 
 a {
-    border-bottom: 1px dashed $color;
-    color: $color;
+    color: $anchor-color;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
         color: $color;
-        background: $highlight;
     }
 
 }
 
-::selection {
-    color: #ccc;
-}
-::-moz-selection {
-    color: #ccc;
-}
-
-p {
-    margin: 0 0 2em 0;
-}
-
-.highlight {
-    background-color: $highlight;
+blockquote {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: $typeface-secondary;
+    font-style: italic;
+    border-left: 4px solid $color;
+    padding-left: 2em;
+    margin-left: 0;
 }
 
 em {
-    @extend .highlight;
+    font-family: $typeface-secondary;
 }
 
-sup {
-
-    a {
-        color: lighten($color, 40%);
-        padding: 0 .25em;
-        border: 0;
-    }
-
+::selection {
+    background: #EBEEF0;
+}
+::-moz-selection {
+    backgroundjek: #EBEEF0;
 }
 
-.reversefootnote {
-    font-family: sans-serif;
+p {
+    margin: 0 0 $unit 0;
 }

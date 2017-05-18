@@ -3,7 +3,4 @@ subheader: Designer, game nut and wannabe illustrator
 permalink: /:categories/:title/
 sass:
   style: compressed
-collections:
-  portfolio:
-    output: true
 markdown: kramdown

@@ -1,27 +1,16 @@
-<header role="banner" class="{% if page.class == 'portfolio' or page.class == 'portfolio-index' %}portfolio{% endif %}">
-
+<header role="banner">
 {% if page.class == 'home' %}
-	<h1><a class="highlight" href="/">{{ site.header }}</a></h1>
-	<h2>{{ site.subheader }}</h2>
+	{% include svg/svg-home.svg %}
+	<h1>{{ site.header }}</h1>
 {% endif %}
 
 {% if page.class == 'fourOhfour' %}
-	<h1>Everything's OK</h1>
+	{% include svg/svg-404.svg %}
+	<h1>Oh heck.</h1>
 {% endif %}
 
 {% if page.category == 'post' %}
+	{% include svg/svg-post.svg %}
 	<h1><a class="highlight" href="/">{{ site.header }}</a></h1>
-	<h2>{{ site.subheader }}</h2>
 {% endif %}
-
-{% if page.class == 'portfolio' or page.class == 'portfolio-index' %}
-	{% if page.class == 'portfolio-index' %}
-	<h1><a class="highlight" href="/">{{ site.header }}</a></h1>
-	<h2>{{ site.subheader }}</h2>
-	{% else %}
-		<h1><a class="highlight" href="/">{{ site.header }}</a> &bull; <a href="/portfolio/">Portfolio Index</a></h1>
-		<h2>{{ site.subheader }}</h2>
-	{% endif %}
-{% endif %}
-
 </header>

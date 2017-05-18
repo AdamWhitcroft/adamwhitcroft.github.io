@@ -3,10 +3,8 @@ layout: default
 
 class: post
 ---
-<hr>
-
 <article class="post">
-	<h2>{{ page.title }}</h2>
+	<h2>&ldquo;{{ page.title }}&rdquo;</h2>
 
 	{% if page.class == 'post' %}
 	<p class="post-time">{{ page.date | date: "%B %d, %Y" }}</p>
@@ -15,7 +13,6 @@ class: post
 	{{ content }}
 
 	{% if page.category == 'post' %}
-	<hr>
-		<p class="thanks">Thanks for taking the time to read this. You can <a href="http://twitter.com/share?text=&ldquo;{{ page.title }}&rdquo; by @adamwhitcroft">Tweet it</a> or <a href="/" rel="home">return to the home page</a>.</p>
+		<p style="margin-top:4em;">Thanks for taking the time to read this. You can <a href="http://twitter.com/share?text=&ldquo;{{ page.title }}&rdquo; by @adamwhitcroft">Tweet it</a> or <a href="/" rel="home">return to the home page</a>.</p>
 	{% endif %}
 </article>

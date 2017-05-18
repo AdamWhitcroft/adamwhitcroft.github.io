@@ -15,8 +15,19 @@
 
 	[class*='column-'] {
 		float: left;
-	    padding: .5em;
+	    // padding: .5em;
+		padding: 0 1em 0 0;
 	    @include vendor(box-sizing, border-box);
+
+		@media screen and (max-width: $breakpoint-medium) {
+			padding: 0 0 2em 0;
+
+			&:last-of-type {
+				padding: 0;
+			}
+
+	    }
+
 	}
 
 	&.grid-pull {
