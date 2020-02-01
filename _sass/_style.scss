@@ -23,6 +23,7 @@ header {
         color: rgba($color, .5);
         font-weight: normal;
         text-decoration: none;
+        margin-right: 1em;
     }
 
 }
@@ -42,7 +43,7 @@ main {
         position: absolute;
         top: -1em;
         padding: 1em;
-        left: -3em;
+        left: -2.5em;
         text-decoration: none;
     }
 
@@ -69,19 +70,4 @@ footer {
         margin-right: 1em;
     }
 
-}
-
-.anchor-arrow {
-    position: relative;
-}
-
-.anchor-arrow-right:after {
-    content: "\2192";
-    display: inline-block;
-    margin-left: .5em;
-    transition: margin 200ms ease-in-out;
-}
-
-.anchor-arrow-right:hover:after {
-    margin-left: .875em;
 }
