@@ -53,8 +53,6 @@ footer {
     padding-top: $measure;
     padding-bottom: $measure;
 
-    a {text-decoration: none;}
-
     p {
         margin: 0;
         font-size: .875em;
@@ -63,6 +61,7 @@ footer {
     ul {
         @extend .plain-ul;
         font-size: .875em;
+        margin-bottom: $measure / 3;
     }
 
     li {
