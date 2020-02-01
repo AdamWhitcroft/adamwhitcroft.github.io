@@ -1,23 +1,19 @@
-/* --------------------------------------------------------
-	VARIABLES
--------------------------------------------------------- */
+/* Colours */
 
-/* Layout */
-
-$width: 36em;
-$unit: 2em;
+$background: white;
+$color: black;
+$accent: black;
 
 /* Type */
 
-$typeface-primary: -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
-$typeface-secondary: Athelas, Georgia, Cambria, "Times New Roman", serif;
-$color: #3d464d;
-$anchor-color: #0500FE;
+$font: 'Lato', sans-serif;
+
+/* Structure */
+$measure: 3em;
+$percent-large: 20%;
+$percent-medium: 15%;
 
 /* Responsive */
 
 $breakpoint-medium: 960px;
 $breakpoint-small: 720px;
-
-/* Grid */
-$grid-columns: 12;

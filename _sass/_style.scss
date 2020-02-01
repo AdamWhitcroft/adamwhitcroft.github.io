@@ -1,0 +1,88 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    background-color: $background;
+    color: $color;
+    font-weight: normal;
+    font-family: $font;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    @extend .width;
+    padding-top: $measure;
+    padding-bottom: $measure;
+
+    a {
+        color: rgba($color, .5);
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+}
+
+main {
+    @extend .width;
+
+    article {
+        position: relative;
+    }
+
+    article:target {
+        background: #FFF1D9;
+    }
+
+    .article-link {
+        position: absolute;
+        top: -1em;
+        padding: 1em;
+        left: -3em;
+        text-decoration: none;
+    }
+
+}
+
+footer {
+    @extend .width;
+    padding-top: $measure;
+    padding-bottom: $measure;
+
+    a {text-decoration: none;}
+
+    p {
+        margin: 0;
+        font-size: .875em;
+    }
+
+    ul {
+        @extend .plain-ul;
+        font-size: .875em;
+    }
+
+    li {
+        float: left;
+        margin-right: 1em;
+    }
+
+}
+
+.anchor-arrow {
+    position: relative;
+}
+
+.anchor-arrow-right:after {
+    content: "\2192";
+    display: inline-block;
+    margin-left: .5em;
+    transition: margin 200ms ease-in-out;
+}
+
+.anchor-arrow-right:hover:after {
+    margin-left: .875em;
+}

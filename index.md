@@ -1,31 +1,11 @@
 ---
 layout: default
+title: Home
 class: home
-meta-title: Adam Whitcroft is a Designer
-things:
-  - name: Open Mentorship
-    href: "http://adamwhitcroft.com/open-mentorship/"
-  - name: Tip Tap
-    href: "http://adamwhitcroft.com/tip-tap/"
-  - name: Icon design course on Skillshare
-    href: "http://skl.sh/adamw"
-  - name: City Icons for Offscreen Magazine
-    href: "http://adamwhitcroft.com/offscreen/"
-  - name: Climacons icon set
-    href: "http://adamwhitcroft.com/climacons/"
-  - name: Batch icon set
-    href: "http://adamwhitcroft.com/batch/"
-places:
-  - name: Twitter
-    href: "https://twitter.com/adamwhitcroft"
-  - name: Instagram
-    href: "https://instagram.com/adamwhitcroft/"
-  - name: Dribbble
-    href: "https://dribbble.com/adamwhitcroft"
-  - name: Github
-    href: "https://github.com/AdamWhitcroft"
 ---
 
-South African living in Ottawa with my wife. I've been designing for over 10 years at agencies at startups. When I'm not at my desk, you'll find me outdoors enjoying the beauty of nature with friends.
+A Staff Designer at Shopify (2016--present) with over a decade of focus in product and user experience design. He lives in Canada with his wife, their daughter, and Husky.
 
-{% include things-places.html %}
+He helps shape the future and design of Logistics and Order Management, working across multiple teams to deliver tools that support over 1 million Shopify merchants on their journey to independence.
+
+No longer accepting freelance work. 

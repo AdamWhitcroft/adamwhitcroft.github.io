@@ -1,7 +1,10 @@
-<footer class="footer-wrap" role="complementary">
-	{% if page.class != 'fourOhfour' %}
-	<p class="copy">&copy; 2017 Adam Whitcroft unless otherwise stated.</p>
-	<p><a href="https://twitter.com/adamwhitcroft">Twitter</a> &bull; <a href="https://instagram.com/adamwhitcroft/">Instagram</a> &bull; <a href="https://dribbble.com/adamwhitcroft">Dribbble</a> &bull; <a href="https://github.com/AdamWhitcroft">Github</a></p>
-	<p><a href="mailto:hello@adamwhitcroft.com">hello@adamwhitcroft.com</a>.</p>
-	{% endif %}
+<footer role="contentinfo clearfix">
+	<ul class="clearfix">
+		{% for link in site.data.footer-menu %}
+		<li>
+			<a href="{{ link.url}} ">{{ link.name }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+	<p class="subdued">Content &copy; Adam Whitcroft {{ site.time | date: '%Y' }}</p>
 </footer>
