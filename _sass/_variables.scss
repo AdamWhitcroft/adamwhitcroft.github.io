@@ -2,18 +2,16 @@
 
 $background: white;
 $color: black;
-$accent: black;
 
 /* Type */
 
 $font: 'Inter', sans-serif;
 
 /* Structure */
+
 $measure: 3em;
-$percent-large: 20%;
-$percent-medium: 15%;
 
-/* Responsive */
-
-$breakpoint-medium: 960px;
-$breakpoint-small: 720px;
+/* Highlighter */
+$hi1: rgba(255, 224, 0, 0.3);
+$hi2: rgba(255, 224, 0, 0.7);
+$hi3: rgba(255, 224, 0, 0.1);

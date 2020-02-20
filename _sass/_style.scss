@@ -22,7 +22,6 @@ header {
     padding-bottom: $measure;
 
     a {
-        color: rgba($color, .5);
         font-weight: normal;
         text-decoration: none;
         margin-right: 1em;
@@ -51,7 +50,7 @@ main {
 
     span {
         border-radius: 1em 0 1em 0;
-        background: linear-gradient(-100deg, rgba(255, 224, 0, 0.3), rgba(255, 224, 0, 0.7) 95%, rgba(255, 224, 0, 0.1));
+        background: linear-gradient(-100deg, $hi1, $hi2 95%, $hi3);
     }
 
 }
@@ -62,7 +61,6 @@ footer {
     padding-bottom: $measure;
 
     p {
-        margin: 0;
         font-size: .875em;
     }
 
