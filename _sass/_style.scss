@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -45,6 +47,11 @@ main {
         padding: 1em;
         left: -2.5em;
         text-decoration: none;
+    }
+
+    span {
+        border-radius: 1em 0 1em 0;
+        background: linear-gradient(-100deg, rgba(255, 224, 0, 0.3), rgba(255, 224, 0, 0.7) 95%, rgba(255, 224, 0, 0.1));
     }
 
 }

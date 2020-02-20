@@ -4,6 +4,6 @@ title: Home
 class: home
 ---
 
-A Staff Designer at Shopify (2016--present) with over a decade of focus in product and user experience design. He lives in Canada with his wife, daughter, and Husky.
+I've been at Shopify since 2016, most recently in the role of Staff Designer. I live in Canada with my wife, daughter and Husky/Shepherd mix.
 
-He works across multiple teams to shape the design of Logistics and Order Management, helping over 1 million Shopify merchants run their businesses more efficiently.
+I work across multiple teams to shape the design of Logistics and Order Management, helping our <span>1 million+ merchants</span> run their businesses more efficiently.
