@@ -2,6 +2,7 @@
 
 $background: white;
 $color: black;
+$color-subdued: rgba($color, 0.5);
 
 /* Type */
 
@@ -12,6 +13,11 @@ $font: freight-sans-pro,sans-serif;
 $measure: 3em;
 
 /* Highlighter */
+
 $hi1: rgba(255, 224, 0, 0.3);
 $hi2: rgba(255, 224, 0, 0.7);
 $hi3: rgba(255, 224, 0, 0.1);
+
+/* Responsive */
+
+$breakpoint-small: 720px;

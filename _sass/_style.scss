@@ -35,18 +35,34 @@ main {
 
     article {
         position: relative;
+
+        @media screen and (max-width: $breakpoint-small) {
+            p {
+                text-indent: 1em;
+            }
+        }
+
     }
 
     article:target {
         background: #FFF1D9;
     }
 
-    .article-link {
-        position: absolute;
-        top: -1em;
-        padding: 1em;
-        left: -2.5em;
-        text-decoration: none;
+}
+
+.article-link {
+    position: absolute;
+    top: -1em;
+    padding: 1em;
+    left: -2.5em;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: $font;
+
+    @media screen and (max-width: $breakpoint-small) {
+        left: 0;
+        padding-left: 0;
+        color: $color-subdued;
     }
 
 }
@@ -69,6 +85,87 @@ footer {
     li {
         float: left;
         margin-right: 1em;
+    }
+
+}
+
+/* Footnotes */
+
+.footnotes {
+
+    ol {
+        padding: 0;
+        font-size: .875em;
+    }
+
+}
+
+/* Clothing */
+
+.wardrobe h2 {
+    @media screen and (max-width: $breakpoint-small) {
+        padding-left: 1em;
+    }
+}
+
+hr {
+    margin: $measure 0;
+}
+
+.item {
+    padding-top: $measure / 2;
+    padding-bottom: $measure / 2;
+    position: relative;
+
+    h2 {
+        @media screen and (max-width: $breakpoint-small) {
+            padding-left: 1em;
+        }
+    }
+
+    h3 {
+        margin-bottom: 0;
+
+        @media screen and (min-width: $breakpoint-small) {
+            margin-top: 0;
+        }
+
+    }
+
+    img {
+        float: left;
+        display: block;
+        width: $measure * 3;
+        height: auto;
+        margin-right: 2em;
+
+        @media screen and (max-width: $breakpoint-small) {
+            float: initial;
+            display: block;
+            position: initial;
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    div {
+        padding-left: $measure * 3;
+
+        @media screen and (max-width: $breakpoint-small) {
+            padding-left: initial;
+        }
+    }
+
+    span {
+        background: none;
+        font-weight: normal;
+    }
+
+    .brand {
+        color: $color-subdued;
+        font-size: .875em;
+        margin: 0;
     }
 
 }

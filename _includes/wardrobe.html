@@ -1,0 +1,25 @@
+<section class="wardrobe">
+    <div class="toc">
+        <h2>Table of contents:</h2>
+        <ul class="plain-ul">
+            {% for sections in site.data.wardrobe %}
+            <li><a href="#wardrobe-{{sections.section | downcase}}">{{ sections.section }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <hr>
+    {% for sections in site.data.wardrobe %}
+    <h2 id="wardrobe-{{sections.section | downcase}}"><a href="#wardrobe-{{sections.section | downcase}}" class="article-link">&sect;</a>{{sections.section}}</h2>
+    <p>{{ sections.blurb }}</p>
+        {% for item in sections.items %}
+        <div class="item clearfix">
+            <img src="{{ item.img }}" alt="">
+            <div>
+                <h3><span>{{ item.qty }} &times;</span> {{ item.name }}</h3>
+                <p class="brand">by {{ item.brand }}</p>
+                <p>{{ item.content }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    {% endfor %}
+</section>

@@ -9,6 +9,10 @@ h1 {
     font-size: 1.5rem;
 }
 
+h2,h3 {
+    font-size: 1em;
+}
+
 a {
     color: $color;
     text-decoration-color: rgba($color, 0.2);
@@ -20,10 +24,6 @@ a {
 
 }
 
-.subdued {
-    color: rgba($color, 0.5);
-}
-
 blockquote {
     border-left: 1px solid $color;
     margin-left: 1em;
@@ -31,28 +31,11 @@ blockquote {
 }
 
 sup a {
-    text-decoration: none;
     padding-left: .25em;
     padding-right: .25em;
-    font-style: italic;
 }
 
 .highlight {
     border-radius: 1em 0 1em 0;
     background: linear-gradient(-100deg, $hi1, $hi2 95%, $hi3);
-}
-
-.iconAnchor {
-    position: relative;
-    padding-left: 1.7rem;
-
-    img {
-        position: absolute;
-        width: 1.5rem;
-        height: 1.5rem;
-        left: 0;
-        box-shadow: 0 4px 12px rgba(0,0,0,.1);
-        border-radius: 4px;
-    }
-
 }
