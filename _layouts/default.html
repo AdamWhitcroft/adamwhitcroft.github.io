@@ -12,7 +12,7 @@ layout: compress
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.css">
-        <script>
+        <script type="text/javascript">
             window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
             ga('create', 'UA-18418896-7', 'auto');
             ga('send', 'pageview');
@@ -24,4 +24,15 @@ layout: compress
         {% include content.html %}
         {% include footer.html %}
     </body>
+    <script type="text/javascript">
+        var tooltips = document.querySelectorAll('.tooltip span');
+        window.onmousemove = function (e) {
+            var x = (e.clientX + 20) + 'px',
+                y = (e.clientY - 10) + 'px';
+            for (var i = 0; i < tooltips.length; i++) {
+                tooltips[i].style.top = y;
+                tooltips[i].style.left = x;
+            }
+        };
+    </script>
 </html>
