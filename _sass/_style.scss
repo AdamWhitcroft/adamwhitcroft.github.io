@@ -1,5 +1,3 @@
-@import url('https://rsms.me/inter/inter.css');
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -9,17 +7,21 @@
 html {
     background-color: $background;
     color: $color;
-    font-weight: normal;
+    font-weight: 400;
     font-family: $font;
+    font-size: 1.2rem;
     line-height: 1.5;
     scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
 }
 
 header {
     @extend .width;
     padding-top: $measure;
     padding-bottom: $measure;
+
+    h1 {
+        margin: 0;
+    }
 
     a {
         font-weight: normal;
@@ -56,12 +58,12 @@ footer {
 
     p {
         font-size: .875em;
+        margin: 0;
     }
 
     ul {
         @extend .plain-ul;
         font-size: .875em;
-        margin-bottom: $measure / 3;
     }
 
     li {
