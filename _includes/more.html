@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-<article class="" id="s-{{ forloop.rindex }}">
+<article id="s-{{ forloop.rindex }}">
     {{ post.content }}
     <a href="{{ site.url }}/more/#s-{{forloop.rindex}}" class="article-link">&sect;</a>
 </article>
