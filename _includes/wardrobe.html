@@ -9,7 +9,7 @@
     </div>
     <hr>
     {% for sections in site.data.wardrobe %}
-    <h2 id="wardrobe-{{sections.section | downcase}}"><a href="#wardrobe-{{sections.section | downcase}}" class="article-link">&sect;</a>{{sections.section}}</h2>
+    <h2 id="wardrobe-{{sections.section | downcase}}">{{sections.section}}</h2>
     <p>{{ sections.blurb }}</p>
         {% for item in sections.items %}
         <div class="item clearfix">

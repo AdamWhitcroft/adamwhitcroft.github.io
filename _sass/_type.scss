@@ -9,8 +9,8 @@ h1 {
     font-size: 1.5rem;
 }
 
-h2,h3 {
-    font-size: 1em;
+h3 {
+    font-size: 1rem;
 }
 
 a {
@@ -26,13 +26,13 @@ a {
 
 blockquote {
     border-left: 1px solid $color;
-    margin-left: 1em;
-    padding-left: 1em;
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 sup a {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: .25rem;
+    padding-right: .25rem;
 }
 
 .highlight {

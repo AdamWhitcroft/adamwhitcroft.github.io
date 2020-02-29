@@ -8,7 +8,7 @@ html {
     background-color: $background;
     color: $color;
     font-weight: 400;
-    font-family: $font;
+    font-family: $font-family-serif;
     font-size: 1.2rem;
     line-height: 1.5;
     scroll-behavior: smooth;
@@ -26,6 +26,7 @@ header {
     a {
         font-weight: normal;
         text-decoration: none;
+        color: $color-subdued;
     }
 
 }
@@ -37,9 +38,7 @@ main {
         position: relative;
 
         @media screen and (max-width: $breakpoint-small) {
-            p {
-                text-indent: 1em;
-            }
+            margin-bottom: $measure;
         }
 
     }
@@ -52,17 +51,16 @@ main {
 
 .article-link {
     position: absolute;
-    top: -1em;
-    padding: 1em;
-    left: -2.5em;
+    top: -1rem;
+    padding: 1rem;
+    left: -2.5rem;
     text-decoration: none;
     font-weight: 400;
-    font-family: $font;
+    font-family: $font-family-serif;
 
     @media screen and (max-width: $breakpoint-small) {
-        left: 0;
+        position: initial;
         padding-left: 0;
-        color: $color-subdued;
     }
 
 }
@@ -73,18 +71,18 @@ footer {
     padding-bottom: $measure;
 
     p {
-        font-size: .875em;
+        font-size: $font-size-small;
         margin: 0;
     }
 
     ul {
         @extend .plain-ul;
-        font-size: .875em;
+        font-size: $font-size-small;
     }
 
     li {
         float: left;
-        margin-right: 1em;
+        margin-right: 1rem;
     }
 
 }
@@ -95,18 +93,12 @@ footer {
 
     ol {
         padding: 0;
-        font-size: .875em;
+        font-size: $font-size-small;
     }
 
 }
 
 /* Clothing */
-
-.wardrobe h2 {
-    @media screen and (max-width: $breakpoint-small) {
-        padding-left: 1em;
-    }
-}
 
 hr {
     margin: $measure 0;
@@ -164,7 +156,7 @@ hr {
 
     .brand {
         color: $color-subdued;
-        font-size: .875em;
+        font-size: $font-size-small;
         margin: 0;
     }
 
