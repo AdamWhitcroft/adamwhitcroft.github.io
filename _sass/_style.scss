@@ -8,7 +8,7 @@ html {
     background-color: $background;
     color: $color;
     font-weight: 400;
-    font-family: $font-family-serif;
+    font-family: $font-family-sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
     scroll-behavior: smooth;
@@ -16,6 +16,7 @@ html {
 
 header {
     @extend .width;
+    @extend .clearfix;
     padding-top: $measure;
     padding-bottom: $measure;
 
@@ -26,13 +27,13 @@ header {
     a {
         font-weight: normal;
         text-decoration: none;
-        color: $color-subdued;
     }
 
 }
 
 main {
     @extend .width;
+    @extend .clearfix;
 
     article {
         position: relative;
@@ -56,7 +57,6 @@ main {
     left: -2.5rem;
     text-decoration: none;
     font-weight: 400;
-    font-family: $font-family-serif;
 
     @media screen and (max-width: $breakpoint-small) {
         position: initial;
@@ -67,17 +67,17 @@ main {
 
 footer {
     @extend .width;
+    @extend .clearfix;
     padding-top: $measure;
     padding-bottom: $measure;
 
     p {
-        font-size: $font-size-small;
         margin: 0;
     }
 
     ul {
         @extend .plain-ul;
-        font-size: $font-size-small;
+        @extend .clearfix;
     }
 
     li {
@@ -92,13 +92,13 @@ footer {
 .footnotes {
 
     ol {
+        @extend .font-size-small;
         padding: 0;
-        font-size: $font-size-small;
     }
 
 }
 
-/* Clothing */
+/* Wardrobe */
 
 hr {
     margin: $measure 0;
@@ -149,14 +149,7 @@ hr {
         }
     }
 
-    span {
-        background: none;
-        font-weight: normal;
-    }
-
     .brand {
-        color: $color-subdued;
-        font-size: $font-size-small;
         margin: 0;
     }
 

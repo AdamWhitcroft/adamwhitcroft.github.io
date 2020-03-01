@@ -1,11 +1,11 @@
-<footer role="contentinfo clearfix">
-	<ul class="clearfix">
+<footer role="contentinfo">
+	<ul class="font-size-small">
 		{% for link in site.data.footer-menu %}
 		<li>
 			<a href="{{ link.url}} ">{{ link.name }}</a>
 		</li>
 		{% endfor %}
 	</ul>
-	<p>Be kind to animals 🌱and each other ✌️</p>
-	<p class="subdued">Content &copy; Adam Whitcroft {{ site.time | date: '%Y' }} unless otherwise stated.</p>
+	<p class="font-size-small">Be kind to animals 🌱and each other ✌️</p>
+	<p class="font-size-small subdued">Content &copy; Adam Whitcroft {{ site.time | date: '%Y' }} unless otherwise stated.</p>
 </footer>
