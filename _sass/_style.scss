@@ -19,14 +19,16 @@ header {
     @extend .clearfix;
     padding-top: $measure;
     padding-bottom: $measure;
+    display: flex;
+    align-items: center;
 
     h1 {
         margin: 0;
     }
 
     a {
-        font-weight: normal;
         text-decoration: none;
+        margin-left: auto;
     }
 
 }

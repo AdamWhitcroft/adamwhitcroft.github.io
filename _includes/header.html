@@ -1,9 +1,12 @@
 <header role="banner">
 	<h1>
 		{% if page.class != "home" %}
-		<a href="/" alt="Return home" class="subdued">Home / </a>{{ page.title }}
+		{{ page.title }}
 		{% else %}
-		I'm Adam.
+		Adam Whitcroft
 		{% endif %}
 	</h1>
+	{% if page.class != "home" %}
+	<a href="/">Home</a>
+	{% endif %}
 </header>
