@@ -5,7 +5,9 @@ class: wardrobe
 permalink: /wardrobe/
 ---
 
-I don't self-identify as a minimalist but I do enjoy owning *less*[^1]. One of the areas I channel this most is my wardrobe. The items listed below comprise my day-to-day wardrobe[^2].
+(this page is WIP, if you find it early, good for you)
+
+I don't self-identify as a minimalist but I do enjoy owning _less_[^1]. One of the areas I channel this most is my wardrobe. The items listed below comprise my day-to-day wardrobe[^2].
 
 I avoid animal products, and try my best to support ethical and sustainable manufacturing.
 

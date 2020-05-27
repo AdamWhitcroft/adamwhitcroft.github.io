@@ -1,49 +1,50 @@
-h1, h2, h3 {
-    position: relative;
-    font-family: $font-family-serif;
-    font-weight: 900;
-    font-style: normal;
+h1,
+h2,
+h3 {
+  position: relative;
+  font-family: $font-family-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 h1 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 h3 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 a {
-    color: $color;
-    text-decoration-color: rgba($color, 0.2);
+  color: $color;
+  text-decoration-color: rgba($color, 0.2);
 
-    &:hover {
-        color: blue;
-        text-decoration-color: blue;
-    }
-
+  &:hover {
+    color: blue;
+    text-decoration-color: blue;
+  }
 }
 
 blockquote {
-    border-left: 1px solid $color;
-    margin-left: 1rem;
-    padding-left: 1rem;
+  border-left: 1px solid $color;
+  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 sup a {
-    padding-left: .25rem;
-    padding-right: .25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .highlight {
-    border-radius: 1em 0 1em 0;
-    background: linear-gradient(-100deg, $hi1, $hi2 95%, $hi3);
+  border-radius: 1em 0 1em 0;
+  background: linear-gradient(-100deg, $hi1, $hi2 95%, $hi3);
 }
 
 .subdued {
-    color: $color-subdued;
+  color: $color-subdued;
 }
 
 .font-size-small {
-    font-size: $font-size-small;
+  font-size: $font-size-small;
 }
