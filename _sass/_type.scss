@@ -26,19 +26,15 @@ a {
 }
 
 blockquote {
-  border-left: 1px solid $color;
+  border-left: 1px solid $color-subdued;
   margin-left: 1rem;
   padding-left: 1rem;
+  color: $color-subdued;
 }
 
 sup a {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.highlight {
-  border-radius: 1em 0 1em 0;
-  background: linear-gradient(-100deg, $hi1, $hi2 95%, $hi3);
 }
 
 .subdued {
@@ -47,4 +43,8 @@ sup a {
 
 .font-size-small {
   font-size: $font-size-small;
+}
+
+del {
+  @extend .subdued;
 }
