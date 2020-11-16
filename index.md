@@ -4,8 +4,12 @@ title: Home
 class: home
 ---
 
-I've worked at Shopify since 2016, where I'm currently a Staff Designer. I spend my time helping the teams in our Logistics product line design and ship tools used by over one million merchants to process their orders.
+I've worked at Shopify since 2016, where I'm currently a ~~Senior Designer~~ Staff Designer. I spend my time helping the teams in our Delivery product line design and ship tools used by over ~~500,000~~ ~~75,0,000~~ 1,000,000 merchants to process their orders.
 
-I live in Ottawa with my wife, our daughter and our Husky.
+I live in ~~South Africa Dubai England~~ Ottawa with my wife, daughter and Husky.
+
+I designed a few really popular icon kits, ~~you can find them here~~ but they've been retired indefinitely.
 
 I'm building an app called [Gauntlet](http://gauntletapp.com/) with a friend. If you're into Magic: The Gathering you should check it out.
+
+You should follow me on ~~LinkedIn, Facebook, Instagram and~~ [Twitter](https://twitter.com/AdamWhitcroft).
