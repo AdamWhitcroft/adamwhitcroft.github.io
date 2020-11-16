@@ -4,7 +4,7 @@ title: Home
 class: home
 ---
 
-I've worked at Shopify since 2016, where I'm currently a ~~Senior Designer~~ Staff Designer. I spend my time helping the teams in our Delivery product line design and ship tools used by over ~~500,000~~ ~~75,0,000~~ 1,000,000 merchants to process their orders.
+I've worked at Shopify since 2016, where I'm currently a ~~Senior Designer~~ Staff Designer. I spend my time helping the teams in our Delivery product line design and ship workflows used by over ~~500,000~~ ~~750,000~~ 1,000,000 merchants to process their orders efficiently.
 
 I live in ~~South Africa Dubai England~~ Ottawa with my wife, daughter and Husky.
 
