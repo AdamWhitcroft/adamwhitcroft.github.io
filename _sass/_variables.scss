@@ -4,21 +4,20 @@ $background: white;
 $color: black;
 $color-subdued: rgba($color, 0.5);
 
+$background--darkMode: #1b1d22;
+$color--darkMode: white;
+$color-subdued--darkMode: rgba($color--darkMode, 0.5);
+$link--darkMode: #ffd92f;
+
 /* Type */
 
-$font-family-sans-serif: freight-sans-pro,sans-serif;
+$font-family-sans-serif: freight-sans-pro, sans-serif;
 $font-family-serif: freight-display-pro, serif;
 $font-size-small: 0.875rem;
 
 /* Structure */
 
 $measure: 3em;
-
-/* Highlighter */
-
-$hi1: rgba(255, 224, 0, 0.3);
-$hi2: rgba(255, 224, 0, 0.7);
-$hi3: rgba(255, 224, 0, 0.1);
 
 /* Responsive */
 
