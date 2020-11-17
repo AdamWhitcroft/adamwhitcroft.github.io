@@ -23,6 +23,15 @@ a {
     color: blue;
     text-decoration-color: blue;
   }
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: $link--darkMode;
+
+    &:hover {
+      color: $link--darkMode;
+      text-decoration-color: $link--darkMode;
+    }
+  }
 }
 
 blockquote {
@@ -30,6 +39,11 @@ blockquote {
   margin-left: 1rem;
   padding-left: 1rem;
   color: $color-subdued;
+
+  @media screen and (prefers-color-scheme: dark) {
+    border-left: 1px solid $color-subdued--darkMode;
+    color: $color-subdued--darkMode;
+  }
 }
 
 sup a {
@@ -39,6 +53,10 @@ sup a {
 
 .subdued {
   color: $color-subdued;
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: $color-subdued--darkMode;
+  }
 }
 
 .font-size-small {
