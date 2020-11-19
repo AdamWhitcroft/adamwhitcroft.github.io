@@ -7,7 +7,7 @@
 html {
   background-color: $background;
   color: $color;
-  font-weight: 400;
+  font-weight: 300;
   font-family: $font-family-sans-serif;
   font-size: 120%;
   line-height: 1.5;
@@ -110,14 +110,16 @@ hr {
 }
 
 .item {
-  padding-top: $measure / 2;
-  padding-bottom: $measure / 2;
   position: relative;
+  background: #fafafa;
+  border: 1px solid #e8e9eb;
+  border-radius: 8px;
+  padding: $measure / 2;
+  margin-bottom: $measure / 3;
 
-  h2 {
-    @media screen and (max-width: $breakpoint-small) {
-      padding-left: 1em;
-    }
+  @media screen and (prefers-color-scheme: dark) {
+    background: #26282d;
+    border: 1px solid #3f3f3f;
   }
 
   h3 {
@@ -125,30 +127,6 @@ hr {
 
     @media screen and (min-width: $breakpoint-small) {
       margin-top: 0;
-    }
-  }
-
-  img {
-    float: left;
-    display: block;
-    width: $measure * 3;
-    height: auto;
-    margin-right: 2em;
-
-    @media screen and (max-width: $breakpoint-small) {
-      float: initial;
-      display: block;
-      position: initial;
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  div {
-    padding-left: $measure * 3;
-
-    @media screen and (max-width: $breakpoint-small) {
-      padding-left: initial;
     }
   }
 

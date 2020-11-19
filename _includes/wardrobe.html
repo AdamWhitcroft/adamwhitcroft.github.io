@@ -12,12 +12,14 @@
     <h2 id="wardrobe-{{sections.section | downcase}}">{{sections.section}}</h2>
     <p>{{ sections.blurb }}</p>
         {% for item in sections.items %}
-        <div class="item clearfix">
-            <img src="{{ item.img }}" alt="">
+        <div class="item">
             <div>
                 <h3><span>{{ item.qty }} &times;</span> {{ item.name }}</h3>
                 <p class="brand font-size-small subdued">by {{ item.brand }}</p>
                 <p>{{ item.content }}</p>
+                {% if item.shop %}
+                <p style="margin-bottom: 0"><a href="{{ item.shop }}">Shop similar on {{ item.brand}}</a></p>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
