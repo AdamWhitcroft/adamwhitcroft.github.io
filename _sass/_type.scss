@@ -17,7 +17,6 @@ h3 {
 
 a {
   color: $color;
-  text-decoration-color: rgba($color, 0.2);
 
   &:hover {
     color: blue;
@@ -61,6 +60,10 @@ sup a {
 
 .font-size-small {
   font-size: $font-size-small;
+}
+
+.font-size-smallest {
+  font-size: $font-size-smallest;
 }
 
 del {
