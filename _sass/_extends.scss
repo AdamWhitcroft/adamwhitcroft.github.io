@@ -1,17 +1,22 @@
 .plain-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .width {
-    max-width: 34rem;
-    padding: 0 $measure;
-    margin: 0 auto;
-    position: relative;
+  max-width: 34rem;
+  padding: 0 $measure;
+  margin: 0 auto;
+  position: relative;
 
-    @media screen and (max-width: $breakpoint-small) {
-        padding: 0 $measure / 2;
-    }
+  @media screen and (max-width: $breakpoint-small) {
+    padding: 0 $measure / 2;
+  }
+}
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
