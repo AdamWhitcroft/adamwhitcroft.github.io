@@ -3,12 +3,13 @@ h2,
 h3 {
   position: relative;
   font-family: $font-family-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
 h1 {
-  font-size: 1.25rem;
+  // font-size: 1.25rem;
+  font-size: 1em;
 }
 
 h3 {
@@ -67,5 +68,13 @@ sup a {
 }
 
 del {
-  @extend .subdued;
+  opacity: 0.5;
+  text-decoration: none;
+  background-image: url("/assets/stroke-2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-image: url("/assets/stroke-1-dark.svg");
+  }
 }
