@@ -68,11 +68,7 @@ sup a {
 del {
   opacity: 0.5;
   text-decoration: none;
-  background-image: url("/assets/stroke-2.svg");
+  background-image: url("/assets/del.svg");
   background-repeat: no-repeat;
   background-position: center;
-
-  @media screen and (prefers-color-scheme: dark) {
-    background-image: url("/assets/stroke-1-dark.svg");
-  }
 }
