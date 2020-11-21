@@ -1,0 +1,35 @@
+figure.profile-picture {
+  position: relative;
+  margin-top: $measure;
+  margin-bottom: $measure;
+  margin-left: -$measure;
+  padding-right: $measure;
+
+  @media screen and (max-width: $breakpoint-small) {
+    margin-left: -$measure / 2;
+  }
+
+  img {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transform: perspective(1600px) rotateY(4deg);
+  }
+
+  figcaption {
+    font-family: $font-cursive;
+    transform: rotate(92deg);
+    position: absolute;
+    right: -$measure;
+    top: $measure * 2;
+
+    @media screen and (max-width: $breakpoint-small) {
+      transform: initial;
+      position: initial;
+      padding-left: $measure / 2;
+    }
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}
