@@ -71,4 +71,8 @@ del {
   background-image: url("/assets/del.svg");
   background-repeat: no-repeat;
   background-position: center;
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-image: url("/assets/del-darkMode.svg");
+  }
 }
