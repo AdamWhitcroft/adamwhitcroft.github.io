@@ -2,8 +2,12 @@ h1,
 h2,
 h3 {
   position: relative;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
+
+  span {
+    font-weight: 300;
+  }
 }
 
 h1 {

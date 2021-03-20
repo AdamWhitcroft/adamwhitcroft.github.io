@@ -1,4 +1,7 @@
 <header role="banner">
+	{% if page.class != "home" %}
+	<a href="/">Home</a><span class="sep">&bull;</span>
+	{% endif %}
 	<h1>
 		{% if page.class != "home" %}
 		{{ page.title }}
@@ -6,7 +9,4 @@
 		Adam Whitcroft <span>Product Designer</span>
 		{% endif %}
 	</h1>
-	{% if page.class != "home" %}
-	<a href="/">Home</a>
-	{% endif %}
 </header>
