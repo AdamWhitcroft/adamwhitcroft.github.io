@@ -85,9 +85,15 @@ footer {
   @extend .clearfix;
   padding-top: $measure;
   padding-bottom: $measure;
+  display: flex;
+
+  a {
+    text-decoration: none;
+  }
 
   p {
     margin: 0;
+    margin-left: auto;
   }
 
   ul {
@@ -98,7 +104,7 @@ footer {
 
   li {
     float: left;
-    margin-right: 1rem;
+    margin-right: $measure / 6;
   }
 }
 
