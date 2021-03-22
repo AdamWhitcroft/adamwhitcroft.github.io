@@ -1,11 +1,15 @@
 <footer role="contentinfo">
 	<ul class="font-size-small">
+		{% if page.class != "home" %}
+		<li>
+			<a href="/">Home</a>
+		</li>
+		{% endif %}
 		{% for link in site.data.footer-menu %}
 		<li>
-			<a href="{{ link.url}} ">{{ link.name }}</a>
+			<a href="{{ link.url}}">{{ link.name }}</a>
 		</li>
 		{% endfor %}
 	</ul>
-	<p class="font-size-smallest">Be kind to animals, and each other.</p>
-	<p class="font-size-smallest subdued">Content &copy; Adam Whitcroft {{ site.time | date: '%Y' }} unless otherwise stated.</p>
+	<p class="font-size-small">&copy; {{ site.time | date: '%Y' }}</p>
 </footer>
