@@ -40,7 +40,7 @@ header {
   }
 
   a {
-    text-decoration: none;
+    @extend .plain-link;
   }
 }
 
@@ -67,12 +67,11 @@ main {
 }
 
 .article-link {
+  @extend .plain-link;
   position: absolute;
   top: -1rem;
   padding: 1rem;
   left: -2.5rem;
-  text-decoration: none;
-  background: none;
 
   @media screen and (max-width: $breakpoint-small) {
     position: initial;
@@ -88,7 +87,15 @@ footer {
   display: flex;
 
   a {
-    text-decoration: none;
+    @extend .plain-link;
+
+    &.active {
+      border-bottom: 2px solid $link;
+
+      @media screen and (prefers-color-scheme: dark) {
+        border-bottom-color: $link--darkMode;
+      }
+    }
   }
 
   p {
@@ -99,7 +106,7 @@ footer {
   ul {
     @extend .plain-ul;
     @extend .clearfix;
-    margin-bottom: $measure / 3;
+    margin-bottom: 0;
   }
 
   li {
@@ -111,9 +118,12 @@ footer {
 /* Footnotes */
 
 .footnotes {
+  margin-top: $measure;
+
   ol {
     @extend .font-size-small;
     padding: 0;
+    margin: 0;
   }
 }
 

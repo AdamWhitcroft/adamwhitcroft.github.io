@@ -1,12 +1,15 @@
 /* Colours */
 
 $background: white;
-$color: black;
-$color-subdued: rgba($color, 0.5);
-
 $background--darkMode: #1b1d22;
+
+$color: black;
 $color--darkMode: white;
+
+$color-subdued: rgba($color, 0.5);
 $color-subdued--darkMode: rgba($color--darkMode, 0.5);
+
+$link: #3478f6;
 $link--darkMode: #ffd92f;
 
 /* Type */

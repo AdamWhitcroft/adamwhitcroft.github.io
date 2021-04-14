@@ -19,19 +19,25 @@ h3 {
 }
 
 a {
+  background-color: rgba($link, 0.1);
+  border-bottom: 2px solid $link;
   color: $color;
+  text-decoration: none;
+  color: $link;
+  padding-left: 0.125em;
+  padding-right: 0.125em;
 
   &:hover {
-    color: blue;
-    text-decoration-color: blue;
+    background-color: rgba($link, 0.2);
   }
 
   @media screen and (prefers-color-scheme: dark) {
     color: $link--darkMode;
+    background-color: rgba($link--darkMode, 0.1);
+    border-bottom: 2px solid $link--darkMode;
 
     &:hover {
-      color: $link--darkMode;
-      text-decoration-color: $link--darkMode;
+      background-color: rgba($link--darkMode, 0.2);
     }
   }
 }
@@ -48,17 +54,9 @@ blockquote {
   }
 }
 
-sup a {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.subdued {
-  color: $color-subdued;
-
-  @media screen and (prefers-color-scheme: dark) {
-    color: $color-subdued--darkMode;
-  }
+sup a,
+.reversefootnote {
+  @extend .plain-link;
 }
 
 .font-size-small {
@@ -67,16 +65,4 @@ sup a {
 
 .font-size-smallest {
   font-size: $font-size-smallest;
-}
-
-del {
-  opacity: 0.5;
-  text-decoration: none;
-  background-image: url("/assets/del.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-
-  @media screen and (prefers-color-scheme: dark) {
-    background-image: url("/assets/del-darkMode.svg");
-  }
 }

@@ -7,7 +7,10 @@
 		{% endif %}
 		{% for link in site.data.footer-menu %}
 		<li>
-			<a href="{{ link.url}}">{{ link.name }}</a>
+			<a 
+				class="{% if link.url == page.url %}active{% endif %}"
+				href="{{ link.url}}">{{ link.name }}
+			</a>
 		</li>
 		{% endfor %}
 	</ul>
