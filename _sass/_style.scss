@@ -88,6 +88,7 @@ footer {
 
   a {
     @extend .plain-link;
+    @extend .subdued;
 
     &.active {
       border-bottom: 2px solid $link;
@@ -101,6 +102,7 @@ footer {
   p {
     margin: 0;
     margin-left: auto;
+    @extend .subdued;
   }
 
   ul {

@@ -8,4 +8,4 @@ I've worked at Shopify since 2016, where I'm currently a Staff Designer. I help 
 
 I'm building an app called [Gauntlet](http://gauntletapp.com/) with a friend. If you're into Magic: The Gathering check it out.
 
-Find me on [Twitter](https://twitter.com/AdamWhitcroft), where I don't talk about product design ever; it's mostly gaming, 3D or MTG related.
+Find me on [Twitter](https://twitter.com/AdamWhitcroft), where I don't talk about product design; it's mostly gaming, MTG or 3D related.

@@ -1,8 +1,8 @@
 - name: "About"
   url: "/about/"
 
-- name: "More"
-  url: "/more/"
+- name: "Finds"
+  url: "/finds/"
 
 - name: "Twitter"
   url: "https://twitter.com/AdamWhitcroft"
