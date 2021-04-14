@@ -1,3 +1,6 @@
+- name: "About"
+  url: "/about/"
+
 - name: "More"
   url: "/more/"
 
