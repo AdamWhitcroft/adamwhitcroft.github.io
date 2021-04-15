@@ -8,19 +8,21 @@ class: about
 
 I'm a product designer currently living in Canada.
 
-I work at [Shopify](https://www.shopify.com/) as a Staff Product Designer. I help individual contributors and leads across our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time mentoring crafters through weekly Office Hours and 1:1 pairing sessions.
+I work at [Shopify](https://www.shopify.com/) as a Staff Product Designer. I help crafters and leads across our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time mentoring crafters through weekly Office Hours and 1:1 pairing sessions.
 
-Before that, I lead the redesign of Shopify's icon ecosystem which spans web and multiple mobile apps. The end result was a visually unified and streamlined library of icons unique to Shopify. I also wrote comprehensive construcion documentation, allowing crafters to own their own contributions to the system.
+Before that, I lead the redesign of Shopify's icon ecosystem across web and multiple mobile apps. The end result was a visually unified and streamlined library of icons unique to Shopify. I also wrote comprehensive construcion documentation, empowering teams to contribute to the system independently of me.
 
-In 2020 I worked with a few people at Shopify to design and build a COVID exposure notification mobile app. The framework was adopted by the Canadian Government and is now the offical EN app in Canada.
+In 2020 I worked with a few people at Shopify to design and build a COVID exposure notification mobile app. The open-source framework is now the offical exposure notification app of Canada.
 
 #### Projects
 
-[Habitally]() -- Coming soon.
-
 [Gauntlet](https://gauntletapp.com/) -- An app for folks who play Magic: The Gathering. Hands down the best iOS app for tracking your decks, game history and life totals. If you play MTG, in any format, you should try the app out.
 
-I used to maintain a number of icon projects, but I retired them all in 2020.
+_Habitally_ -- An app to keep yourself accountable. Coming soon.
+
+_Dig_ -- A card game about Dwarves and Gold. Coming soon.
+
+I also used to maintain a bunch of icon projects (_Batch_, _Climacons_, _City Icons for Offscreen Magazine_) and some other little side projects (_Apaxy_) but I retired them all in early 2020 to focus on family.
 
 #### Interests
 
