@@ -6,23 +6,23 @@ class: about
 
 ### About me
 
-I'm a product designer currently living in Canada.
+I work at [Shopify](https://www.shopify.com/) as a Staff Product Designer. I help teams in our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time helping crafters grow their product design and critical thinking skills.
 
-I work at [Shopify](https://www.shopify.com/) as a Staff Product Designer. I help crafters and leads across our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time mentoring crafters through weekly Office Hours and 1:1 pairing sessions.
-
-Before that, I lead the redesign of Shopify's icon ecosystem across web and multiple mobile apps. The end result was a visually unified and streamlined library of icons unique to Shopify. I also wrote comprehensive construcion documentation, empowering teams to contribute to the system independently of me.
+A few years earlier, I led the redesign of Shopify's icon ecosystem across web and multiple mobile apps. The end result was a visually unified and streamlined library of icons unique to Shopify. I also wrote comprehensive construcion documentation, empowering teams to contribute to the system independently of me.
 
 In 2020 I worked with a few people at Shopify to design and build a COVID exposure notification mobile app. The open-source framework is now the offical exposure notification app of Canada.
 
+I live in Ottawa with my wife, daughter and Husky.
+
 #### Projects
 
-[Gauntlet](https://gauntletapp.com/) -- An app for folks who play Magic: The Gathering. Hands down the best iOS app for tracking your decks, game history and life totals. If you play MTG, in any format, you should try the app out.
+[Gauntlet](https://gauntletapp.com/) -- Probably the best Magic: The Gathering mobile app out there. If you play the game, in any format, you should check it out.
 
-_Habitally_ -- An app to keep yourself accountable. Coming soon.
+_Habitally_ -- An app to keep you and your friends accountable. Coming soon.
 
 _Dig_ -- A card game about Dwarves and Gold. Coming soon.
 
-I also used to maintain a bunch of icon projects (_Batch_, _Climacons_, _City Icons for Offscreen Magazine_) and some other little side projects (_Apaxy_) but I retired them all in early 2020 to focus on family.
+I also used to maintain several popular icon librarires (_Batch_ and _Climacons_) but those--and most of my other side projects--have been retired so I have space for new things.
 
 #### Interests
 
