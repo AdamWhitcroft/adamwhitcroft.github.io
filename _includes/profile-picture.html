@@ -1,6 +1,8 @@
 <figure class="profile-picture">
   <img src="/assets/img.png" alt="" />
+  {% if include.caption %}
   <figcaption>
-    <p class="font-size-smallest">{{ include.caption }}</p>
+    <p>{{ include.caption }}</p>
   </figcaption>
+  {% endif %}
 </figure>

@@ -4,6 +4,8 @@ title: About
 class: about
 ---
 
+{% include profile-picture.html caption="Taken 2021 by Kyle" %}
+
 ### About me
 
 I work at [Shopify](https://www.shopify.com/) as a Staff Product Designer. I help teams in our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time helping crafters grow their product design and critical thinking skills.

@@ -1,9 +1,6 @@
 figure.profile-picture {
   position: relative;
-  margin-top: $measure;
   margin-bottom: $measure;
-  margin-left: -$measure;
-  padding-right: $measure;
 
   @media screen and (max-width: $breakpoint-small) {
     margin-left: -$measure / 2;
@@ -11,20 +8,15 @@ figure.profile-picture {
 
   img {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    transform: perspective(1600px) rotateY(4deg);
   }
 
   figcaption {
-    transform: rotate(92deg);
+    transform: rotate(-8deg);
     position: absolute;
-    right: -$measure;
-    top: $measure * 2;
-
-    @media screen and (max-width: $breakpoint-small) {
-      transform: initial;
-      position: initial;
-      padding-left: $measure / 2;
-    }
+    color: white;
+    bottom: $measure / 3;
+    right: $measure / 3;
+    font-family: "Caveat", cursive;
   }
 
   img {
