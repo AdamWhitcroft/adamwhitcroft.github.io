@@ -10,4 +10,4 @@ I'm also building an app called [Gauntlet](http://gauntletapp.com/) with a frien
 
 Learn more [about me &rarr;](/about/)
 
-Read things I've [found &rarr;](/finds)
+Read things I've [found &rarr;](/finds/)
