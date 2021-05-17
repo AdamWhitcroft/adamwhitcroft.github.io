@@ -18,20 +18,24 @@ I live in Ottawa with my wife, daughter and Husky.
 
 #### Projects
 
-[Gauntlet](https://gauntletapp.com/) -- Probably the best Magic: The Gathering mobile app out there. If you play the game, in any format, you should check it out.
+[Gauntlet](https://gauntletapp.com/) -- If you play Magic: The Gathering in any format, you should use this app.
 
-_Habitally_ -- An app to keep you and your friends accountable. Coming soon.
+_Habitally_ -- An accountability app (in development).
 
-_Dig_ -- A card game about Dwarves and Gold. Coming soon.
+_Dig_ -- A card game (in development).
+
+_Spell Mastery_ -- A YouTube channel (in development).
 
 I also used to maintain several popular icon librarires (_Batch_ and _Climacons_) but those--and most of my other side projects--have been retired so I have space for new things.
 
 #### Interests
 
-I'm into Veganism, Yoga, Photography[^1], Magic: The Gathering, Dota 2 and making stuff in 3D.
+I'm into Yoga, Photography[^1], Magic: The Gathering, Dota 2 and making stuff in 3D. Vegan and alcohol-free since 2017.
 
 ### About this site
 
 I built this with [Jekyll](https://jekyllrb.com/). It's hosted on [Github](https://github.com/). The typeface is IBM Plex Sans served by [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Sans).
+
+As of 05.16.2021 there are no analytics trackers on this site.
 
 [^1]: I have a couple of cameras I use regularly. Pentax ME Super for film, Canon 5D with a Canon 24-70mm ƒ/2.8L lens for digital and a Teenage Engineering I-1 for polaroids.
