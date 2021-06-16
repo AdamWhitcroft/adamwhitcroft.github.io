@@ -8,7 +8,7 @@ class: about
 
 ### About me
 
-I work at [Shopify](https://www.shopify.com/) as a Staff Product Designer. I help teams in our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time helping crafters grow their product design and critical thinking skills.
+I work at [Shopify](https://www.shopify.com/) as a Senior Staff Product Designer. I help teams in our Deliver product line ship approachable and efficient tools for merchants to manage their orders and inventory. I also spend a lot of time helping crafters grow their product design and critical thinking skills.
 
 A few years earlier, I led the redesign of Shopify's icon ecosystem across web and multiple mobile apps. The end result was a visually unified and streamlined library of icons unique to Shopify. I also wrote comprehensive construcion documentation, empowering teams to contribute to the system independently of me.
 
