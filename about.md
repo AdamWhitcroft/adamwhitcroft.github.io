@@ -26,7 +26,7 @@ _Dig_ -- A card game (in development).
 
 _Spell Mastery_ -- A YouTube channel (in development).
 
-I also used to maintain several popular icon librarires (_Batch_ and _Climacons_) but those--and most of my other side projects--have been retired so I have space for new things.
+I also used to maintain several popular icon libraries (_Batch_ and _Climacons_) but those--and most of my other side projects--have been retired so I have space for new things.
 
 #### Interests
 
