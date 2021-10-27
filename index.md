@@ -8,6 +8,4 @@ I've worked at Shopify since 2016, where I'm currently a Senior Staff Designer. 
 
 I'm also building an app called [Gauntlet](http://gauntletapp.com/) with a friend.
 
-Learn more [about me &rarr;](/about/)
-
-Read things I've [found &rarr;](/finds/)
+Learn more [about me](/about/).
