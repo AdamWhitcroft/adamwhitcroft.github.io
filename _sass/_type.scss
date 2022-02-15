@@ -41,7 +41,6 @@ a {
 
   @media screen and (prefers-color-scheme: dark) {
     color: $link--darkMode;
-    background-color: rgba($link--darkMode, 0.1);
 
     &:hover {
       background-color: rgba($link--darkMode, 0.2);
