@@ -1,0 +1,38 @@
+- name: Preview
+  client: Personal
+  imgPath: "preview.png"
+  accentColor: "#0655E8"
+  layout: full
+  downloadURL: "test.com"
+
+- name: Mail
+  client: GitHub
+  imgPath: "test.png"
+  layout: half
+  accentColor: "red"
+
+- name: Playstation
+  client: Shitbook
+  imgPath: "test.png"
+  layout: half
+  accentColor: "green"
+
+- name: Whatever
+  client: Personal
+  imgPath: "test.png"
+  layout: full
+
+- name: Whatever
+  client: Personal
+  imgPath: "test.png"
+  layout: full
+
+- name: Mail
+  client: GitHub
+  imgPath: "test.png"
+  layout: half
+
+- name: Playstation
+  client: Shitbook
+  imgPath: "test.png"
+  layout: half

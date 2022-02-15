@@ -1,0 +1,55 @@
+.icon-grid {
+    display: grid;
+    grid-gap: $measure / 2;
+    grid-template-columns: 2fr 2fr;
+    margin-top: $measure;
+
+    .icon {
+        padding: $measure / 2;
+        padding-top: 0;
+        border-radius: 24px;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+        color: white;
+    }
+
+    .icon-img {
+        padding: $measure * 2;
+        height: 20em;
+        background-size: 20em;
+        background-repeat: no-repeat;
+        background-position: center;
+    } 
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    a {
+        position: absolute;
+        top: $measure / 2;
+        right: $measure / 2;
+    }
+
+    .layout-full {
+        grid-column: auto / span 2;
+    }
+
+    .layout-half {
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: auto / span 2;
+          }
+    }
+
+    .icon-meta {
+        // @extend .font-size-small;
+    }
+
+    .icon-meta-name {}
+
+    .icon-meta-client {}
+
+
+}
