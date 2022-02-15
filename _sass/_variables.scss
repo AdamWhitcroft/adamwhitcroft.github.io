@@ -1,20 +1,24 @@
 /* Colours */
 
-$background: white;
-$background--darkMode: #1b1d22;
+$background: #fff;
+$background--darkMode: #0a0a0a;
 
-$color: #1b1d22;
-$color--darkMode: white;
+$color: #1b1d2a;
+$color--darkMode: #e3e2df;
 
 $color-subdued: rgba($color, 0.5);
-$color-subdued--darkMode: rgba($color--darkMode, 0.5);
+$color-subdued--darkMode: #7582A8;
 
-$link: #390cb9;
-$link--darkMode: #ffd92f;
+$color-titles: #000;
+$color-titles--darkMode: white;
+
+// $link: #7A4EF6;
+$link: blue;
+$link--darkMode: #828fff;
 
 /* Type */
 
-$font-sans-serif: "IBM Plex Sans", sans-serif;
+$font-sans-serif: 'Inter', sans-serif;
 $font-size-small: 0.875rem;
 $font-size-smallest: 0.75rem;
 
@@ -24,4 +28,4 @@ $measure: 3em;
 
 /* Responsive */
 
-$breakpoint-small: 720px;
+$breakpoint-small: 640px;

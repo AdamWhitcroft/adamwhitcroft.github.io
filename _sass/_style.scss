@@ -1,11 +1,14 @@
 html {
   background-color: $background;
   color: $color;
-  font-weight: 300;
+  font-weight: normal;
   font-family: $font-sans-serif;
-  font-size: 120%;
   line-height: 1.5;
+  font-size: 1em;
   scroll-behavior: smooth;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 
   @media screen and (max-width: $breakpoint-small) {
     font-size: 100%;
@@ -27,21 +30,14 @@ header {
 
   h1 {
     margin: 0;
+    font-size: inherit;
   }
 
   span {
     @extend .subdued;
     display: block;
   }
-
-  .sep {
-    padding-left: $measure / 12;
-    padding-right: $measure / 12;
-  }
-
-  a {
-    @extend .plain-link;
-  }
+  
 }
 
 main {
@@ -131,3 +127,20 @@ footer {
 
 /* Profile picture */
 @import "profile-picture";
+
+/* Icons */
+@import "icons";
+
+/* Projects */
+
+.projects {
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  p {
+    @extend .subdued;
+  }
+
+}
