@@ -27,15 +27,16 @@
         display: block;
     }
 
+    p {
+        margin: 0;
+    }
+
     .meta {
-        padding: $measure / 3;
+        padding: $measure / 2;
+        padding-bottom: $measure / 4;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        p {
-            margin: 0;
-        }
     }
 
     .icon-meta-name {
@@ -53,6 +54,16 @@
 
         @media screen and (prefers-color-scheme: dark) {
             background: #292B2F;
+        }
+    }
+
+    .about {
+        padding: $measure / 2;
+        padding-top: 0;
+
+        p {
+            @extend .subdued;
+            font-size: $font-size-small;
         }
     }
 
