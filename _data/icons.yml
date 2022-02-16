@@ -1,5 +1,9 @@
 - name: Preview icon
   client: Personal
   imgPath: "preview.png"
-  layout: full
   downloadURL: "https://adamwhitcroft.gumroad.com/l/preview"
+
+- name: Things icon
+  client: Personal
+  imgPath: "things.png"
+  downloadURL: "https://adamwhitcroft.gumroad.com/l/things"
