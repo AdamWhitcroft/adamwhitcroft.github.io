@@ -10,4 +10,6 @@ I’m also building an app called [Gauntlet](http://gauntletapp.com/) with a fri
 
 ### Icons
 
-A selection of personal icons, coming soon.
+I'm currently **available** for icon commissions. If you'd like to work together, drop me a DM on [Twitter](https://twitter.com/AdamWhitcroft).
+
+{% include icons.html %}
