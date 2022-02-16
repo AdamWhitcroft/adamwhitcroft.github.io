@@ -36,14 +36,14 @@ a {
   color: $link;
 
   &:hover {
-    background-color: rgba($link, 0.1);
+    text-decoration: underline;
   }
 
   @media screen and (prefers-color-scheme: dark) {
     color: $link--darkMode;
 
     &:hover {
-      background-color: rgba($link--darkMode, 0.2);
+      text-decoration: underline;
     }
   }
 }

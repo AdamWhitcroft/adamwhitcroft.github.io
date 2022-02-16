@@ -1,18 +1,22 @@
 <section class="icon-grid">
     {% for icon in site.data.icons %}
-    <div class="icon layout-{{ icon.layout }}" style="background-color:{% if icon.accentColor %}{{ icon.accentColor }}{% else %}#ffffff{% endif %}">
-        <div class="icon-img" style="background-image:url(/assets/icons/{{icon.imgPath}})">
-            <!-- {% if icon.client == "Personal" %}
+    <div class="icon layout-{{ icon.layout }}">
+        <div class="icon-img">
+            {% if icon.client == "Personal" %}
             <img src="/assets/icons/{{icon.imgPath }}" alt="{{ icon.name}} icon by Adam Whitcroft" />
             {% else %}
             <img src="/assets/icons/{{icon.imgPath }}" alt="{{ icon.name}} icon for {{ icon.client }} by Adam Whitcroft" />
             {% endif %}
-            {% if icon.downloadURL %}
-            <a href="{{ icon.downloadURL }}" title="Download {{ icon.name }}">poo</a>
-            {% endif %} -->
         </div>
-        <div class="icon-meta">
-            <span class="icon-meta-name">{{ icon.name }}</span> • <span class="icon-meta-client">{{ icon.client }}</span>
+        <div class="meta">
+            <p class="icon-meta-name">
+                {% if icon.downloadURL %}
+                <a href="{{ icon.downloadURL }}" title="Download {{ icon.name }} by Adam Whitcroft">{{ icon.name }} &darr;</a>
+                {% else %}
+                {{ icon.name }}
+                {% endif %}
+            </p>
+            <p class="icon-meta-client">{{ icon.client }}</p>
         </div>
     </div>
     {% endfor %}
