@@ -1,9 +1,11 @@
-- name: Preview icon
+- name: Preview
   client: Personal
+  description: An unofficial replacement icon for the macOS app Preview.
   imgPath: "preview.png"
   downloadURL: "https://adamwhitcroft.gumroad.com/l/preview"
 
-- name: Things icon
+- name: Things
   client: Personal
+  description: An unofficial replacement icon for the macOS app Things.
   imgPath: "things.png"
   downloadURL: "https://adamwhitcroft.gumroad.com/l/things"

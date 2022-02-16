@@ -11,12 +11,15 @@
         <div class="meta">
             <p class="icon-meta-name">
                 {% if icon.downloadURL %}
-                <a href="{{ icon.downloadURL }}" title="Download {{ icon.name }} by Adam Whitcroft">{{ icon.name }} &darr;</a>
+                <a href="{{ icon.downloadURL }}" title="Download {{ icon.name }} by Adam Whitcroft"><strong>{{ icon.name }}</strong> &darr;</a>
                 {% else %}
                 {{ icon.name }}
                 {% endif %}
             </p>
             <p class="icon-meta-client">{{ icon.client }}</p>
+        </div>
+        <div class="about">
+            <p>{{ icon.description }}</p>
         </div>
     </div>
     {% endfor %}
