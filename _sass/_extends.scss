@@ -1,5 +1,5 @@
 .width {
-  max-width: 36rem;
+  max-width: 42rem;
   padding: 0 $measure;
   margin: 0 auto;
   position: relative;
@@ -38,4 +38,12 @@
   @media screen and (prefers-color-scheme: dark) {
     color: $color-subdued--darkMode;
   }
+}
+
+.font-size-small {
+  font-size: $font-size-small;
+}
+
+.font-size-smallest {
+  font-size: $font-size-smallest;
 }

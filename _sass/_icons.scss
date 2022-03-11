@@ -1,25 +1,72 @@
 .icon-grid {
-    margin-top: $measure;
+    display: grid;
+    grid-gap: $measure / 2;
+    grid-template-columns: 2fr 2fr;
 
     .icon {
-        margin-bottom: $measure / 3;
-        border-radius: 24px;
-        border: 1px solid #E5E5E5;
+        border-radius: $measure / 3;
+        background-color: #f5f5f7;
         overflow: hidden;
-        background: #F9FAFB;
-        box-shadow: 0 2px 4px rgba($color, .05), 0 1px 2px rgba($color, .05);
 
         @media screen and (prefers-color-scheme: dark) {
-            background: #1F2023;
-            border-color: #2D2F33;
+            background-color: #1F2023;
+          }
+    }
+
+    .hire-me {
+        display: flex;
+        align-items: center;
+        padding: $measure / 2;
+        background-color: #4822F5;
+        color: white;
+
+        @media screen and (max-width: $breakpoint-small) {
+            display: block;
+            padding: 2em;
+        }
+
+        p {
+            margin: 0;
+
+            span {
+                font-weight: bold;
+            }
+
+            @media screen and (max-width: $breakpoint-small) {
+                margin-bottom: 1em;
+                text-align: center;
+              }
+        }
+
+        a {
+            margin-left: auto;
+            background: #24117A;
+            padding: .25em 1em;
+            border-radius: 6px;
+            color: white;
+
+            @media screen and (max-width: $breakpoint-small) {
+                display: block;
+                text-align: center;
+                padding: .5em;
+              }
         }
 
     }
 
-    .icon-img {
-        position: relative;
-        overflow: hidden;
-    } 
+    .type-app {
+        .icon-img {
+            padding: 5em;
+            height: 6em;
+            background-position: center;
+            background-size: 14em;
+            background-repeat: no-repeat;
+        }
+
+        .meta {
+            padding-top: 0;
+        }
+    }
 
     img {
         max-width: 100%;
@@ -27,44 +74,36 @@
         display: block;
     }
 
-    p {
-        margin: 0;
-    }
-
     .meta {
-        padding: $measure / 2;
-        padding-bottom: $measure / 4;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-    }
-
-    .icon-meta-name {
-        align-self: center;
-    }
-
-    .icon-meta-client {
-        font-size: $font-size-smallest;
-        font-weight: 600;
-        background: #E5E7EB;
-        padding: .25em 1em;
-        text-transform: uppercase;
-        border-radius: 6px;
-        @extend .subdued;
-
-        @media screen and (prefers-color-scheme: dark) {
-            background: #292B2F;
-        }
-    }
-
-    .about {
         padding: $measure / 2;
-        padding-top: 0;
+
+        .name {
+            font-weight: 600;
+        }
 
         p {
-            @extend .subdued;
-            font-size: $font-size-small;
+            margin: 0;
         }
+
+        .client {
+            margin-left: auto;
+            @extend .font-size-small;
+            @extend .subdued;
+        }
+
     }
 
+}
+
+.layout-full {
+    grid-column: auto / span 2;
+}
+
+.layout-half {
+    // full width at breakpoint
+    @media screen and (max-width: $breakpoint-small) {
+        grid-column: auto / span 2;
+      }
 }
