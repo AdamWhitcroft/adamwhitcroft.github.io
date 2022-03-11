@@ -31,12 +31,11 @@ main h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: $color;
   text-decoration: none;
   color: $link;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: underline
   }
 
   @media screen and (prefers-color-scheme: dark) {
@@ -63,12 +62,4 @@ blockquote {
 sup a,
 .reversefootnote {
   @extend .plain-link;
-}
-
-.font-size-small {
-  font-size: $font-size-small;
-}
-
-.font-size-smallest {
-  font-size: $font-size-smallest;
 }

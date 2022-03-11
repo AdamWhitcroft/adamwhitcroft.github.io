@@ -1,13 +1,4 @@
 <footer>
-	<ul class="font-size-small">
-		{% for link in site.data.footer-menu %}
-		<li>
-			<a 
-				class="{% if link.url == page.url %}active{% endif %}"
-				href="{{ link.url}}">{{ link.name }}
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
-	<p class="font-size-small">&copy; {{ site.time | date: '%Y' }}</p>
+	<p>Be excellent to each other.</p>
+	<p>&copy; {{ site.time | date: '%Y' }}</p>
 </footer>

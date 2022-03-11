@@ -37,6 +37,11 @@ header {
     @extend .subdued;
     display: block;
   }
+
+  b {
+    font-weight: initial;
+    @extend .subdued;
+  }
   
 }
 
@@ -80,67 +85,16 @@ footer {
   @extend .clearfix;
   padding-top: $measure;
   padding-bottom: $measure;
-  display: flex;
-
-  a {
-    @extend .plain-link;
-    @extend .subdued;
-
-    &.active {
-      border-bottom: 2px solid $link;
-
-      @media screen and (prefers-color-scheme: dark) {
-        border-bottom-color: $link--darkMode;
-      }
-    }
-  }
 
   p {
     margin: 0;
-    margin-left: auto;
+    @extend .font-size-small;
     @extend .subdued;
   }
-
-  ul {
-    @extend .plain-ul;
-    @extend .clearfix;
-    margin-bottom: 0;
-  }
-
-  li {
-    float: left;
-    margin-right: $measure / 6;
-  }
 }
-
-/* Footnotes */
-
-.footnotes {
-  margin-top: $measure;
-
-  ol {
-    @extend .font-size-small;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-/* Profile picture */
-@import "profile-picture";
 
 /* Icons */
 @import "icons";
 
-/* Projects */
-
-.projects {
-
-  h4 {
-    margin-bottom: 0;
-  }
-
-  p {
-    @extend .subdued;
-  }
-
-}
+/* Resume */
+@import "resume";

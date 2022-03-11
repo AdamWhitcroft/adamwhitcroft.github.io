@@ -1,11 +1,27 @@
+- name: Chatty
+  client: Personal
+  imgPath: chatty-solo.png
+  downloadURL:
+  layout: full
+  type: app
+
+- name: Shopify navigation
+  client: Shopify
+  imgPath: shopify-navigation.png
+  downloadURL:
+  layout: full
+  type: kit
+
 - name: Preview
   client: Personal
-  description: An unofficial replacement icon for the macOS app Preview.
-  imgPath: "preview.png"
-  downloadURL: "https://adamwhitcroft.gumroad.com/l/preview"
+  imgPath: preview-solo.png
+  downloadURL: https://adamwhitcroft.gumroad.com/l/preview
+  layout: half
+  type: app
 
 - name: Things
   client: Personal
-  description: An unofficial replacement icon for the macOS app Things.
-  imgPath: "things.png"
-  downloadURL: "https://adamwhitcroft.gumroad.com/l/things"
+  imgPath: things-solo.png
+  downloadURL: https://adamwhitcroft.gumroad.com/l/things
+  layout: half
+  type: app
