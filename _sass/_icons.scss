@@ -80,11 +80,13 @@
             &:before {
                 border-left: 1px dashed $border-color;
                 left: 1em;
+                left: calc(1em - 1px);
             }
 
             &:after {
                 border-right: 1px dashed $border-color;
                 right: 1em;
+                right: calc(1em - 1px);
             }
             
         }
@@ -94,6 +96,13 @@
 
             span {
                 font-weight: bold;
+
+                @media screen and (max-width: $breakpoint-small) {
+                    display: block;
+                    margin-bottom: 1em;
+                    text-align: center;
+                  }
+
             }
 
             @media screen and (max-width: $breakpoint-small) {
@@ -110,7 +119,7 @@
             padding: .5em 1.5em;
             border-radius: 6px;
             position: relative;
-            transition: 120ms ease;
+            transition: box-shadow 120ms ease, background-color 120ms ease;
 
             &:before {
                 content: '';
@@ -119,12 +128,12 @@
                 bottom: -2em;
                 width: 1px;
                 border-left: 1px dashed $border-color;
-                left: -1px;
+                left: -3px;
 
                 @media screen and (max-width: $breakpoint-small) {
                     border: 0;
                     border-top: 1px dashed $border-color;
-                    top: -1px;
+                    top: -3px;
                     left: -2em;
                     right: -2em;
                     height: 1px;
@@ -134,8 +143,8 @@
 
             &:hover {
                 text-decoration: none;
-                background-color: rgba(255,255,255,.3);
-                box-shadow: 0 0 12px rgba(0,0,0,.2);
+                background-color: rgba(255,255,255,.4);
+                box-shadow: 0 0 1em rgba(16,40,101,.6);
             }
 
             @media screen and (max-width: $breakpoint-small) {
@@ -170,7 +179,7 @@
     .meta {
         display: flex;
         align-items: center;
-        padding: 2em;
+        padding: 1em;
 
         .name {
             font-weight: 600;
