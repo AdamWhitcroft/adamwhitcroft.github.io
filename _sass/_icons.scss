@@ -41,9 +41,14 @@
         a {
             margin-left: auto;
             background: #24117A;
-            padding: .25em 1em;
+            padding: .5em 1.5em;
             border-radius: 6px;
             color: white;
+
+            &:hover {
+                text-decoration: none;
+                background-color: #160F60;
+            }
 
             @media screen and (max-width: $breakpoint-small) {
                 display: block;
