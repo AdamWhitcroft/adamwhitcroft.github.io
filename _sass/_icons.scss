@@ -43,6 +43,7 @@
             padding: 1em 0;
             position: relative;
             background: url("/assets/blueprint.png");
+            background-position: center center;
             background-size: 32px;
 
             &:before {
@@ -58,9 +59,7 @@
 
         }
 
-        .top-border {
-            border-top: 1px solid transparent;
-            border-bottom: 1px solid transparent;
+        .inner-inner {
             padding: 0 1em;
             display: flex;
             align-items: center;
@@ -80,27 +79,92 @@
             &:before {
                 border-left: 1px dashed $border-color;
                 left: 1em;
-                left: calc(1em - 1px);
             }
 
             &:after {
                 border-right: 1px dashed $border-color;
                 right: 1em;
-                right: calc(1em - 1px);
             }
             
         }
 
+        .content {
+            display: inline-flex;
+
+            @media screen and (max-width: $breakpoint-small) {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        h4 {
+            margin: 0;
+            margin-right: .5em;
+            position: relative;
+            line-height: 2;
+
+            @media screen and (max-width: $breakpoint-small) {
+                margin: 0 0 .5em 0;
+                background: rgba(255,255,255,.1);
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: -2em;
+                    right: -2em;
+                    bottom: 0;
+                    border-bottom: 1px dashed $border-color;
+                }
+            }
+
+        }
+
         p {
             margin: 0;
+            position: relative;
+            line-height: 2;
+
+            @media screen and (max-width: $breakpoint-small) {
+                display: block;
+                background: rgba(255,255,255,.1);
+
+                &:before,
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: -2em;
+                    right: -2em;
+                }
+
+                &:after {
+                    bottom: 0;
+                    border-bottom: 1px dashed $border-color;
+                }
+
+                &:before {
+                    top: 0;
+                    border-top: 1px dashed $border-color;
+                }
+
+              }
 
             span {
                 font-weight: bold;
+                position: relative;
 
                 @media screen and (max-width: $breakpoint-small) {
                     display: block;
-                    margin-bottom: 1em;
                     text-align: center;
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        left: -2em;
+                        right: -2em;
+                        bottom: 0;
+                        border-bottom: 1px dashed $border-color;
+                    }
+
                   }
 
             }
@@ -125,15 +189,17 @@
                 content: '';
                 position: absolute;
                 top: -2em;
+                top: calc(-2em + -3px);
                 bottom: -2em;
+                bottom: calc(-2em + -3px);
                 width: 1px;
                 border-left: 1px dashed $border-color;
-                left: -3px;
+                left: -2px;
 
                 @media screen and (max-width: $breakpoint-small) {
                     border: 0;
                     border-top: 1px dashed $border-color;
-                    top: -3px;
+                    top: -2px;
                     left: -2em;
                     right: -2em;
                     height: 1px;
@@ -144,7 +210,7 @@
             &:hover {
                 text-decoration: none;
                 background-color: rgba(255,255,255,.4);
-                box-shadow: 0 0 1em rgba(16,40,101,.6);
+                box-shadow: 0 0 1em rgba(16,40,101,.2);
             }
 
             @media screen and (max-width: $breakpoint-small) {
