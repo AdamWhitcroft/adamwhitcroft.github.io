@@ -257,8 +257,20 @@
 
         .client {
             margin-left: auto;
+            display: flex;
+            align-items: center;
             @extend .font-size-small;
             @extend .subdued;
+
+            svg {
+                margin-left: .5em;
+                fill: $color-subdued;
+
+                @media screen and (prefers-color-scheme: dark) {
+                  fill: $color-subdued--darkMode;
+                }
+            }
+
         }
 
     }
