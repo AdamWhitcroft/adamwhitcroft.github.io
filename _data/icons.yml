@@ -1,7 +1,7 @@
-- name: Chatty
+- name: Messaging
   client: Personal
-  imgPath: chatty-solo.png
-  downloadURL:
+  imgPath: messaging-solo.png
+  downloadURL: https://adamwhitcroft.gumroad.com/l/messaging
   layout: full
   type: app
 
