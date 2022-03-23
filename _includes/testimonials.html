@@ -1,0 +1,10 @@
+<section class="testimonials">
+    {% for testimonial in site.data.testimonials %}
+    <div {% if forloop.last %}class="last"{% endif %}>
+        <blockquote>
+            {{ testimonial.quote }}
+        </blockquote>
+        <cite>{{ testimonial.source }}</cite>
+    </div>
+    {% endfor %}
+</section>

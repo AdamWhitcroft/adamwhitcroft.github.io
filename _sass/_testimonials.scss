@@ -1,0 +1,21 @@
+.testimonials {
+    margin-top: $measure;
+
+    div {
+        margin-bottom: $measure;
+
+        &.last {
+            margin: 0;
+        }
+
+    }
+
+    blockquote {
+        margin: 0;
+    }
+
+    span {
+        color: red;
+    }
+
+}

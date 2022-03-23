@@ -39,18 +39,6 @@ a {
   }
 }
 
-blockquote {
-  border-left: 1px solid $color-subdued;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  color: $color-subdued;
-
-  @media screen and (prefers-color-scheme: dark) {
-    border-left: 1px solid $color-subdued--darkMode;
-    color: $color-subdued--darkMode;
-  }
-}
-
 sup a,
 .reversefootnote {
   @extend .plain-link;
