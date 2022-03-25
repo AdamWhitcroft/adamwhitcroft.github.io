@@ -1,9 +1,7 @@
 <section class="resume">
     {% for job in site.data.resume %}
     <div class="job {% if forloop.last %}last{% endif %}">
-        <div>
-            <h3>{{ job.company }}</h3>
-        </div>
+        <h3><a href="{{ job.companyURL }}">{{ job.company }}</a></h3>
         <div class="roles">
             <ul>
                 {% for role in job.roles %}

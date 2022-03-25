@@ -1,4 +1,4 @@
-- company: Shopify
+- company: "Shopify"
   companyURL: https://www.shopify.com
   description: 
   roles:
@@ -14,7 +14,7 @@
     - startDate: 2016
       endDate: 2018
       role: Snr. Product Designer
-- company: Marvel
+- company: "Marvel"
   companyURL: https://marvelapp.com
   description: 
   roles:
