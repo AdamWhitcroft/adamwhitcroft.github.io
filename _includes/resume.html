@@ -1,15 +1,18 @@
 <section class="resume">
     {% for job in site.data.resume %}
     <div class="job">
-        <div class="date">
-            <p>{{ job.startDate }} &ndash; {{ job.endDate }}</p>
-        </div>
         <div>
-            <h3>{{ job.role }}</h3>
-            {% if job.company %}
-            <h4>{{ job.company }}</h4>
+            <h3>{{ job.company }}</h3>
+        </div>
+        <div class="roles">
+            <ul>
+                {% for role in job.roles %}
+                <li><span class="role">{{ role.role }}</span> <span class="dates">{{ role.startDate }} &ndash; {{ role.endDate }}</span></li>
+                {% endfor %}
+            </ul>
+            {% if job.description %}
+            <p>{{ job.description }}</p>
             {% endif %}
-            {{ job.description }}
         </div>
     </div>
     {% endfor %}

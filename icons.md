@@ -5,4 +5,3 @@ class: icons
 ---
 
 {% include icons.html %}
-{% include testimonials.html %}

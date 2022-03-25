@@ -1,6 +1,6 @@
 <section class="testimonials">
     {% for testimonial in site.data.testimonials %}
-    <div {% if forloop.last %}class="testimonial last"{% else %}class="testimonial"{% endif %}>
+    <div class="testimonial {% cycle 'odd', 'even' %} {% if forloop.last %}last{% endif %}">
         <div class="avatar">
             <img src="{{ testimonial.avatar }}" />
             <ul class="cite">
