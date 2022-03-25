@@ -1,10 +1,16 @@
 <section class="testimonials">
     {% for testimonial in site.data.testimonials %}
-    <div {% if forloop.last %}class="last"{% endif %}>
+    <div {% if forloop.last %}class="testimonial last"{% else %}class="testimonial"{% endif %}>
+        <div class="avatar">
+            <img src="{{ testimonial.avatar }}" />
+            <ul class="cite">
+                <li class="source">{{ testimonial.source }}</li>
+                <li class="company">{{ testimonial.company }}</li>
+            </ul>
+        </div>
         <blockquote>
             {{ testimonial.quote }}
         </blockquote>
-        <cite>{{ testimonial.source }}</cite>
     </div>
     {% endfor %}
 </section>
