@@ -20,23 +20,22 @@
     ul {
         @extend .plain-ul;
 
-        @media screen and (max-width: $breakpoint-small) {
-            margin-top: 1em;
-          }
-
         li {
             display: flex;
-            align-items: center;
             position: relative;
 
             &:before {
-                content: '......................................................................................................................................................';
+                content: '';
                 position: absolute;
-                white-space: nowrap;
-                overflow: hidden;
                 left: 0;
-                right: .5em;
+                right: 0;
                 z-index: -1;
+                top: 50%;
+                border-bottom: 1px dashed $color-subdued;
+
+                @media screen and (prefers-color-scheme: dark) {
+                    border-bottom-color: $color-subdued--darkMode;
+                }
             }
 
         }
@@ -57,16 +56,20 @@
         .dates {
             padding-left: .5em;
             margin-left: auto;
-            @extend .font-size-small;
             @extend .subdued;
         }
 
     }
 
-    h3 {
+    h4 {
         margin: 0;
+        line-height: 1.5;
         font-size: 1em;
-        font-weight: 400;
+        font-weight: normal;
+    }
+
+    p {
+        margin: 0;
     }
 
 }
