@@ -11,6 +11,10 @@
             display: block;
           }
 
+          &.last {
+              margin-bottom: 0;
+          }
+
     }
 
     ul {

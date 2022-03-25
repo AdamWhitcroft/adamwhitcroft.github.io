@@ -1,6 +1,6 @@
 <section class="resume">
     {% for job in site.data.resume %}
-    <div class="job">
+    <div class="job {% if forloop.last %}last{% endif %}">
         <div>
             <h3>{{ job.company }}</h3>
         </div>
