@@ -13,17 +13,53 @@
 
     }
 
-    h3,h4 {
-        margin: 0;
+    ul {
+        @extend .plain-ul;
+
+        @media screen and (max-width: $breakpoint-small) {
+            margin-top: 1em;
+          }
+
+        li {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            &:before {
+                content: '......................................................................................................................................................';
+                position: absolute;
+                white-space: nowrap;
+                overflow: hidden;
+                left: 0;
+                right: .5em;
+                z-index: -1;
+            }
+
+        }
+
+        .role,
+        .dates {
+            background: $background;
+
+            @media screen and (prefers-color-scheme: dark) {
+                background: $background--darkMode;
+            }
+        }
+
+        .role {
+            padding-right: .5em;
+        }
+
+        .dates {
+            padding-left: .5em;
+            margin-left: auto;
+            @extend .font-size-small;
+            @extend .subdued;
+        }
+
     }
 
-    h4 {
-        font-weight: initial;
-        margin-bottom: 1em;
-        @extend .subdued;
-    }
-
-    .date p {
+    h3 {
         margin: 0;
     }
 

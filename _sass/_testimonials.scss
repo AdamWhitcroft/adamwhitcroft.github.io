@@ -1,0 +1,60 @@
+.testimonials {
+    margin-top: $measure / 2;
+
+    .testimonial {
+        margin-bottom: $measure / 2;
+        padding: 2em;
+        border-radius: $measure / 3;
+        background-color: #f5f5f7;
+        position: relative;
+
+        @media screen and (prefers-color-scheme: dark) {
+            background-color: #1F2023;
+        }
+
+        &.last {
+            margin: 0;
+        }
+
+    }
+
+    ul {
+        @extend .plain-ul;
+        margin-left: $measure / 3;
+
+        li {
+            line-height: $measure / 2;
+        }
+    }
+
+    .source {
+        font-weight: 600;
+    }
+
+    .company {
+        @extend .font-size-small;
+        @extend .subdued;
+    }
+
+    .avatar {
+        display: flex;
+        align-items: center;
+
+        img {
+            display: block;
+            border-radius: 100%;
+            width: $measure;
+            height: $measure;
+        }
+
+    }
+
+    blockquote {
+        margin: $measure / 3 0 0 0;
+    }
+
+    em {
+        border-bottom: 2px solid $color;
+    }
+
+}

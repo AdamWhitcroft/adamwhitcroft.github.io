@@ -1,0 +1,16 @@
+<section class="testimonials">
+    {% for testimonial in site.data.testimonials %}
+    <div class="testimonial {% cycle 'odd', 'even' %} {% if forloop.last %}last{% endif %}">
+        <div class="avatar">
+            <img src="{{ testimonial.avatar }}" />
+            <ul class="cite">
+                <li class="source">{{ testimonial.source }}</li>
+                <li class="company">{{ testimonial.company }}</li>
+            </ul>
+        </div>
+        <blockquote>
+            {{ testimonial.quote }}
+        </blockquote>
+    </div>
+    {% endfor %}
+</section>

@@ -1,41 +1,23 @@
 - company: Shopify
   companyURL: https://www.shopify.com
-  startDate: 2021
-  endDate: Today
-  role: Snr. Staff Designer
-  description: More details to come.
-- company: Shopify
-  companyURL: https://www.shopify.com
-  startDate: 2019
-  endDate: 2021
-  role: Staff Designer
-  description: More details to come. 
-- company: Shopify
-  companyURL: https://www.shopify.com
-  startDate: 2018
-  endDate: 2019
-  role: Design Lead
-  description: More details to come.
-- company: Shopify
-  companyURL: https://www.shopify.com
-  startDate: 2016
-  endDate: 2018
-  role: Snr. Designer
-  description: More details to come.
+  description: 
+  roles:
+    - startDate: 2021
+      endDate: Present
+      role: Snr. Staff Designer
+    - startDate: 2019
+      endDate: 2021
+      role: Staff Designer
+    - startDate: 2018
+      endDate: 2019
+      role: Design Lead
+    - startDate: 2016
+      endDate: 2018
+      role: Snr. Product Designer
 - company: Marvel
   companyURL: https://marvelapp.com
-  startDate: 2016
-  endDate: 2016
-  role: Product designer
-  description: More details to come.
-- company: Freelance
-  companyURL: 
-  startDate: 2015
-  endDate: 2016
-  role: Product designer
-- company: ¯\_(ツ)_/¯
-  companyURL: 
-  startDate: 1984
-  endDate: 2015
-  role: 
-  description:
+  description: 
+  roles:
+    - startDate: 2016
+      endDate: 2016
+      role: Product designer
