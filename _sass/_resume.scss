@@ -31,10 +31,10 @@
                 right: 0;
                 z-index: -1;
                 top: 50%;
-                border-bottom: 1px dashed $color-subdued;
+                border-bottom: 1px dashed rgba($color-subdued, .25);
 
                 @media screen and (prefers-color-scheme: dark) {
-                    border-bottom-color: $color-subdued--darkMode;
+                    border-bottom-color: rgba($color-subdued--darkMode, .4);
                 }
             }
 
@@ -70,6 +70,17 @@
 
     p {
         margin: 0;
+    }
+
+    .description {
+        margin-top: $measure / 3;
+        border-radius: $measure / 3;
+        background-color: #f5f5f7;
+        padding: 2em; 
+
+        @media screen and (prefers-color-scheme: dark) {
+            background-color: #1F2023;
+          }
     }
 
 }
