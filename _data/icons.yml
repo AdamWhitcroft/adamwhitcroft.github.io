@@ -5,13 +5,6 @@
   layout: full
   type: app
 
-- name: Menu icons
-  client: Shopify
-  imgPath: shopify-navigation.png
-  downloadURL:
-  layout: full
-  type: kit
-
 - name: Preview
   client: Personal
   imgPath: preview-solo.png
@@ -25,3 +18,10 @@
   downloadURL: https://adamwhitcroft.gumroad.com/l/things
   layout: half
   type: app
+
+- name: Menu icons
+  client: Shopify
+  imgPath: shopify-navigation.png
+  downloadURL:
+  layout: full
+  type: kit
