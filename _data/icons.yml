@@ -1,8 +1,15 @@
+- name: Pølrd
+  client: Personal
+  imgPath: polrd-solo.png
+  downloadURL: 
+  layout: full
+  type: app
+
 - name: Messaging
   client: Personal
   imgPath: messaging-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/messaging
-  layout: full
+  layout: half
   type: app
 
 - name: Preview
@@ -16,7 +23,7 @@
   client: Personal
   imgPath: things-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/things
-  layout: half
+  layout: full
   type: app
 
 - name: Menu icons
