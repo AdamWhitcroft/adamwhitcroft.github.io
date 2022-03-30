@@ -9,8 +9,9 @@
         var scrollNav = document.getElementById('scrollNav');
         var pageTitle = document.getElementById('pageTitle');
         var headerHeight = document.getElementById('mainNav').offsetTop;
+        var topOfMain = document.getElementsByTagName('main')[0].offsetTop;
 
-        if(scrolledAmount > headerHeight){
+        if(scrolledAmount > topOfMain){
             scrollNav.classList.add('visible');
             mainNav.classList.add('hidden');
             /*
