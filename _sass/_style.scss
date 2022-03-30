@@ -43,7 +43,7 @@ header {
   }
 
   #scrollNav {
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba($background ,0.55);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(10px);
     position: fixed;
@@ -53,7 +53,11 @@ header {
     z-index: 2;
     opacity: 0;
     transform: translateY(-20px);
-    transition: opacity 120ms ease, transform 120ms ease;
+    transition: opacity 120ms ease, transform 180ms ease;
+
+    @media screen and (prefers-color-scheme: dark) {
+      background-color: rgba($background--darkMode ,0.55);
+    }
 
     &.visible {
       opacity: 1;
@@ -95,6 +99,7 @@ main {
     @media screen and (max-width: $breakpoint-small) {
       margin-bottom: $measure;
     }
+
   }
 
   article:target {
@@ -104,7 +109,9 @@ main {
     @media screen and (prefers-color-scheme: dark) {
       border-left-color: $link--darkMode;
     }
+
   }
+
 }
 
 .article-link {
