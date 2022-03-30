@@ -5,13 +5,13 @@
 
     .icon {
         border-radius: $measure / 3;
-        background: $color-titles--darkMode;
+        background: $color-tiles;
         overflow: hidden;
         transform: scale(1);
         transition: transform 120ms ease;
 
         @media screen and (prefers-color-scheme: dark) {
-            background-color: $color-titles;
+            background-color: $color-tiles--darkMode;
           }
 
           &:hover {

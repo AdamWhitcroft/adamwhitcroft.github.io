@@ -12,12 +12,12 @@
         margin-bottom: $measure / 2;
         padding: 1em;
         border-radius: $measure / 3;
-        background: $color-titles--darkMode;
+        border: 2px solid $color-tiles;
         position: relative;
         display: inline-block;
 
         @media screen and (prefers-color-scheme: dark) {
-            background-color: $color-titles;
+            border-color: $color-tiles--darkMode;
         }
 
         &.last {
