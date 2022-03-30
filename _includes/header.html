@@ -1,12 +1,24 @@
+{% if page.class != "home" %}
+<header id="scrollHeader">
+	<div id="mainNav">
+		<h1>
+			<a href="/">Adam Whitcroft</a>
+		</h1>
+	</div>
+	<div id="scrollNav">
+		<div class="width">
+			<h1 id="pageTitle">
+				Adam Whitcroft's {{page.title}}
+			</h1>
+		</div>
+	</div>
+</header>
+{% else %}
 <header>
-	<!-- <img src="/assets/face.jpeg" alt="" /> -->
 	<h1>
-		{% if page.class != "home" %}
-		<a href="/">Adam Whitcroft</a> / {{ page.title }}
-		{% else %}
 		Adam Whitcroft
 		<span>Product designer</span>
 		<span><a href="https://twitter.com/AdamWhitcroft">@adamwhitcroft</a></span>
-		{% endif %}
 	</h1>
 </header>
+{% endif %}

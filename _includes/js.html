@@ -1,0 +1,26 @@
+<script>
+    window.onscroll = function() {
+        renderScrollMenu();
+    };
+
+    function renderScrollMenu() {
+        var scrolledAmount = window.pageYOffset | document.body.scrollTop;
+        var mainNav = document.getElementById('mainNav');
+        var scrollNav = document.getElementById('scrollNav');
+        var pageTitle = document.getElementById('pageTitle');
+        var headerHeight = document.getElementById('mainNav').offsetTop;
+
+        if(scrolledAmount > headerHeight){
+            scrollNav.classList.add('visible');
+            mainNav.classList.add('hidden');
+            /*
+            I'll get back to you
+            scrollNav.style.opacity = scrolledAmount / 60;
+            mainNav.style.opacity = 1 - (scrolledAmount / 80);
+            */
+        } else {
+            scrollNav.classList.remove('visible');
+            mainNav.classList.remove('hidden');
+        };
+    };
+</script>
