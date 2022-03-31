@@ -15,6 +15,10 @@ main h1 {
   margin-bottom: $measure / 2;
 }
 
+main h2 {
+  margin: $measure / 2 0 $measure / 2 0;
+}
+
 a {
   text-decoration: none;
   color: $link;

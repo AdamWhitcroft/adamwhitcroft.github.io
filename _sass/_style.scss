@@ -44,19 +44,23 @@ header {
 
   #scrollNav {
     background-color: rgba($background ,0.55);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
     opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 120ms ease, transform 180ms ease;
+    transition: opacity 240ms ease, transform 240ms ease;
 
     @media screen and (prefers-color-scheme: dark) {
       background-color: rgba($background--darkMode ,0.55);
+    }
+
+    &.hidden {
+      opacity: 0;
+      transform: translateY(-20px);
     }
 
     &.visible {

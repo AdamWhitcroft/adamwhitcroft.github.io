@@ -1,34 +1,32 @@
 .testimonials {
-    margin-top: $measure / 2;
-    column-gap: $measure / 2;
-    column-count: 2;
+    border-radius: $measure / 3;
+    border: 1px solid #DBDBE3;
+    box-shadow: 0 0 0 4px $color-tiles;
 
-    @media screen and (max-width: $breakpoint-small) {
-        display: block;
-        column-count: 1;
-      }
+    @media screen and (prefers-color-scheme: dark) {
+        // border-color: $color-tiles--darkMode;
+        box-shadow: 0 0 0 4px $color-tiles--darkMode;
+        border-color: #2D2B38;
+    }
 
     .testimonial {
-        margin-bottom: $measure / 2;
         padding: 1em;
-        border-radius: $measure / 3;
-        border: 2px solid $color-tiles;
-        position: relative;
-        display: inline-block;
+        border-bottom: 1px solid #DBDBE3;
 
         @media screen and (prefers-color-scheme: dark) {
-            border-color: $color-tiles--darkMode;
+            border-color: #2D2B38;
         }
 
         &.last {
             margin: 0;
+            border: 0;
         }
 
     }
 
     ul {
         @extend .plain-ul;
-        margin-left: $measure / 3;
+        margin-left: $measure / 6;
 
         li {
             line-height: $measure / 2;
@@ -47,12 +45,24 @@
     .avatar {
         display: flex;
         align-items: center;
+    }
 
-        img {
-            display: block;
-            border-radius: 100%;
-            width: $measure;
-            height: $measure;
+    img {
+        display: block;
+        border-radius: 100%;
+        width: $measure;
+        height: $measure;
+
+        &.company-logo {
+            width: $measure / 2;
+            height: $measure / 2;
+            border: 4px solid $color-tiles;
+            margin-left: -8px;
+
+            @media screen and (prefers-color-scheme: dark) {
+                border-color: $color-tiles--darkMode;
+            }
+
         }
 
     }
