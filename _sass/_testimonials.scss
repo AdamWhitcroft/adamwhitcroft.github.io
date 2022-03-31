@@ -1,13 +1,4 @@
 .testimonials {
-    border-radius: $measure / 3;
-    border: 1px solid #DBDBE3;
-    box-shadow: 0 0 0 4px $color-tiles;
-
-    @media screen and (prefers-color-scheme: dark) {
-        // border-color: $color-tiles--darkMode;
-        box-shadow: 0 0 0 4px $color-tiles--darkMode;
-        border-color: #2D2B38;
-    }
 
     .testimonial {
         padding: 1em;
