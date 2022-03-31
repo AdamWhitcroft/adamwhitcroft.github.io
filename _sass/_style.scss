@@ -25,7 +25,6 @@ header {
   @extend .clearfix;
   padding-top: $measure / 2;
   padding-bottom: $measure / 2;
-  position: relative;
 
   #mainNav,
   #scrollNav {
@@ -45,6 +44,7 @@ header {
   #scrollNav {
     background-color: rgba($background ,0.55);
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -webkit-backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     position: fixed;
@@ -53,7 +53,6 @@ header {
     right: 0;
     z-index: 2;
     opacity: 0;
-    transform: translateY(-20px);
     transition: opacity 240ms ease, transform 240ms ease;
 
     @media screen and (prefers-color-scheme: dark) {
@@ -62,7 +61,6 @@ header {
 
     &.visible {
       opacity: 1;
-      transform: translateY(0);
     }
 
   } 
