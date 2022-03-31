@@ -144,6 +144,17 @@ footer {
   }
 }
 
+.double-border {
+  border-radius: $measure / 3;
+  border: 1px solid #DBDBE3;
+  box-shadow: 0 0 0 4px $color-tiles;
+
+  @media screen and (prefers-color-scheme: dark) {
+      box-shadow: 0 0 0 4px $color-tiles--darkMode;
+      border-color: #2D2B38;
+  }
+}
+
 /* Icons & Testimonials */
 @import "icons";
 @import "testimonials";
