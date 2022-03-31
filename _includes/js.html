@@ -7,13 +7,11 @@
         var scrolledAmount = window.pageYOffset | document.body.scrollTop;
         var mainNav = document.getElementById('mainNav');
         var scrollNav = document.getElementById('scrollNav');
-        var pageTitle = document.getElementById('pageTitle');
         var headerHeight = document.getElementById('mainNav').offsetTop;
         var topOfMain = document.getElementsByTagName('main')[0].offsetTop;
 
         if(scrolledAmount > topOfMain){
             scrollNav.classList.add('visible');
-            mainNav.classList.add('hidden');
             /*
             I'll get back to you
             scrollNav.style.opacity = scrolledAmount / 60;
@@ -21,7 +19,6 @@
             */
         } else {
             scrollNav.classList.remove('visible');
-            mainNav.classList.remove('hidden');
         };
     };
 </script>
