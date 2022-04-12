@@ -1,9 +1,9 @@
-- company: "Shopify"
+- company: Shopify
   companyURL: https://www.shopify.com
-  description: 
+  description:
   roles:
     - startDate: 2021
-      endDate: Present
+      endDate: Apr '22
       role: Snr. Staff Designer
     - startDate: 2019
       endDate: 2021
@@ -14,9 +14,9 @@
     - startDate: 2016
       endDate: 2018
       role: Snr. Product Designer
-- company: "Marvel"
+- company: Marvel
   companyURL: https://marvelapp.com
-  description: 
+  description:
   roles:
     - startDate: 2016
       endDate: 2016
