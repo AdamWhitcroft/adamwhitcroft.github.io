@@ -7,19 +7,20 @@
         border-radius: $measure / 3;
         background: $color-tiles;
         overflow: hidden;
-        transform: scale(1);
-        transition: transform 120ms ease;
 
         @media screen and (prefers-color-scheme: dark) {
             background-color: $color-tiles--darkMode;
           }
 
           &:hover {
-              transform: scale(1.02);
+            animation-name: boing;
+            animation-fill-mode: forwards;
+            animation-duration: .3s;
+            animation-play-state: initial;
+          }
 
-              .icon-img {
-                  background-position: 50% 30%;
-              }
+          &.hire-me:hover {
+              animation: none;
           }
     }
 
@@ -227,7 +228,7 @@
                 display: block;
                 text-align: center;
                 padding: .5em;
-              }
+            }
         }
 
     }
@@ -293,8 +294,19 @@
 }
 
 .layout-half {
-    // full width at breakpoint
     @media screen and (max-width: $breakpoint-small) {
         grid-column: auto / span 2;
       }
+}
+
+@keyframes boing {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.95);
+    }
+    100% {
+        transform: scale(1);
+    }
 }

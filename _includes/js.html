@@ -5,18 +5,11 @@
 
     function renderScrollMenu() {
         var scrolledAmount = window.pageYOffset | document.body.scrollTop;
-        var mainNav = document.getElementById('mainNav');
         var scrollNav = document.getElementById('scrollNav');
-        var headerHeight = document.getElementById('mainNav').offsetTop;
         var topOfMain = document.getElementsByTagName('main')[0].offsetTop;
 
         if(scrolledAmount > topOfMain){
             scrollNav.classList.add('visible');
-            /*
-            I'll get back to you
-            scrollNav.style.opacity = scrolledAmount / 60;
-            mainNav.style.opacity = 1 - (scrolledAmount / 80);
-            */
         } else {
             scrollNav.classList.remove('visible');
         };
