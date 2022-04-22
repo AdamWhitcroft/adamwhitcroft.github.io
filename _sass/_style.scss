@@ -45,8 +45,8 @@ header {
     background-color: rgba($background ,0.55);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-backdrop-filter: blur(100px);
-    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
     position: fixed;
     top: 0;
     left: 0;
