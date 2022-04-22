@@ -1,3 +1,10 @@
+- company: Wealthsimple
+  companyURL: https://www.wealthsimple.com/en-ca
+  description:
+  roles:
+    - startDate: Apr '22
+      endDate: Present
+      role: Principal Designer
 - company: Shopify
   companyURL: https://www.shopify.com
   description:
