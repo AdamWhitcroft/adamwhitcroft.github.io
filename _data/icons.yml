@@ -2,6 +2,7 @@
   client: Personal
   imgPath: polrd-solo.png
   downloadURL: 
+  siteURL:
   layout: full
   type: app
 
@@ -9,6 +10,7 @@
   client: Personal
   imgPath: messaging-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/messaging
+  siteURL:
   layout: half
   type: app
 
@@ -16,6 +18,7 @@
   client: Personal
   imgPath: preview-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/preview
+  siteURL:
   layout: half
   type: app
 
@@ -23,6 +26,7 @@
   client: Personal
   imgPath: things-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/things
+  siteURL:
   layout: full
   type: app
 
@@ -30,5 +34,6 @@
   client: Shopify
   imgPath: shopify-navigation.png
   downloadURL:
+  siteURL:
   layout: full
   type: kit
