@@ -23,6 +23,8 @@
             <p class="name">
                 {% if icon.downloadURL %}
                 <a href="{{ icon.downloadURL }}" title="Download {{ icon.name }} by Adam Whitcroft">{{ icon.name }} &darr;</a>
+                {% elsif icon.siteURL %}
+                <a href="{{ icon.siteURL }}" title="See {{ icon.name }} by Adam Whitcroft on {{ icon.client }}'s site">{{ icon.name }} &rarr;</a>
                 {% else %}
                 {{ icon.name }}
                 {% endif %}
