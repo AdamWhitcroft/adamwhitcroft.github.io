@@ -1,15 +1,23 @@
+- name: Notion
+  client: Personal
+  imgPath: notion-solo.png
+  downloadURL: https://adamwhitcroft.gumroad.com/l/notion/
+  siteURL:
+  layout: full
+  type: app
+
 - name: PØLRD
   client: Personal
   imgPath: polrd-solo.png
-  downloadURL: 
+  downloadURL:
   siteURL:
-  layout: full
+  layout: half
   type: app
 
 - name: Messaging
   client: Personal
   imgPath: messaging-solo.png
-  downloadURL: https://adamwhitcroft.gumroad.com/l/messaging
+  downloadURL: https://adamwhitcroft.gumroad.com/l/messaging/
   siteURL:
   layout: half
   type: app
@@ -17,7 +25,7 @@
 - name: Preview
   client: Personal
   imgPath: preview-solo.png
-  downloadURL: https://adamwhitcroft.gumroad.com/l/preview
+  downloadURL: https://adamwhitcroft.gumroad.com/l/preview/
   siteURL:
   layout: half
   type: app
@@ -25,9 +33,9 @@
 - name: Things
   client: Personal
   imgPath: things-solo.png
-  downloadURL: https://adamwhitcroft.gumroad.com/l/things
+  downloadURL: https://adamwhitcroft.gumroad.com/l/things/
   siteURL:
-  layout: full
+  layout: half
   type: app
 
 - name: Menu icons
