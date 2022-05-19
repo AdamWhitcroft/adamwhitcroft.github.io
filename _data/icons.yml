@@ -1,8 +1,8 @@
 - name: Mockfy
-  client: Personal
+  client: Mockfy
   imgPath: mockfy-solo.png
   downloadURL: 
-  siteURL: http://mockfy.app/
+  siteURL: https://mockfy.app/
   layout: full
   type: app
 
