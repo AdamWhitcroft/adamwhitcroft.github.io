@@ -1,9 +1,17 @@
+- name: Painter
+  client: Personal
+  imgPath: painter-solo.png
+  downloadURL: 
+  siteURL:
+  layout: full
+  type: app
+
 - name: Mockfy
   client: Mockfy
   imgPath: mockfy-solo.png
   downloadURL: 
   siteURL: https://mockfy.app/
-  layout: full
+  layout: half
   type: app
 
 - name: Notion
@@ -27,7 +35,7 @@
   imgPath: messaging-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/messaging/
   siteURL:
-  layout: full
+  layout: half
   type: app
 
 - name: Preview
