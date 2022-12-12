@@ -6,4 +6,4 @@ class: icons
 
 # Icons
 
-{% include icons.html %}
+{% include pages/icons.html %}

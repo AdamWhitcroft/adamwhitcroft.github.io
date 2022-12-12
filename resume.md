@@ -5,4 +5,4 @@ title: Résumé
 
 # Résumé
 
-{% include resume.html %}
+{% include pages/resume.html %}
