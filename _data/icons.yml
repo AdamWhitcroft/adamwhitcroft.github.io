@@ -1,3 +1,11 @@
+- name: Apollo
+  client: Apollo
+  imgPath: apollo-solo.png
+  downloadURL: 
+  siteURL: https://apolloapp.io
+  layout: full
+  type: app
+
 - name: Painter
   client: Personal
   imgPath: painter-solo.png
@@ -22,21 +30,21 @@
   layout: half
   type: app
 
-- name: PØLRD
-  client: Personal
-  imgPath: polrd-solo.png
-  downloadURL:
-  siteURL:
-  layout: half
-  type: app
+# - name: PØLRD
+#   client: Personal
+#   imgPath: polrd-solo.png
+#   downloadURL:
+#   siteURL:
+#   layout: half
+#   type: app
 
-- name: Messaging
-  client: Personal
-  imgPath: messaging-solo.png
-  downloadURL: https://adamwhitcroft.gumroad.com/l/messaging/
-  siteURL:
-  layout: half
-  type: app
+# - name: Messaging
+#   client: Personal
+#   imgPath: messaging-solo.png
+#   downloadURL: https://adamwhitcroft.gumroad.com/l/messaging/
+#   siteURL:
+#   layout: half
+#   type: app
 
 - name: Preview
   client: Personal
