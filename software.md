@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Apps
-class: apps
+title: Software
+class: software
 ---
 
 # Apps

@@ -4,24 +4,7 @@
     grid-template-columns: 2fr 2fr;
 
     .icon {
-        border-radius: $measure / 3;
-        background: $color-tiles;
         overflow: hidden;
-
-        @media screen and (prefers-color-scheme: dark) {
-            background-color: $color-tiles--darkMode;
-          }
-
-          &:hover {
-            animation-name: boing;
-            animation-fill-mode: forwards;
-            animation-duration: .3s;
-            animation-play-state: initial;
-          }
-
-          &.hire-me:hover {
-              animation: none;
-          }
     }
 
     .hire-me {
@@ -31,6 +14,7 @@
         background: rgba(43,100,216,1);
         background: linear-gradient(0deg, rgba(43,100,216,1) 0%, rgba(99,199,255,1) 100%);
         color: white;
+        border-radius: $measure / 3;
 
         &:before,
         &:after {
@@ -233,18 +217,18 @@
 
     }
 
+    .icon-img {
+        border-radius: $measure / 3;
+        overflow: hidden;
+    }
+
     .type-app {
         .icon-img {
             padding: 5em;
             height: 6em;
             background-position: center;
-            background-size: 14em;
+            background-size: cover;
             background-repeat: no-repeat;
-            transition: background-position 120ms ease;
-        }
-
-        .meta {
-            padding-top: 0;
         }
     }
 
@@ -254,10 +238,20 @@
         display: block;
     }
 
+    ul {
+        @extend .plain-ul;
+
+        li {
+            float: left;
+            margin-right: .25em;
+        }
+    }
+
     .meta {
         display: flex;
         align-items: center;
-        padding: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
 
         .name {
             font-weight: 600;
@@ -268,21 +262,7 @@
         }
 
         .client {
-            margin-left: auto;
-            display: flex;
-            align-items: center;
-            @extend .font-size-small;
             @extend .subdued;
-
-            svg {
-                margin-left: .5em;
-                fill: $color-subdued;
-
-                @media screen and (prefers-color-scheme: dark) {
-                  fill: $color-subdued--darkMode;
-                }
-            }
-
         }
 
     }
