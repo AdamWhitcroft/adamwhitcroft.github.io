@@ -1,18 +1,5 @@
 <section class="icon-grid">
     {% for icon in site.data.icons %}
-    <!-- {% if forloop.index == 2 %}
-    <div class="icon layout-full hire-me">
-        <div class="inner">
-            <div class="inner-inner">
-                <div class="content">
-                    <h4>Need an icon?</h4>
-                    <p>Get in touch, let's chat.</p>
-                </div>
-                <a href="mailto:hey@adamwhitcroft.com?subject=App%20icon%20inquiry&body=(Please%20include%20some%20details%20about%20your%20project%20including%20timeline%20and%20budget)">Email me</a>
-            </div>
-        </div>
-    </div>
-    {% endif %} -->
     <div class="icon layout-{{ icon.layout }} type-{{ icon.type }}">
         <div class="icon-img" style="background-image:url(/assets/icons/{{ icon.imgPath }}">
         {% if icon.type == "kit" %}
@@ -31,7 +18,7 @@
                     {% endif %}
                 </li>
                 <li class="client">
-                    ({{ icon.client }})
+                    &bull; {{ icon.client }}
                 </li>
             </ul>
         </div>
