@@ -1,4 +1,5 @@
 .icon-grid {
+    margin-top: $measure;
     display: grid;
     grid-gap: $measure / 2;
     grid-template-columns: 2fr 2fr;

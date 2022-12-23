@@ -35,6 +35,10 @@ header {
   #mainNav {
     opacity: 1;
 
+    a {
+      text-decoration: none;
+    }
+
     &.hidden {
       opacity: 0;
     }
@@ -63,6 +67,10 @@ header {
     &.visible {
       opacity: 1;
       pointer-events: auto;
+    }
+
+    a {
+      text-decoration: none;
     }
 
   } 
@@ -154,7 +162,6 @@ footer {
 
 /* Icons & Testimonials */
 @import "icons";
-@import "testimonials";
 
 /* Resume */
 @import "resume";
