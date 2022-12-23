@@ -11,8 +11,7 @@ h3 {
 }
 
 main h1 {
-  margin-top: 0;
-  margin-bottom: $measure / 2;
+  margin: 0;
 }
 
 main h2 {
@@ -20,15 +19,15 @@ main h2 {
 }
 
 a {
-  text-decoration: none;
-  color: $link;
+  text-decoration: underline;
+  color: $color;
 
   &:hover {
     text-decoration: underline
   }
 
   @media screen and (prefers-color-scheme: dark) {
-    color: $link--darkMode;
+    color: $color--darkMode;
 
     &:hover {
       text-decoration: underline;
