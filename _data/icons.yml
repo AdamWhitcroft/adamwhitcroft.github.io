@@ -1,3 +1,27 @@
+- name: Plasticity
+  client: Plasticity
+  imgPath: plasticity-solo.png
+  downloadURL: 
+  siteURL: https://plasticity.xyz
+  layout: full
+  type: app
+
+- name: Apollo
+  client: Apollo
+  imgPath: apollo-red-solo.png
+  downloadURL: 
+  siteURL: https://apolloapp.io
+  layout: full
+  type: app
+
+- name: Apollo
+  client: Apollo
+  imgPath: apollo-green-solo.png
+  downloadURL: 
+  siteURL: https://apolloapp.io
+  layout: full
+  type: app
+
 - name: Apollo
   client: Apollo
   imgPath: apollo-solo.png
