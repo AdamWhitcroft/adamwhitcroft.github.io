@@ -1,25 +1,33 @@
+- name: Clear
+  client: Clear
+  imgPath: clear-pencil-solo.png
+  downloadURL: 
+  siteURL: https://www.useclear.com/
+  layout: full
+  type: app
+
+- name: Clear
+  client: Clear
+  imgPath: clear-wallet-solo.png
+  downloadURL: 
+  siteURL: https://www.useclear.com/
+  layout: half
+  type: app
+
+- name: Clear
+  client: Clear
+  imgPath: clear-chalkboard-solo.png
+  downloadURL: 
+  siteURL: https://www.useclear.com/
+  layout: half
+  type: app
+
 - name: Plasticity
   client: Plasticity
   imgPath: plasticity-solo.png
   downloadURL: 
   siteURL: https://plasticity.xyz
-  layout: full
-  type: app
-
-- name: Apollo
-  client: Apollo
-  imgPath: apollo-red-solo.png
-  downloadURL: 
-  siteURL: https://apolloapp.io
-  layout: full
-  type: app
-
-- name: Apollo
-  client: Apollo
-  imgPath: apollo-green-solo.png
-  downloadURL: 
-  siteURL: https://apolloapp.io
-  layout: full
+  layout: half
   type: app
 
 - name: Apollo
@@ -27,7 +35,31 @@
   imgPath: apollo-solo.png
   downloadURL: 
   siteURL: https://apolloapp.io
-  layout: full
+  layout: half
+  type: app
+
+- name: Apollo
+  client: Apollo
+  imgPath: apollo-red-solo.png
+  downloadURL: 
+  siteURL: https://apolloapp.io
+  layout: half
+  type: app
+
+- name: Apollo
+  client: Apollo
+  imgPath: apollo-green-solo.png
+  downloadURL: 
+  siteURL: https://apolloapp.io
+  layout: half
+  type: app
+
+- name: Apollo
+  client: Apollo
+  imgPath: apollo-grey-solo.png
+  downloadURL: 
+  siteURL: https://apolloapp.io
+  layout: half
   type: app
 
 - name: Painter
@@ -35,7 +67,7 @@
   imgPath: painter-solo.png
   downloadURL: 
   siteURL:
-  layout: full
+  layout: half
   type: app
 
 - name: Mockfy
@@ -45,30 +77,6 @@
   siteURL: https://mockfy.app/
   layout: half
   type: app
-
-- name: Notion
-  client: Personal
-  imgPath: notion-solo.png
-  downloadURL: https://adamwhitcroft.gumroad.com/l/notion/
-  siteURL:
-  layout: half
-  type: app
-
-# - name: PØLRD
-#   client: Personal
-#   imgPath: polrd-solo.png
-#   downloadURL:
-#   siteURL:
-#   layout: half
-#   type: app
-
-# - name: Messaging
-#   client: Personal
-#   imgPath: messaging-solo.png
-#   downloadURL: https://adamwhitcroft.gumroad.com/l/messaging/
-#   siteURL:
-#   layout: half
-#   type: app
 
 - name: Preview
   client: Personal
@@ -83,7 +91,7 @@
   imgPath: things-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/things/
   siteURL:
-  layout: half
+  layout: full
   type: app
 
 - name: Menu icons

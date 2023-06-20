@@ -17,9 +17,11 @@
                     {{ icon.name }}
                     {% endif %}
                 </li>
+                {% if icon.client == "Personal" %}
                 <li class="client">
-                    &middot; {{ icon.client }}
+                    &middot; Personal
                 </li>
+                {% endif %}
             </ul>
         </div>
     </div>
