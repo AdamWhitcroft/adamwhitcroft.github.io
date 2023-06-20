@@ -27,7 +27,7 @@
   imgPath: plasticity-solo.png
   downloadURL: 
   siteURL: https://plasticity.xyz
-  layout: half
+  layout: full
   type: app
 
 - name: Apollo
@@ -91,7 +91,7 @@
   imgPath: things-solo.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/things/
   siteURL:
-  layout: full
+  layout: half
   type: app
 
 - name: Menu icons
