@@ -62,19 +62,19 @@
   layout: half
   type: app
 
+- name: Mockfy
+  client: Mockfy
+  imgPath: mockfy-solo.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/us/app/mockfy/id1562718698
+  layout: half
+  type: app
+
 - name: Painter
   client: Personal
   imgPath: painter-solo.png
   downloadURL: 
   siteURL:
-  layout: half
-  type: app
-
-- name: Mockfy
-  client: Mockfy
-  imgPath: mockfy-solo.png
-  downloadURL: 
-  siteURL: https://mockfy.app/
   layout: half
   type: app
 
