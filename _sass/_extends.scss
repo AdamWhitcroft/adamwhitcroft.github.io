@@ -1,5 +1,5 @@
 .width {
-  max-width: 42rem;
+  max-width: 34rem;
   padding: 0 $measure;
   margin: 0 auto;
   position: relative;
@@ -34,10 +34,6 @@
 
 .subdued {
   color: $color-subdued;
-
-  @media screen and (prefers-color-scheme: dark) {
-    color: $color-subdued--darkMode;
-  }
 }
 
 .font-size-small {

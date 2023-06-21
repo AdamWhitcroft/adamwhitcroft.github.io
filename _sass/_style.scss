@@ -14,11 +14,6 @@ html {
   @media screen and (max-width: $breakpoint-small) {
     font-size: 100%;
   }
-
-  @media screen and (prefers-color-scheme: dark) {
-    background-color: $background--darkMode;
-    color: $color--darkMode;
-  }
 }
 
 header {
@@ -60,10 +55,6 @@ header {
     opacity: 0;
     pointer-events: none;
     transition: opacity 240ms ease, transform 240ms ease;
-
-    @media screen and (prefers-color-scheme: dark) {
-      background-color: rgba($background--darkMode ,0.55);
-    }
 
     &.visible {
       opacity: 1;
@@ -115,11 +106,6 @@ main {
   article:target {
     padding-left: 1em;
     border-left: 2px solid $color;
-
-    @media screen and (prefers-color-scheme: dark) {
-      border-left-color: $link--darkMode;
-    }
-
   }
 
 }
@@ -154,11 +140,6 @@ footer {
   border-radius: $measure / 3;
   border: 1px solid #DBDBE3;
   box-shadow: 0 0 0 4px $color-tiles;
-
-  @media screen and (prefers-color-scheme: dark) {
-      box-shadow: 0 0 0 4px $color-tiles--darkMode;
-      border-color: #2D2B38;
-  }
 }
 
 .section-title {
@@ -176,6 +157,26 @@ footer {
 
   .section-title {
     font-weight: 500;
+  }
+
+}
+
+.button {
+  padding: 8px 16px;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition-property: all;
+  transition-duration: .15s;
+  display: inline-block;
+  font-size: 0.875em;
+  color: $color;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.075);
+    border: 1px solid #D2D2D2;
   }
 
 }
