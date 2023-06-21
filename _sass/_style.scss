@@ -163,7 +163,7 @@ footer {
 
 .section-title {
   margin-top: $measure;
-  margin-bottom: $measure;
+  margin-bottom: $measure / 3;
 
   p {
     margin: 0;
@@ -180,8 +180,5 @@ footer {
 
 }
 
-/* Icons & Testimonials */
+/* Icons */
 @import "icons";
-
-/* Resume */
-@import "resume";
