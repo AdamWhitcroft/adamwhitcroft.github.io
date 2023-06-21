@@ -161,6 +161,25 @@ footer {
   }
 }
 
+.section-title {
+  margin-top: $measure;
+  margin-bottom: $measure;
+
+  p {
+    margin: 0;
+  }
+
+  .section-identifer {
+    @extend .subdued;
+    margin-bottom: 0.125em;
+  }
+
+  .section-title {
+    font-weight: 500;
+  }
+
+}
+
 /* Icons & Testimonials */
 @import "icons";
 
