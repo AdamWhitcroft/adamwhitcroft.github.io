@@ -11,14 +11,14 @@ Before joining Wealthsimple in 2022, I was at [Shopify](https://www.shopify.com/
 
 You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam).
 
-☼ ☼ ☼
+–––
 
-I love making iOS and macOS app icons. I haven't been doing it all that long (Feb 2022), but I've had the opportunity to work with some amazing founders and developers.
+I love making iOS and macOS app icons. I haven't been doing it all that long, but I've had the opportunity to work with some amazing founders and developers.
 
-[See some icons](/icons/)
+[Icon gallery &rarr;](/icons/)
 
-☼ ☼ ☼
+–––
 
-When our second child was born in 2022, I learned SwiftUI in my time off and built and released my first app. It's called _Joey_ and it's a simple privacy-first app for tracking feeds and diaper changes. I'm real proud of it.
+When our second child was born in 2022, I used his naps to learn SwiftUI and release my first app. It's called _Joey_ and it's a simple privacy-first app for tracking feeds and diaper changes. I'm real proud of it.
 
-[Joey on the App Store](https://apps.apple.com/ca/app/joey/id1640592100)
+[Joey on the App Store &rarr;](https://apps.apple.com/ca/app/joey/id1640592100)
