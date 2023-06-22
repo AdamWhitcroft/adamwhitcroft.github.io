@@ -1,22 +1,25 @@
 - title: 03c
-  description: I've always loved the design aesthetic of hard surface and puffy cloth, so I made a coffee thermos for space. Originally shared [here](https://twitter.com/AdamWhitcroft/status/1664303940270424065?s=20).
+  description: If Contigo decided to make a coffee thermos with space aesthetic. Originally shared [here](https://twitter.com/AdamWhitcroft/status/1664303940270424065?s=20).
   tools:
   - Blender
   - Plasticity
+  - Figma
   credit: Concept and model by Adam Whitcroft
   imgPath: thermos.jpg
 
 - title: 03b
-  description: A key for magic. Originally shared [here](https://twitter.com/AdamWhitcroft/status/1662126601201680384?s=20).
+  description: A hot-swappable mechanical keyboard key you can map to generate context-aware ChatGPT prompts and queries, all mapped using host software. Originally shared [here](https://twitter.com/AdamWhitcroft/status/1662126601201680384?s=20).
   tools:
   - Blender
   - Plasticity
+  - Figma
   credit: Concept and model by Adam Whitcroft
   imgPath: magickey.jpg
 
 - title: 03a
-  description: A music player with super tactile function buttons, heavily inspired by just about anything made by Teenage Engineering. Originally shared [here](https://twitter.com/AdamWhitcroft/status/1647345316914675712?s=20).
+  description: A music player with super tactile buttons and stereo speakers. A simple interface that can be navigated using nothing more than a dial and function button. Originally shared [here](https://twitter.com/AdamWhitcroft/status/1647345316914675712?s=20).
   tools:
   - Blender
+  - Figma
   credit: Concept and model by Adam Whitcroft
   imgPath: player.jpg
