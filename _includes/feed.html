@@ -7,7 +7,17 @@
         <div class="meta">
             <h4>{{ post.title }}</h4>
             {{ post.description | markdownify }}
-            <p class="credit"><i>Concept and model by Adam Whitcroft</i></p>
+            {% if post.tools %}
+            <p class="tools">Tool(s): 
+                {% for tool in post.tools %}
+                {% if forloop.last %}
+                {{ tool }}
+                {% else %}
+                {{ tool }}, 
+                {% endif %}
+                {% endfor %}</p>
+            {% endif %}
+            <p class="credit">Credit(s): {{ post.credit }}</p>
         </div>
     </article>
     {% endfor %}
