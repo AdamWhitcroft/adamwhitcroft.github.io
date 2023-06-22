@@ -1,23 +1,9 @@
-{% if page.class != "home" %}
-<header id="scrollHeader">
-	<div id="mainNav">
-		<h1>
-			<a href="/">Adam Whitcroft</a>
-		</h1>
-	</div>
-	<div id="scrollNav">
-		<div class="width">
-			<h1 id="pageTitle">
-				<a href="/">Home</a><b>/</b>{{ page.title }}
-			</h1>
-		</div>
-	</div>
-</header>
-{% else %}
 <header>
 	<h1>
 		Adam Whitcroft
 		<span>Designer</span>
 	</h1>
+	{% if page.class != "home" %}
+	<a href="/">&larr; Go home</a>
+	{% endif %}
 </header>
-{% endif %}

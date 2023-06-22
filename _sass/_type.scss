@@ -1,6 +1,7 @@
 h1,
 h2,
-h3 {
+h3,
+h4 {
   position: relative;
   font-weight: 500;
   font-style: normal;
@@ -8,6 +9,10 @@ h3 {
   span {
     font-weight: 400;
   }
+}
+
+h1 {
+  font-size: 1em;
 }
 
 main h1 {
@@ -19,10 +24,6 @@ main h2 {
 }
 
 a {
-  text-decoration: underline;
-  color: $color;
-
-  &:hover {
-    text-decoration: underline
-  }
+  text-decoration: none;
+  color: blue;
 }
