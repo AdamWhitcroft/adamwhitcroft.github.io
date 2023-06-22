@@ -1,0 +1,14 @@
+<section class="feed">
+    {% for post in site.data.feed %}
+    <article>
+        <div class="feed-img">
+            <img src="/assets/feed/{{ post.imgPath }}" />
+        </div>
+        <div class="meta">
+            <h4>{{ post.title }}</h4>
+            {{ post.description | markdownify }}
+            <p class="credit"><i>Concept and model by Adam Whitcroft</i></p>
+        </div>
+    </article>
+    {% endfor %}
+</section>

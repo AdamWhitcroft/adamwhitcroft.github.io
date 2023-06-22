@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Icons
+title: Application iconography
 class: icons
 ---
 
-# Icons
+# Application iconography
 
 If you'd like to commission an iOS or macOS app icon, get in touch by sending me an email.
 

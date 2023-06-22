@@ -1,0 +1,36 @@
+.feed {
+    article {
+        margin-bottom: $measure;
+    }
+
+    .feed-img {
+        border-radius: $measure / 3;
+        overflow: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .meta {
+        margin: $measure / 3 0;
+        border-left: 1px solid $color;
+        margin-left: $measure / 3;
+        padding-left: $measure / 3;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    .credit {
+        font-size: 0.875em;
+        @extend .subdued;
+    }
+}
