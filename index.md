@@ -16,7 +16,7 @@ You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](
 
 I love making iOS and macOS app icons. I haven't been doing it all that long, but I've had the opportunity to work with some amazing founders and developers.
 
-<a href="/icons/" class="button">View gallery</a>
+<a href="/icons/" class="button">View icon gallery</a>
 
 {% include section-header.html identifier="02" title="Mobile software" %}
 
@@ -24,8 +24,6 @@ When our second child was born in 2022, I used his naps to learn SwiftUI and rel
 
 <a href="https://apps.apple.com/ca/app/joey/id1640592100" class="button">Visit App Store</a>
 
-{% include section-header.html identifier="03" title="Concepts" %}
-
-Sometimes I make things just for the sake of it...
+{% include section-header.html identifier="03" title="Conceptual designs" %}
 
 {% include feed.html %}
