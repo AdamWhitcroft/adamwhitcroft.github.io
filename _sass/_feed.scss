@@ -16,21 +16,21 @@
 
     .meta {
         margin: $measure / 3 0;
-        border-left: 1px solid $color;
-        margin-left: $measure / 3;
         padding-left: $measure / 3;
+        padding-right: $measure / 3;
+
+        @media screen and (max-width: $breakpoint-small) {
+            padding: 0;
+          }
     }
 
     h4 {
         margin: 0;
     }
 
-    p {
-        margin-top: 0;
-    }
-
-    .credit {
+    .credit, .tools {
         font-size: 0.875em;
         @extend .subdued;
+        margin: 0;
     }
 }
