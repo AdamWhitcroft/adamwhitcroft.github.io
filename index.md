@@ -6,9 +6,9 @@ class: home
 
 South African product designer living on a little island in British Columbia, Canada. 
 
-I'm currently exploring the future of personalized investment tools at [Wealthsimple](https://www.wealthsimple.com/en-ca) (Principal Designer, 2022 -- Present).
+Currently taking a little break.
 
-Before joining Wealthsimple in 2022, I was at [Shopify](https://www.shopify.com/) (Senior Staff Designer, 2016 –– 2022).
+Prior, I was at [Wealthsimple](https://www.wealthsimple.com/en-ca) (Principal Designer, 1yr) and [Shopify](https://www.shopify.com/) (Senior Staff Designer, 6yrs).
 
 You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam).
 

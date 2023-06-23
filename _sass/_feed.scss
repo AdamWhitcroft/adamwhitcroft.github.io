@@ -29,8 +29,8 @@
     }
 
     .credit, .tools {
-        font-size: 0.875em;
         @extend .subdued;
+        @extend .font-size-small;
         margin: 0;
     }
 }
