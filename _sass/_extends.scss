@@ -43,3 +43,8 @@
 .font-size-smallest {
   font-size: $font-size-smallest;
 }
+
+.disclaimer {
+  @extend .subdued;
+  @extend .font-size-small;
+}

@@ -113,6 +113,7 @@ footer {
 }
 
 .button {
+  @extend .font-size-small;
   padding: 8px 16px;
   border: 1px solid #E9E9E9;
   border-radius: 6px;
@@ -121,7 +122,6 @@ footer {
   transition-property: all;
   transition-duration: .15s;
   display: inline-block;
-  font-size: 0.875em;
   color: $color;
 
   &:hover {
