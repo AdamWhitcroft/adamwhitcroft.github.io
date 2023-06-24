@@ -1,6 +1,6 @@
 - name: Clear
   client: Clear
-  imgPath: clear-pencil-solo.png
+  imgPath: clear-pencil.png
   downloadURL: 
   siteURL: https://www.useclear.com/
   layout: full
@@ -8,7 +8,7 @@
 
 - name: Clear
   client: Clear
-  imgPath: clear-wallet-solo.png
+  imgPath: clear-wallet.png
   downloadURL: 
   siteURL: https://www.useclear.com/
   layout: half
@@ -16,7 +16,7 @@
 
 - name: Clear
   client: Clear
-  imgPath: clear-chalkboard-solo.png
+  imgPath: clear-chalkboard.png
   downloadURL: 
   siteURL: https://www.useclear.com/
   layout: half
@@ -24,7 +24,7 @@
 
 - name: Plasticity
   client: Plasticity
-  imgPath: plasticity-solo.png
+  imgPath: plasticity.png
   downloadURL: 
   siteURL: https://plasticity.xyz
   layout: full
@@ -32,7 +32,7 @@
 
 - name: Apollo
   client: Apollo
-  imgPath: apollo-solo.png
+  imgPath: apollo.png
   downloadURL: 
   siteURL: https://apolloapp.io
   layout: half
@@ -40,7 +40,7 @@
 
 - name: Apollo
   client: Apollo
-  imgPath: apollo-red-solo.png
+  imgPath: apollo-red.png
   downloadURL: 
   siteURL: https://apolloapp.io
   layout: half
@@ -48,7 +48,7 @@
 
 - name: Apollo
   client: Apollo
-  imgPath: apollo-green-solo.png
+  imgPath: apollo-green.png
   downloadURL: 
   siteURL: https://apolloapp.io
   layout: half
@@ -56,7 +56,7 @@
 
 - name: Apollo
   client: Apollo
-  imgPath: apollo-grey-solo.png
+  imgPath: apollo-grey.png
   downloadURL: 
   siteURL: https://apolloapp.io
   layout: half
@@ -64,7 +64,7 @@
 
 - name: Mockfy
   client: Mockfy
-  imgPath: mockfy-solo.png
+  imgPath: mockfy.png
   downloadURL: 
   siteURL: https://apps.apple.com/us/app/mockfy/id1562718698
   layout: half
@@ -72,7 +72,7 @@
 
 - name: Painter
   client: Personal
-  imgPath: painter-solo.png
+  imgPath: painter.png
   downloadURL: 
   siteURL:
   layout: half
@@ -80,7 +80,7 @@
 
 - name: Preview
   client: Personal
-  imgPath: preview-solo.png
+  imgPath: preview.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/preview/
   siteURL:
   layout: half
@@ -88,7 +88,7 @@
 
 - name: Things
   client: Personal
-  imgPath: things-solo.png
+  imgPath: things.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/things/
   siteURL:
   layout: half
