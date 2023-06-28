@@ -1,4 +1,20 @@
-- name: Clear
+- name: Stickies
+  client: Finalist
+  imgPath: finalist.png
+  downloadURL: 
+  siteURL: 
+  layout: half
+  type: app
+
+- name: Clapper
+  client: Castor
+  imgPath: castor.png
+  downloadURL: 
+  siteURL: 
+  layout: half
+  type: app
+
+- name: Pencil
   client: Clear
   imgPath: clear-pencil.png
   downloadURL: 
@@ -6,7 +22,7 @@
   layout: full
   type: app
 
-- name: Clear
+- name: Wallet
   client: Clear
   imgPath: clear-wallet.png
   downloadURL: 
@@ -14,7 +30,7 @@
   layout: half
   type: app
 
-- name: Clear
+- name: Chalkbard
   client: Clear
   imgPath: clear-chalkboard.png
   downloadURL: 
@@ -30,7 +46,7 @@
   layout: full
   type: app
 
-- name: Apollo
+- name: Blue bot
   client: Apollo
   imgPath: apollo.png
   downloadURL: 
@@ -38,7 +54,7 @@
   layout: half
   type: app
 
-- name: Apollo
+- name: Red bot
   client: Apollo
   imgPath: apollo-red.png
   downloadURL: 
@@ -46,7 +62,7 @@
   layout: half
   type: app
 
-- name: Apollo
+- name: Green bot
   client: Apollo
   imgPath: apollo-green.png
   downloadURL: 
@@ -54,7 +70,7 @@
   layout: half
   type: app
 
-- name: Apollo
+- name: Offline bot
   client: Apollo
   imgPath: apollo-grey.png
   downloadURL: 
