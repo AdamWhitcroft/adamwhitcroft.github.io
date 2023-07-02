@@ -1,17 +1,9 @@
-- name: Stickies
-  client: Finalist
-  imgPath: finalist.png
-  downloadURL: 
-  siteURL: 
-  layout: half
-  type: app
-
 - name: Clapper
   client: Castor
   imgPath: castor.png
   downloadURL: 
   siteURL: 
-  layout: half
+  layout: full
   type: app
 
 - name: Pencil
