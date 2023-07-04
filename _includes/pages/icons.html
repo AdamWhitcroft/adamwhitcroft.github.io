@@ -9,17 +9,16 @@
         <div class="meta">
             <ul>
                 <li>
-                    {% if icon.siteURL %}
-                    <a href="{{ icon.siteURL }}" title="See {{ icon.name }} icon by Adam Whitcroft on {{ icon.client }}'s site">{{ icon.name }}</a>
-                    {% else %}
                     {{ icon.name }}
-                    {% endif %} 
                 </li>
-                {% if icon.client == "Personal" %}
                 <li class="client">
-                    &middot; Personal
+                    &middot;
+                    {% if icon.siteURL %}
+                    <a href="{{ icon.siteURL }}" title="See {{ icon.name }} icon by Adam Whitcroft on {{ icon.client }}'s site">{{ icon.client }}</a>
+                    {% else %}
+                    {{ icon.client }}
+                    {% endif %}
                 </li>
-                {% endif %}
             </ul>
         </div>
     </div>
