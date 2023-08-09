@@ -4,11 +4,11 @@ title: Home
 class: home
 ---
 
-South African product designer living on a little island in British Columbia, Canada. 
+South African product designer living on an island in British Columbia, Canada. 
 
-Currently taking a little break.
+I recently joined [Rewind](https://www.rewind.ai) to help design and build a native macOS app aimed at giving you perfect memory. 
 
-Prior, I was at [Wealthsimple](https://www.wealthsimple.com/en-ca) (Principal Designer, 1yr) and [Shopify](https://www.shopify.com/) (Senior Staff Designer, 6yrs).
+Before that, I was at [Wealthsimple](https://www.wealthsimple.com/en-ca) (Principal Designer, 1yr) and [Shopify](https://www.shopify.com/) (Senior Staff Designer, 6yrs).
 
 You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam).
 
