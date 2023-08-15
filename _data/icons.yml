@@ -1,9 +1,17 @@
+- name: Magic Cursor
+  client: Multi
+  imgPath: multi.png
+  downloadURL: 
+  siteURL: https://multi.app
+  layout: full
+  type: app
+
 - name: Clapper
   client: Castor
   imgPath: castor.png
   downloadURL: 
   siteURL: https://castor.movie
-  layout: full
+  layout: half
   type: app
 
 - name: Pencil
@@ -11,7 +19,7 @@
   imgPath: clear-pencil.png
   downloadURL: 
   siteURL: https://www.useclear.com/
-  layout: full
+  layout: half
   type: app
 
 - name: Wallet
