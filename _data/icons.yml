@@ -1,9 +1,17 @@
+- name: Stickies
+  client: Finalist
+  imgPath: finalist.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/ca/app/finalist/id6447014685
+  layout: full
+  type: app
+
 - name: Magic Cursor
   client: Multi
   imgPath: multi.png
   downloadURL: 
   siteURL: https://multi.app
-  layout: full
+  layout: half
   type: app
 
 - name: Clapper
@@ -43,7 +51,7 @@
   imgPath: plasticity.png
   downloadURL: 
   siteURL: https://plasticity.xyz
-  layout: full
+  layout: half
   type: app
 
 - name: Blue bot
