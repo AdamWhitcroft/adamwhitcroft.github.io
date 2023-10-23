@@ -4,7 +4,7 @@ title: Home
 class: home
 ---
 
-South African product designer living on an island in British Columbia, Canada. 
+South African software designer living on an island off the west coast of Canada. 
 
 I recently joined [Rewind](https://www.rewind.ai) to help design and build a native macOS app aimed at giving you perfect memory. 
 
@@ -20,6 +20,6 @@ I love making iOS and macOS app icons. I haven't been doing it all that long, bu
 
 {% include section-header.html identifier="02" title="Mobile software" %}
 
-When our second child was born in 2022, I used his naps to learn SwiftUI and release my first app. It's called _Joey_ and it's a simple privacy-first app for tracking feeds and diaper changes. I'm real proud of it.
+In 2022 I started to learn SwiftUI while I was on parental leave, releasing my first app a couple of months later. More apps to follow.
 
-<a href="https://apps.apple.com/ca/app/joey/id1640592100" class="button">Visit App Store</a>
+[Download Joey](https://apps.apple.com/ca/app/joey/id1640592100) a free privacy-first app for tracking feeds and diaper changes on the App Store.
