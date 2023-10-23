@@ -22,4 +22,4 @@ I love making iOS and macOS app icons. I haven't been doing it all that long, bu
 
 In 2022 I started to learn SwiftUI while I was on parental leave, releasing my first app a couple of months later. More apps to follow.
 
-[Download Joey](https://apps.apple.com/ca/app/joey/id1640592100) a free privacy-first app for tracking feeds and diaper changes on the App Store.
+[Download Joey](https://apps.apple.com/ca/app/joey/id1640592100) -- a free privacy-first app for tracking feeds and diaper changes on the App Store.
