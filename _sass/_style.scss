@@ -2,10 +2,9 @@ html {
   background-color: $background;
   color: $color;
   font-weight: normal;
-  font-family: $font-sans-serif;
+  font-family: $font-monospace;
   line-height: 1.25;
   letter-spacing: -0.3px;
-  font-size: 1em;
   scroll-behavior: smooth;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -74,6 +73,26 @@ main {
   }
 }
 
+.section-title {
+
+  .identifier {
+    @extend .subdued;
+  }
+
+  .title {
+    @extend .strong;
+  }
+
+}
+
+.key-value {
+
+  .key {
+    @extend .subdued;
+  }
+
+}
+
 footer {
   @extend .width;
   @extend .clearfix;
@@ -131,9 +150,3 @@ footer {
   }
 
 }
-
-/* Icons */
-@import "icons";
-
-/* Feed */
-@import "feed";

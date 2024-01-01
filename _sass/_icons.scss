@@ -1,26 +1,12 @@
-.icon-grid {
-    margin-top: $measure;
+.icons {
     display: grid;
     grid-gap: $measure / 2;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr; 
 
-    .icon {
-        overflow: hidden;
-    }
-
-    .icon-img {
-        border-radius: $measure / 3;
-        overflow: hidden;
-    }
-
-    .type-app {
-        .icon-img {
-            padding: 5em;
-            height: 6em;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+    div {
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: auto / span 2;
+          }
     }
 
     img {
@@ -37,44 +23,4 @@
             margin-right: .25em;
         }
     }
-
-    .meta {
-        display: flex;
-        align-items: center;
-        padding-top: 1em;
-        padding-bottom: 1em;
-
-        ul {
-            display: flex;
-        }
-
-        .name {
-            font-weight: 600;
-        }
-
-        p {
-            margin: 0;
-        }
-
-        .client {
-            @extend .subdued;
-        }
-
-        .download {
-            margin: 0;
-            margin-left: auto;
-        }
-
-    }
-
-}
-
-.layout-full {
-    grid-column: auto / span 2;
-}
-
-.layout-half {
-    @media screen and (max-width: $breakpoint-small) {
-        grid-column: auto / span 2;
-      }
 }

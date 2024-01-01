@@ -6,17 +6,21 @@ layout: compress
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        {% if page.class == "home" %}
         <title>Adam Whitcroft</title>
-        {% else %}
-        <title>Adam Whitcroft &bull; {{ page.title }}</title>
-        {% endif %}
-        <meta name="description" content="Adam Whitcroft is a designer currently working at Shopify. You should follow him on Twitter @adamwhitcroft">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Adam Whitcroft">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="Software designer from South Africa, living in Canada.">
+        <meta property="og:site_name" content="Adam Whitcroft">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@adamwhitcroft">
+        <meta name="twitter:creator" content="@individual_account">
+        <meta name="twitter:title" content="Adam Whitcroft">
+        <meta name="twitter:description" content="Software designer from South Africa, living in Canada.">
+        <meta name="twitter:image" content="">
         <link rel="icon" type="image/svg+xml" href="/favicon.svg">
         <link color="#888" href="/favicon.svg" rel="mask-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link crossorigin="anonymous" rel="preload" href="/assets/fonts/GeistMono-Regular.woff2" as="font" type="font/woff2">
         {% assign cacheBust = site.time | date:'?v=%s' %}
         <link rel="stylesheet" href="{{ "/css/style.css" | append: cacheBust }}">
     </head>
@@ -24,6 +28,5 @@ layout: compress
         {% include header.html %}
         {% include content.html %}
         {% include footer.html %}
-        {% include js.html %}
     </body>
 </html>

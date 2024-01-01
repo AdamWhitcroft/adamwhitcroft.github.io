@@ -117,11 +117,3 @@
   siteURL:
   layout: half
   type: app
-
-- name: Menu icons
-  client: Shopify
-  imgPath: shopify-navigation.png
-  downloadURL:
-  siteURL:
-  layout: full
-  type: kit
