@@ -13,6 +13,11 @@ html {
   @media screen and (max-width: $breakpoint-small) {
     font-size: 100%;
   }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $background--darkMode;
+    color: $color--darkMode;
+  }
 }
 
 header {
@@ -38,21 +43,6 @@ header {
 main {
   @extend .width;
   @extend .clearfix;
-
-  article {
-    position: relative;
-
-    @media screen and (max-width: $breakpoint-small) {
-      margin-bottom: $measure;
-    }
-
-  }
-
-  article:target {
-    padding-left: 1em;
-    border-left: 2px solid $color;
-  }
-
 }
 
 footer {
@@ -116,10 +106,10 @@ footer {
 
   ul {
     @extend .plain-ul;
+    display: flex;
   }
 
   li {
-    float: left;
     margin-right: $measure / 6;
   }
 

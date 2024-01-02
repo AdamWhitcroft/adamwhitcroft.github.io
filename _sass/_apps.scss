@@ -6,6 +6,15 @@
     p {
       margin: 0;
     }
+
+    ul {
+      @extend .plain-ul;
+      display: flex;
+    }
+
+    li {
+      margin-right: $measure / 6;
+    }
   
     .status {
       @extend .subdued;
