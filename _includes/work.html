@@ -1,0 +1,5 @@
+<div class="work">
+    {% for item in site.data.work %}
+    {% include key-value.html key=item.key value=item.value %}
+    {% endfor %}
+</div>
