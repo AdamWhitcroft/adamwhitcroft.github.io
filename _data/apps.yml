@@ -1,19 +1,19 @@
 - name: Snapjot
-  description: Your camera roll is for faces, places and food. Not screenshots. Those belong in Snapjot. 
+  description: A simple way to manage your screenshots.
   url: https://snapjot.app/
   status: TestFlight
 
-- name: Twodos
-  description: Two lists of todos, nothing more.
+- name: "&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;"
+  description: A simple &#9608;&#9608;&#9608;&#9608;&#9608; list with a difference.
   url:
   status: WIP
 
-- name: Clipbud
-  description: Easily manage, access and copy text snippets. 
+- name: "&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;"
+  description: A simple &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; manager for plain-text &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;.
   url:
   status: WIP
 
 - name: Joey
-  description: A delightfully simple, privacy-first, app for tracking newborn feeds and diaper changes.
+  description: A simple app for tracking newborn feeds and diaper changes.
   url: https://apps.apple.com/ca/app/joey/id1640592100
   status: Launched, 2022
