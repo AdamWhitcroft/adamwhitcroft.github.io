@@ -1,14 +1,21 @@
 <div class="apps">
     {% for app in site.data.apps %}
     <div class="app">
-        <p class="name">
-            {% if app.url %}
-            <a href="{{ app.url }}">{{ app.name }}</a>
-            {% else %}
-            {{ app.name }}
-            {% endif %}
-        </p>
-        <p class="status">{{ app.status }}</p>
+        <ul class="info">
+            <li class="name">
+                {% if app.url %}
+                <a href="{{ app.url }}">{{ app.name }}</a>
+                {% else %}
+                {{ app.name }}
+                {% endif %}
+            </li>
+            <li class="middot">
+                &middot;
+            </li>
+            <li class="status">
+                {{ app.status }}
+            </li>
+        </ul>
         <p class="description">{{ app.description }}</p>
     </div>
     {% endfor %}

@@ -25,5 +25,13 @@ main h2 {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: $color-link;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-link--darkMode;
+  }
+}
+
+.middot {
+  @extend .subdued;
 }

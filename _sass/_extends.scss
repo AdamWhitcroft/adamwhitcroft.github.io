@@ -38,6 +38,10 @@
 
 .subdued {
   color: $color-subdued;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-subdued--darkMode;
+  }
 }
 
 .font-size-small {
