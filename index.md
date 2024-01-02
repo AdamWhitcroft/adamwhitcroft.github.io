@@ -4,7 +4,7 @@ title: Home
 class: home
 ---
 
-I'm a South African software designer living on an island in Canada. You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam). I love making [app icons](https://twitter.com/AdamWhitcroft/status/1691487295822802944/photo/1), developing iOS apps, and [playing with 3D](https://twitter.com/AdamWhitcroft/status/1730605005571563685/photo/1).
+I'm a software designer from South Africa living on an island off the west coast of Canada. You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam). I love making [app icons](https://twitter.com/AdamWhitcroft/status/1691487295822802944/photo/1), developing iOS apps, and [playing with 3D](https://twitter.com/AdamWhitcroft/status/1730605005571563685/photo/1).
 
 {% include section-header.html title="Work" %}
 
@@ -18,9 +18,9 @@ I'm a South African software designer living on an island in Canada. You can fol
 
 I make iOS and macOS app icons for folks building fun software. If you’d like to commission an icon, <a href="mailto:hey@adamwhitcroft.com?subject=App%20icon%20inquiry">send me an email</a>.
 
-{% include section-header.html title="Apps" %}
+{% include section-header.html title="Software" %}
 
-I make iOS apps too.
+I make SwiftUI apps as well. My first was launched a little after my second child was born, and there are a couple I'm working on now.
 
 {% include apps.html %}
 
