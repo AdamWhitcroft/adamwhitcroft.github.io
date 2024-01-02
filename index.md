@@ -4,17 +4,13 @@ title: Home
 class: home
 ---
 
-I'm a software designer from South Africa living on an island off the west coast of Canada. You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam). I love making [app icons](https://twitter.com/AdamWhitcroft/status/1691487295822802944/photo/1), developing iOS apps, and [playing with 3D](https://twitter.com/AdamWhitcroft/status/1730605005571563685/photo/1).
+I'm a software designer from South Africa living on an island off the west coast of Canada. You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam). Some of my hobbies include making [app icons](https://twitter.com/AdamWhitcroft/status/1691487295822802944/photo/1), developing iOS apps, and [playing with 3D](https://twitter.com/AdamWhitcroft/status/1730605005571563685/photo/1).
 
 {% include section-header.html title="Work" %}
 
-{% include key-value.html key="Now" value="Rewind.ai" %}
+{% include work.html %}
 
-{% include key-value.html key="2022–2023" value="Wealthsimple" %}
-
-{% include key-value.html key="2016–2022" value="Shopify" %}
-
-{% include section-header.html title="App Icons" %}
+{% include section-header.html title="Icons" %}
 
 I make iOS and macOS app icons for folks building fun software. If you’d like to commission an icon, <a href="mailto:hey@adamwhitcroft.com?subject=App%20icon%20inquiry">send me an email</a>.
 
@@ -24,6 +20,6 @@ I make SwiftUI apps as well. My first was launched a little after my second chil
 
 {% include apps.html %}
 
-{% include section-header.html title="Features" %}
+{% include section-header.html title="Featured In" %}
 
 {% include key-value.html key="2023" value="<a href='https://www.appiconbook.com/'>The macOS App Icon Book</a>" %}

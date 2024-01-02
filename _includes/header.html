@@ -1,9 +1,7 @@
 <header>
-	<h1>
-		Adam Whitcroft
-		<span>Designer</span>
-	</h1>
-	{% if page.class != "home" %}
-	<a href="/">&larr; Index</a>
+	{% if page.class == "post" %}
+	<h1><a href="/">Adam Whitcroft</a><span>Designer</span></h1>
+	{% else %}
+	<h1>Adam Whitcroft<span>Designer</span></h1>
 	{% endif %}
 </header>
