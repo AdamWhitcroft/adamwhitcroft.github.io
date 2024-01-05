@@ -1,3 +1,8 @@
+- name: Daypage
+  description: A simple page-a-day journal.
+  url: 
+  status: TestFlight
+
 - name: Snapjot
   description: A simple way to manage your screenshots.
   url: https://snapjot.app/
