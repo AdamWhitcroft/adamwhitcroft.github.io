@@ -1,0 +1,26 @@
+<script>
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+';
+
+    function randomChar() {
+        return chars[Math.floor(Math.random() * chars.length)];
+    }
+
+    function scrambleText(element) {
+        let text = element.textContent;
+        let scrambledText = '';
+
+        for (let i = 0; i < text.length; i++) {
+            scrambledText += randomChar();
+        }
+
+        element.textContent = scrambledText;
+    }
+
+    const textElements = document.querySelectorAll('.scrambled');
+
+    textElements.forEach(textElement => {
+        setInterval(() => {
+            scrambleText(textElement);
+        }, 100);
+    });
+</script>
