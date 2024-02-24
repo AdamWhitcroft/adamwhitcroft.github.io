@@ -8,15 +8,15 @@
   url: https://snapjot.app/
   status: TestFlight
 
-- name: <span class="scrambled">AR_#10</span>
-  description: A simple <span class="scrambled">Mmx)10</span> list.
-  url:
-  status: WIP
-
 - name: <span class="scrambled">^3lOAd~</span>
   description: A simple plain-text <span class="scrambled">04Mab%!0rD</span> manager.
   url:
   status: WIP
+
+- name: Twodos
+  description: A simple todo list.
+  url: https://apps.apple.com/ca/app/twodos-simple-todos/id6463499163
+  status: Launched, 2024
 
 - name: Joey
   description: A simple app for tracking newborn feeds and diaper changes.
