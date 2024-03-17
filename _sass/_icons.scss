@@ -1,6 +1,6 @@
 .icons {
     display: grid;
-    grid-gap: $measure / 2;
+    grid-gap: calc($measure / 2);
     grid-template-columns: 1fr 1fr 1fr; 
 
     div {

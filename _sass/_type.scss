@@ -20,7 +20,7 @@ main h1 {
 }
 
 main h2 {
-  margin: $measure / 2 0 $measure / 2 0;
+  margin: calc($measure / 2) 0 calc($measure / 2) 0;
 }
 
 a {

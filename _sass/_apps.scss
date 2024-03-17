@@ -13,7 +13,7 @@
     }
 
     li {
-      margin-right: $measure / 6;
+      margin-right: calc($measure / 6);
     }
   
     .status {

@@ -12,7 +12,7 @@ I make iOS and macOS app icons for folks building fun software. If you’d like 
 
 {% include section-header.html title="Software" %}
 
-I make SwiftUI apps as well. My first was launched a little after my second child was born, and there are a couple I'm working on now.
+I make SwiftUI apps as well. I've released two, and have a couple more in the works.
 
 {% include apps.html %}
 

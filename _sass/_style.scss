@@ -55,13 +55,13 @@ footer {
     margin: 0;
     @extend .font-size-small;
     @extend .subdued;
-    margin-bottom: $measure / 6;
+    margin-bottom: calc($measure / 6);
   }
 }
 
 .key-value {
   @media screen and (max-width: $breakpoint-small) {
-    margin-bottom: $measure / 3;
+    margin-bottom: calc($measure / 3);
   }
 
   .key {
@@ -78,7 +78,7 @@ footer {
 
 .section-title {
   margin-top: $measure;
-  margin-bottom: $measure / 3;
+  margin-bottom: calc($measure / 3);
 
   .title {
     @extend .strong;
@@ -101,7 +101,7 @@ footer {
 .post-meta {
   @extend .clearfix;
   @extend .subdued;
-  margin-top: $measure / 3;
+  margin-top: calc($measure / 3);
   margin-bottom: $measure;
 
   ul {
@@ -110,7 +110,7 @@ footer {
   }
 
   li {
-    margin-right: $measure / 6;
+    margin-right: calc($measure / 6);
   }
 
 }
