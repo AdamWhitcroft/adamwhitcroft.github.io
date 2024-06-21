@@ -1,22 +1,22 @@
 .apps {
-    div {
-      margin-bottom: 1em;
-    }
-  
-    p {
-      margin: 0;
-    }
+  div {
+    margin-bottom: 1em;
+  }
 
-    ul {
-      @extend .plain-ul;
-      display: flex;
-    }
+  p {
+    margin: 0;
+  }
 
-    li {
-      margin-right: 0.5em;
-    }
-  
-    .status {
-      @extend .subdued;
-    }
+  ul {
+    @extend .plain-ul;
+    display: flex;
+  }
+
+  li {
+    margin-right: 0.5em;
+  }
+
+  .status {
+    @extend .subdued;
+  }
   }

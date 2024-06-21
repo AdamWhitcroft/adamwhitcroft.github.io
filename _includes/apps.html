@@ -9,14 +9,9 @@
                 {{ app.name }}
                 {% endif %}
             </li>
-            <li class="middot">
-                &middot;
-            </li>
-            <li class="status">
-                {{ app.status }}
-            </li>
         </ul>
         <p class="description">{{ app.description }}</p>
+        <p class="status">{{ app.status }}</p>
     </div>
     {% endfor %}
 </div>

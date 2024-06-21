@@ -4,7 +4,7 @@ title: Home
 class: home
 ---
 
-I'm a software designer from South Africa living on an island off the west coast of Canada. You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam). Some of my hobbies include making [app icons](https://twitter.com/AdamWhitcroft/status/1691487295822802944/photo/1), developing iOS apps, and [playing with 3D](https://twitter.com/AdamWhitcroft/status/1730605005571563685/photo/1).
+I'm a software designer from South Africa living on an island off the west coast of Canada. You can follow me on [Twitter](https://twitter.com/AdamWhitcroft) or [Mastodon](https://mastodon.design/@adam). Some of my hobbies include making [app icons](https://twitter.com/AdamWhitcroft/status/1691487295822802944/photo/1), [developing iOS apps](https://twitter.com/AdamWhitcroft/status/1761080204187857383), and [playing with 3D](https://twitter.com/AdamWhitcroft/status/1730605005571563685/photo/1).
 
 {% include section-header.html title="Icons" %}
 

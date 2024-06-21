@@ -11,7 +11,11 @@
     }
 
     .icon-image {
-        background-color: #FAFAFA;
+        background-color: $card-background;
+
+        @media (prefers-color-scheme: dark) {
+            background-color: $card-background--darkMode;
+          }
     }
 
     

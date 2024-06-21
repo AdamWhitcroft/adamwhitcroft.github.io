@@ -12,8 +12,12 @@ $color-subdued--darkMode: #585858;
 $color-link: blue;
 $color-link--darkMode: #5081EF;
 
+$card-background: #FAFAFA;
+$card-background--darkMode: #131313;
+
 /* Type */
 
+$font-sans-serif: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-monospace: 'Geist Mono', 'SF Mono', SFMono-Regular, ui-monospace,'DejaVu Sans Mono', Menlo, Consolas, monospace;
 $font-size-small: 0.875rem;
 $font-size-smallest: 0.75rem;
