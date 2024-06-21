@@ -8,11 +8,13 @@ I'm a software designer from South Africa living on an island off the west coast
 
 {% include section-header.html title="Icons" %}
 
-I make iOS and macOS app icons for folks building fun software. If you’d like to commission an icon, <a href="mailto:hey@adamwhitcroft.com?subject=App%20icon%20inquiry">send me an email</a>.
+I make iOS and macOS app icons for folks building fun software - myself included. If you’d like to commission an icon, <a href="mailto:hey@adamwhitcroft.com?subject=App%20icon%20inquiry">send me an email</a>.
+
+{% include icons.html %}
 
 {% include section-header.html title="Software" %}
 
-I make SwiftUI apps as well. I've released two, and have a couple more in the works.
+I make SwiftUI apps as well. I've released three, and have a couple more in the works.
 
 {% include apps.html %}
 
