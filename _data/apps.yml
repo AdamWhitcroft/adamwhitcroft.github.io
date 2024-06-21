@@ -1,5 +1,10 @@
+- name: Clipbud
+  description: A simple snippet manager app.
+  url: https://apps.apple.com/ca/app/clipbud-clipboard-manager/id6468892359
+  status: Launched, 2024
+
 - name: Twodos
-  description: A simple todo list.
+  description: A simple todo list app.
   url: https://apps.apple.com/ca/app/twodos-simple-todos/id6463499163
   status: Launched, 2024
 
@@ -8,17 +13,7 @@
   url: https://apps.apple.com/ca/app/joey/id1640592100
   status: Launched, 2022
 
-- name: Daypage
-  description: A simple text-based journal.
-  url: 
-  status: TestFlight
-
 - name: Snapjot
   description: A simple way to organize and manage your screenshots.
   url: https://snapjot.app/
   status: TestFlight
-
-- name: <span class="scrambled">^3lOAd~</span>
-  description: A simple plain-text <span class="scrambled">04Mab%!0rD</span> manager.
-  url:
-  status: WIP
