@@ -1,119 +1,124 @@
+- name: Clipbud
+  client: Clipbud
+  imgPath: clipbud.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/ca/app/clipbud-clipboard-manager/id6468892359
+  year: 2024
+
+- name: Stickies
+  client: Twodos
+  imgPath: twodos.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/ca/app/twodos-simple-todos/id6463499163
+  year: 2024
+
+- name: Stickies
+  client: Boom
+  imgPath: boom.png
+  downloadURL: 
+  siteURL: https://www.getboom.app/
+  year: 2024
+
 - name: Stickies
   client: Finalist
   imgPath: finalist.png
   downloadURL: 
   siteURL: https://apps.apple.com/ca/app/finalist/id6447014685
-  layout: full
-  type: app
+  year: 2023
 
 - name: Magic Cursor
   client: Multi
   imgPath: multi.png
   downloadURL: 
   siteURL: https://multi.app
-  layout: half
-  type: app
+  year: 2023
 
 - name: Clapper
   client: Castor
   imgPath: castor.png
   downloadURL: 
   siteURL: https://castor.movie
-  layout: half
-  type: app
+  year: 2023
 
 - name: Pencil
   client: Clear
   imgPath: clear-pencil.png
   downloadURL: 
   siteURL: https://www.useclear.com/
-  layout: half
-  type: app
+  year: 2023
 
 - name: Wallet
   client: Clear
   imgPath: clear-wallet.png
   downloadURL: 
   siteURL: https://www.useclear.com/
-  layout: half
-  type: app
+  year: 2023
 
 - name: Chalkbard
   client: Clear
   imgPath: clear-chalkboard.png
   downloadURL: 
   siteURL: https://www.useclear.com/
-  layout: half
-  type: app
+  year: 2023
 
 - name: Plasticity
   client: Plasticity
   imgPath: plasticity.png
   downloadURL: 
   siteURL: https://plasticity.xyz
-  layout: half
-  type: app
+  year: 2023
 
 - name: Blue bot
   client: Apollo
   imgPath: apollo.png
   downloadURL: 
   siteURL: https://apolloapp.io
-  layout: half
-  type: app
+  year: 2022
 
 - name: Red bot
   client: Apollo
   imgPath: apollo-red.png
   downloadURL: 
   siteURL: https://apolloapp.io
-  layout: half
-  type: app
+  year: 2022
 
 - name: Green bot
   client: Apollo
   imgPath: apollo-green.png
   downloadURL: 
   siteURL: https://apolloapp.io
-  layout: half
-  type: app
+  year: 2022
 
 - name: Offline bot
   client: Apollo
   imgPath: apollo-grey.png
   downloadURL: 
   siteURL: https://apolloapp.io
-  layout: half
-  type: app
+  year: 2022
 
 - name: Mockfy
   client: Mockfy
   imgPath: mockfy.png
   downloadURL: 
   siteURL: https://apps.apple.com/us/app/mockfy/id1562718698
-  layout: half
-  type: app
+  year: 2022
 
 - name: Painter
   client: Personal
   imgPath: painter.png
   downloadURL: 
   siteURL:
-  layout: half
-  type: app
+  year: 2022
 
 - name: Preview
   client: Personal
   imgPath: preview.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/preview/
   siteURL:
-  layout: half
-  type: app
 
 - name: Things
   client: Personal
   imgPath: things.png
   downloadURL: https://adamwhitcroft.gumroad.com/l/things/
   siteURL:
-  layout: half
-  type: app
+  year: 2023

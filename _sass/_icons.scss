@@ -1,14 +1,20 @@
 .icons {
     display: grid;
     grid-gap: calc($measure / 2);
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
 
     div {
+
         @media screen and (max-width: $breakpoint-small) {
             grid-column: auto / span 2;
           }
     }
 
+    .icon-image {
+        background-color: #FAFAFA;
+    }
+
+    
     img {
         max-width: 100%;
         height: auto;
@@ -17,10 +23,11 @@
 
     ul {
         @extend .plain-ul;
+        display: flex;
+        padding-top: .5em;
 
-        li {
-            float: left;
-            margin-right: .25em;
+        .client {
+            margin-right: auto;
         }
     }
 }

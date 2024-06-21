@@ -1,18 +1,19 @@
 <section class="icons">
     {% for icon in site.data.icons %}
-    <div>
-        <img src="/assets/icons/{{ icon.imgPath}}" alt="{{ icon.name }} designed by Adam Whitcroft for {{ icon.client }}" />
+    <div class="icon">
+        <div class="icon-image">
+            <img src="/assets/icons/{{ icon.imgPath}}" alt="{{ icon.name }} designed by Adam Whitcroft for {{ icon.client }}" />
+        </div>
         <ul>
-            <li>
-                {{ icon.name }}
-            </li>
             <li class="client">
-                &middot;
                 {% if icon.siteURL %}
                 <a href="{{ icon.siteURL }}" title="See {{ icon.name }} icon by Adam Whitcroft on {{ icon.client }}'s site">{{ icon.client }}</a>
                 {% else %}
                 {{ icon.client }}
                 {% endif %}
+            </li>
+            <li>
+                {{ icon.year }}
             </li>
         </ul>
     </div>
