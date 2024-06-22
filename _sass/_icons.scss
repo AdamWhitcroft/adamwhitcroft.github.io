@@ -13,6 +13,7 @@
 
     .icon-image {
         background-color: $card-background;
+        border-radius: 1em;
 
         @media (prefers-color-scheme: dark) {
             background-color: $card-background--darkMode;
