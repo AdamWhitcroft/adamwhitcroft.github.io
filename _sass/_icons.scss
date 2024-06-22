@@ -2,12 +2,13 @@
     display: grid;
     grid-gap: 1.5em;
     grid-template-columns: 1fr 1fr; 
+    margin-left: -1.5em;
+    margin-right: -1.5em;
 
-    div {
-
-        @media screen and (max-width: $breakpoint-small) {
-            grid-column: auto / span 2;
-          }
+    @media screen and (max-width: $breakpoint-small) {
+        margin-left: -0.5em;
+        margin-right: -0.5em;
+        grid-template-columns: 2fr;
     }
 
     .icon-image {
@@ -29,9 +30,20 @@
         @extend .plain-ul;
         display: flex;
         padding-top: .5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+
+        @media screen and (max-width: $breakpoint-small) {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
 
         .client {
             margin-right: auto;
+        }
+
+        .year {
+            @extend .subdued;
         }
     }
 }

@@ -1,19 +1,19 @@
 - name: Clipbud
-  description: A simple snippet manager app.
+  description: A simple iOS app to manage your useful text snippets. Things like insta hashtags, social media bios or those lists you keep in case your friends ask for your top-10 Scifi movies.
   url: https://apps.apple.com/ca/app/clipbud-clipboard-manager/id6468892359
   status: Launched, 2024
 
 - name: Twodos
-  description: A simple todo list app.
+  description: A simple iOS app for todos, with a difference. There are only 2 lists, and no reminders or push notifications. You do things sooner, or later.
   url: https://apps.apple.com/ca/app/twodos-simple-todos/id6463499163
   status: Launched, 2024
 
 - name: Joey
-  description: A simple app for tracking newborn feeds and diaper changes.
+  description: A simple iOS app for tracking newborn feeds and diaper changes.
   url: https://apps.apple.com/ca/app/joey/id1640592100
   status: Launched, 2022
 
 - name: Snapjot
-  description: A simple way to organize and manage your screenshots.
+  description: A simple iOS app to organize and manage your screenshots.
   url: https://snapjot.app/
   status: TestFlight

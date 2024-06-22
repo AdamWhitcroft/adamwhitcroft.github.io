@@ -14,7 +14,7 @@ I make iOS and macOS app icons for folks building fun software - myself included
 
 {% include section-header.html title="Software" %}
 
-I make SwiftUI apps as well. I've released three, and have a couple more in the works.
+I build iOS apps as well. I've released three, and have a couple more in the works in various stages of done.
 
 {% include apps.html %}
 
