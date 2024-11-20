@@ -1,3 +1,9 @@
+- name: Vellum
+  client: Vellum
+  imgPath: vellum.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/ca/app/vellum-take-similar-photos/id6738101485
+
 - name: Happit
   client: Happit
   imgPath: happit.png
