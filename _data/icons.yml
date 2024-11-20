@@ -3,6 +3,19 @@
   imgPath: vellum.png
   downloadURL: 
   siteURL: https://apps.apple.com/ca/app/vellum-take-similar-photos/id6738101485
+
+- name: Happit
+  client: Happit
+  imgPath: happit.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/ca/app/health-habit-tracker-happit/id6563138832
+  year: 2024
+
+- name: Boltnotes
+  client: Boltnotes
+  imgPath: boltnotes.png
+  downloadURL: 
+  siteURL: 
   year: 2024
 
 - name: Clipbud
@@ -12,26 +25,19 @@
   siteURL: https://apps.apple.com/ca/app/clipbud-clipboard-manager/id6468892359
   year: 2024
 
-- name: Stickies
+- name: Twodos
   client: Twodos
   imgPath: twodos.png
   downloadURL: 
   siteURL: https://apps.apple.com/ca/app/twodos-simple-todos/id6463499163
   year: 2024
 
-- name: Stickies
+- name: Boom
   client: Boom
   imgPath: boom.png
   downloadURL: 
   siteURL: https://www.getboom.app/
   year: 2024
-
-- name: Stickies
-  client: Finalist
-  imgPath: finalist.png
-  downloadURL: 
-  siteURL: https://apps.apple.com/ca/app/finalist/id6447014685
-  year: 2023
 
 - name: Magic Cursor
   client: Multi
