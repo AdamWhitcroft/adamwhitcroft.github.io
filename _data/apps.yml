@@ -1,3 +1,8 @@
+- name: Vellum
+  description: A simple iOS app that lets you use an image as a guide when taking a photo.
+  url: https://apps.apple.com/ca/app/vellum-take-similar-photos/id6738101485
+  status: Launched, 2024
+
 - name: Clipbud
   description: A simple iOS app to manage your useful text snippets. Things like insta hashtags, social media bios or those lists you keep in case your friends ask for your top-10 Scifi movies.
   url: https://apps.apple.com/ca/app/clipbud-clipboard-manager/id6468892359
