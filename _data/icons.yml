@@ -1,3 +1,17 @@
+- name: SunSeek
+  client: SunSeek
+  imgPath: sunseek.png
+  downloadURL: 
+  siteURL: https://sunseek.app/
+  year: 2024
+
+- name: A Better You
+  client: A Better You
+  imgPath: aby.png
+  downloadURL: 
+  siteURL: https://abyjournal.app/
+  year: 2024
+
 - name: Vellum
   client: Vellum
   imgPath: vellum.png
