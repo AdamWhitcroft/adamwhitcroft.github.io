@@ -20,5 +20,5 @@
 
 - name: Snapjot
   description: A simple iOS app to organize and manage your screenshots.
-  url: https://snapjot.app/
+  url: 
   status: TestFlight
