@@ -1,16 +1,9 @@
-- name: Spellbook
-  client: Spellbook
-  imgPath: spellbook.png
+- name: Mapkin
+  client: Mapkin
+  imgPath: mapkin.png
   downloadURL: 
-  siteURL: https://www.spellbook.legal
-  year: 2025
-
-- name: Househunt
-  client: Househunt
-  imgPath: househunt.png
-  downloadURL: 
-  siteURL: https://apps.apple.com/ca/app/househunt-fun-with-real-homes/id6737416185
-  year: 2025
+  siteURL: https://www.mapkin.io
+  year: 2024
 
 - name: Revenuekit
   client: Revenuekit
