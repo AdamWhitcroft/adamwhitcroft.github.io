@@ -15,10 +15,10 @@
 
 - name: Joey
   description: A simple iOS app for tracking newborn feeds and diaper changes.
-  url: https://apps.apple.com/ca/app/joey/id1640592100
-  status: Launched, 2022
+  url: 
+  status: Launched, 2022 (Archived)
 
 - name: Snapjot
   description: A simple iOS app to organize and manage your screenshots.
   url: 
-  status: TestFlight
+  status: TestFlight (Archived)

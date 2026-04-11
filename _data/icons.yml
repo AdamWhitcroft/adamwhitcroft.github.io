@@ -1,3 +1,17 @@
+- name: XChat
+  client: X
+  imgPath: xchat.png
+  downloadURL: 
+  siteURL: https://apps.apple.com/ca/app/xchat/id6760873038
+  year: 2026
+
+- name: Boom (2025)
+  client: Boom
+  imgPath: boom2.png
+  downloadURL: 
+  siteURL: https://www.boomvideo.app
+  year: 2025
+
 - name: Mapkin
   client: Mapkin
   imgPath: mapkin.png
