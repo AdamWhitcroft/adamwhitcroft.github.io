@@ -17,14 +17,7 @@
   imgPath: mapkin.png
   downloadURL: 
   siteURL: https://www.mapkin.io
-  year: 2024
-
-- name: Revenuekit
-  client: Revenuekit
-  imgPath: revenuekit.png
-  downloadURL: 
-  siteURL: 
-  year: 2024
+  year: 2025
 
 - name: SunSeek
   client: SunSeek
