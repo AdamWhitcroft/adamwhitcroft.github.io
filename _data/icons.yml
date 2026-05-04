@@ -1,5 +1,12 @@
+- name: Klak 2
+  client: Klak
+  imgPath: klak.png
+  downloadURL: 
+  siteURL: https://tryklack.com
+  year: 2026
+
 - name: XChat
-  client: X
+  client: X Corp.
   imgPath: xchat.png
   downloadURL: 
   siteURL: https://apps.apple.com/ca/app/xchat/id6760873038
