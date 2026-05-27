@@ -1,3 +1,10 @@
+- name: Obsidian Web Clipper
+  client: Obsidian
+  imgPath: obsidian-web-clipper.png
+  downloadURL: 
+  siteURL: https://obsidian.md
+  year: 2026
+
 - name: XChat
   client: X Corp.
   imgPath: xchat.png
