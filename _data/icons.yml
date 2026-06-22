@@ -1,13 +1,13 @@
 - name: Opendoor
   client: Opendoor
-  imgPath: opendoor-leather.png
+  imgPath: opendoor.png
   downloadURL: 
   siteURL: https://www.opendoor.com
   year: 2026
 
 - name: Opendoor
   client: Opendoor
-  imgPath: opendoor.png
+  imgPath: opendoor-leather.png
   downloadURL: 
   siteURL: https://www.opendoor.com
   year: 2026
